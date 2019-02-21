@@ -13,8 +13,10 @@ timezone: UTc
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://calamus0427.github.io/daily-FE/
-root: /hexo
-permalink: :year/:month/:day/:title/
+root: /
+# permalink: :year/:month/:day/:title/
+permalink: articles/:title/
+# permalink: post/:title/ theme inside configr
 permalink_defaults:
 
 # Directory
@@ -72,7 +74,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: cyanstyle
+theme: amber
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
