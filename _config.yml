@@ -74,7 +74,24 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: amber
+theme: polarbear
+
+# 在归档页面显示所有文章 （Show all articles on archive page.）
+# 需要安装(Need to install) hexo-generator-archive 插件支持
+archive_generator:
+    per_page: 0
+    yearly: false
+    monthly: false
+    daily: false
+
+widget:
+  Tags: true
+  Categories: false
+  Custom: false
+
+widget_custom:
+    title: Test
+    content: <p>testing...</p>
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
