@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="Chinese">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/daily-FE/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/daily-FE/css/main.css?v=7.0.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/daily-FE/images/apple-touch-icon-next.png?v=7.0.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/daily-FE/images/favicon-32x32-next.png?v=7.0.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/daily-FE/images/favicon-16x16-next.png?v=7.0.0">
+
+
+  <link rel="mask-icon" href="/daily-FE/images/logo.svg?v=7.0.0" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/daily-FE/',
+    scheme: 'Muse',
+    version: '7.0.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: 'Y775ZKH4PH',
+      apiKey: '97d209ee5575b0e8d11c24980f59e28f',
+      indexName: 'daily-FE',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"搜索","hits_empty":"找不到任何关于 ${query} 的文章","hits_stats":"共找到 ${hits} 篇文章，花了 ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="前端面试之BFC 前端面试之盒模型 2019年给前端的几个建议 Async/Await how they really work: an example  X 为啥不是 hook？ 23种设计模式与案例分析 急速 debug 实战二（浏览器 - 调试线上篇） WebSocket 协议 RFC 文档（全中文翻译） 可视化编程真的有那么糟糕吗 基于 HTML5 WebGL 的地铁站 3D 可视化系统">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2019-02-22">
+<meta property="og:url" content="https://calamus.wiki/daily-FE/articles/20190222/index.html">
+<meta property="og:site_name" content="每日前端">
+<meta property="og:description" content="前端面试之BFC 前端面试之盒模型 2019年给前端的几个建议 Async/Await how they really work: an example  X 为啥不是 hook？ 23种设计模式与案例分析 急速 debug 实战二（浏览器 - 调试线上篇） WebSocket 协议 RFC 文档（全中文翻译） 可视化编程真的有那么糟糕吗 基于 HTML5 WebGL 的地铁站 3D 可视化系统">
+<meta property="og:locale" content="Chinese">
+<meta property="og:updated_time" content="2019-02-22T06:34:53.141Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="2019-02-22">
+<meta name="twitter:description" content="前端面试之BFC 前端面试之盒模型 2019年给前端的几个建议 Async/Await how they really work: an example  X 为啥不是 hook？ 23种设计模式与案例分析 急速 debug 实战二（浏览器 - 调试线上篇） WebSocket 协议 RFC 文档（全中文翻译） 可视化编程真的有那么糟糕吗 基于 HTML5 WebGL 的地铁站 3D 可视化系统">
+
+
+
+  <link rel="alternate" href="/daily-FE/atom.xml" title="每日前端" type="application/atom+xml">
+
+
+
+
+  <link rel="canonical" href="https://calamus.wiki/daily-FE/articles/20190222/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>2019-02-22 | 每日前端</title>
+  
+
+
+
+
+
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?61112614ce9f268b947d7041d63b1c6f";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="Chinese">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/daily-FE/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">每日前端</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-首页">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/daily-FE/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-归档">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/daily-FE/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-关于">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/daily-FE/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-标签">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/daily-FE/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-分类">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/daily-FE/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-行程">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/daily-FE/schedule/" rel="section"><i class="menu-item-icon fa fa-fw fa-calendar"></i> <br>行程</a>
+
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>Search</a>
+        </li>
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+    <div class="site-search">
+      
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://calamus.wiki/daily-FE/daily-FE/articles/20190222/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Calamus">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://cdn.calamus.xyz/user.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="每日前端">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">2019-02-22
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2019-02-22 16:42:24 / Modified: 06:34:53" itemprop="dateCreated datePublished" datetime="2019-02-22T16:42:24Z">2019-02-22</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <a href="/daily-FE/articles/20190222/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count valine-comment-count" data-xid="/daily-FE/articles/20190222/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+            <span id="/daily-FE/articles/20190222/" class="leancloud_visitors" data-flag-title="2019-02-22">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Views: </span>
+              
+                <span class="leancloud-visitors-count"></span>
+            </span>
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+             Views:  
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <ol>
+<li><a href="https://juejin.im/post/5c6d7a5cf265da2d9e175182" rel="external nofollow noopener noreferrer" target="_blank">前端面试之BFC</a></li>
+<li><a href="https://juejin.im/post/5c6d6c566fb9a049aa6faba7" rel="external nofollow noopener noreferrer" target="_blank">前端面试之盒模型</a></li>
+<li><a href="https://mp.weixin.qq.com/s/QGM5lWQZlccAs0KFYurOTw" rel="external nofollow noopener noreferrer" target="_blank">2019年给前端的几个建议</a></li>
+<li><a href="https://www.ma-no.org/en/content/index_async-await-how-they-really-work-an-example_2420.php" rel="external nofollow noopener noreferrer" target="_blank">Async/Await how they really work: an example </a></li>
+<li><a href="https://juejin.im/post/5c6ca856f265da2dce1f3af9" rel="external nofollow noopener noreferrer" target="_blank">X 为啥不是 hook？</a></li>
+<li><a href="https://mp.weixin.qq.com/s/Kwre2hpEPNiJru_VJ9PY4A" rel="external nofollow noopener noreferrer" target="_blank">23种设计模式与案例分析</a></li>
+<li><a href="https://juejin.im/post/5c6b6dcfe51d45529d331ab4" rel="external nofollow noopener noreferrer" target="_blank">急速 debug 实战二（浏览器 - 调试线上篇）</a></li>
+<li><a href="https://juejin.im/post/5c6b7366e51d45016527d648" rel="external nofollow noopener noreferrer" target="_blank">WebSocket 协议 RFC 文档（全中文翻译）</a></li>
+<li><a href="https://mp.weixin.qq.com/s/-L40hWQkNs6E_V1n6_DQtA" rel="external nofollow noopener noreferrer" target="_blank">可视化编程真的有那么糟糕吗</a></li>
+<li><a href="https://www.cnblogs.com/xhload3d/p/10393685.html" rel="external nofollow noopener noreferrer" target="_blank">基于 HTML5 WebGL 的地铁站 3D 可视化系统</a></li>
+<li><a href="https://juejin.im/post/5c6679ab6fb9a049f819d09f" rel="external nofollow noopener noreferrer" target="_blank">Electron-如何保护源码？</a></li>
+<li><a href="https://mp.weixin.qq.com/s/OJx4CQPLggjv_c_z5d9cNg" rel="external nofollow noopener noreferrer" target="_blank">node项目拆包工程化</a></li>
+<li><a href="https://alibaba.github.io/ice/" rel="external nofollow noopener noreferrer" target="_blank">ice飞冰</a></li>
+<li><a href="https://www.zhihu.com/question/20790576/answer/32602154" rel="external nofollow noopener noreferrer" target="_blank">前端自动化部署</a></li>
+<li><a href="https://juejin.im/post/5c356f68f265da61483bca61" rel="external nofollow noopener noreferrer" target="_blank">CI工作流</a></li>
+<li><a href="https://animejs.com/" rel="external nofollow noopener noreferrer" target="_blank">动画库</a></li>
+<li><a href="http://hcysun.me/vue-design/" rel="external nofollow noopener noreferrer" target="_blank">vue技术内幕</a></li>
+<li><a href="https://ustbhuangyi.github.io/vue-analysis/" rel="external nofollow noopener noreferrer" target="_blank">vue技术揭秘</a></li>
+<li><a href="https://tabler.io/" rel="external nofollow noopener noreferrer" target="_blank">tabler</a></li>
+<li><a href="https://www.jianshu.com/p/c7b3b9c98d04" rel="external nofollow noopener noreferrer" target="_blank">dva.js</a></li>
+<li><a href="https://imgcook.taobao.org/docs" rel="external nofollow noopener noreferrer" target="_blank">imgcook 为淘宝发布的将设计稿转化为前端页面的自动化工具</a></li>
+<li><a href="https://localforage.docschina.org/" rel="external nofollow noopener noreferrer" target="_blank">localForage</a></li>
+<li>[WebAssembly]</li>
+<li><a href="https://electronjs.org/" rel="external nofollow noopener noreferrer" target="_blank">Electron</a></li>
+<li>Carlo </li>
+<li>LogRocket 前端日志记录工具</li>
+<li><a href="http://web.jobbole.com/91664/" rel="external nofollow noopener noreferrer" target="_blank">在 Vue.js 中使用Mixin</a></li>
+<li><a href="https://juejin.im/post/5c4591bee51d4507fb1d79be" rel="external nofollow noopener noreferrer" target="_blank">Canvas实用库Fabric.js使用手册</a></li>
+</ol>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>如果我的文章对你有很大帮助 那么不妨？</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>Donate</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="https://cdn.calamus.xyz/mahuateng.bmp" alt="Calamus WeChat Pay">
+        <p>WeChat Pay</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="https://cdn.calamus.xyz/mayun.bmp" alt="Calamus Alipay">
+        <p>Alipay</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <div>
+      
+        
+<div style="text-align:center;color: #ccc;font-size:14px;">
+------ 本文结束 ------</div>
+<br>
+<div style="border: 1px solid black">
+<div style="margin-left:10px">
+<span style="font-weight:blod">版权声明</span>
+<img src="此处填自己版权声明图片地址" style="display:none">
+<br>
+本文由<a href="http://tc9011.com" style="color:#258FC6" rel="external nofollow noopener noreferrer" target="_blank">Calamus</a>创作并维护的<a href="//www.calamus.xyz" style="color:#258FC6">www.calamus.xyz</a>博客采用<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" style="color:#258FC6" rel="external nofollow noopener noreferrer" target="_blank">转载请在明显位置标明原作者</a>。<br>
+本文首发于<a href="//www.calamus.xyz" style="color:#258FC6">calamus</a> 博客（ <a href="//www.calamus.xyz" style="color:#258FC6">www.calamus.xyz</a> ）<p></p>
+</div>
+</div>
+
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+      
+        <div class="post-widgets">
+        
+
+        
+
+        
+          
+          <div class="social_share">
+            
+              <div>
+                
+  <div class="bdsharebuttonbox">
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a>
+    <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+    <a href="#" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
+    <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+    <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+    <a href="#" class="bds_more" data-cmd="more"></a>
+    <a class="bds_count" data-cmd="count"></a>
+  </div>
+  <script>
+    window._bd_share_config = {
+      "common": {
+        "bdText": "",
+        "bdMini": "2",
+        "bdMiniList": false,
+        "bdPic": ""
+      },
+      "share": {
+        "bdSize": "16",
+        "bdStyle": "0"
+      },
+      "image": {
+        "viewList": ["tsina", "douban", "sqq", "qzone", "weixin", "twi", "fbook"],
+        "viewText": "分享到：",
+        "viewSize": "16"
+      }
+    }
+  </script>
+
+<script>
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+
+              </div>
+            
+            
+          </div>
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/daily-FE/articles/hexo/" rel="next" title="Hexo入门">
+                <i class="fa fa-chevron-left"></i> Hexo入门
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+    <div class="comments" id="comments">
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="https://cdn.calamus.xyz/user.jpg" alt="Calamus">
+            
+              <p class="site-author-name" itemprop="name">Calamus</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/daily-FE/archives">
+                
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">posts</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/daily-FE/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">categories</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/daily-FE/tags/index.html">
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">tags</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/daily-FE/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/calamus0427" title="GitHub &rarr; https://github.com/calamus0427" rel="external nofollow noopener noreferrer" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="mailto:kiz.calamus@gmail.com" title="E-Mail &rarr; mailto:kiz.calamus@gmail.com" rel="external nofollow noopener noreferrer" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+            </div>
+          
+
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                友情链接
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.calamus.xyz" title="https://www.calamus.xyz" rel="external nofollow noopener noreferrer" target="_blank">Calamus</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Calamus</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="external nofollow noopener noreferrer" target="_blank">Hexo</a> v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="external nofollow noopener noreferrer" target="_blank">NexT.Muse</a> v7.0.0</div>
+
+
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>访问人数
+    </span>
+    <span class="site-uv" title="Total Visitors">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+  
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>总阅读量
+    </span>
+    <span class="site-pv" title="Total Views">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/daily-FE/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/daily-FE/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/daily-FE/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/daily-FE/js/src/utils.js?v=7.0.0"></script>
+
+  <script src="/daily-FE/js/src/motion.js?v=7.0.0"></script>
+
+
+
+  
+  
+
+
+  <script src="/daily-FE/js/src/schemes/muse.js?v=7.0.0"></script>
+
+
+
+  
+  <script src="/daily-FE/js/src/scrollspy.js?v=7.0.0"></script>
+<script src="/daily-FE/js/src/post-details.js?v=7.0.0"></script>
+
+
+
+  
+
+
+  <script src="/daily-FE/js/src/bootstrap.js?v=7.0.0"></script>
+
+
+
+  
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: true,
+    notify: true,
+    appId: 'XCEWpngeYNFT8arvigx7GESJ-gzGzoHsz',
+    appKey: 'vpDdAh3yhVfFdBgOOcOB26D1',
+    placeholder: '留下你的爪印吧～',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: true
+  });
+</script>
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+    
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.4.1/dist/instantsearch.min.css">
+
+  
+  
+    
+  
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.4.1/dist/instantsearch.js"></script>
+  
+
+  <script src="/daily-FE/js/src/algolia-search.js?v=7.0.0"></script>
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/clicklove.js"></script>

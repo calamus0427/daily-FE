@@ -74,7 +74,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: dxx
+theme: next
 
 # 在归档页面显示所有文章 （Show all articles on archive page.）
 # 需要安装(Need to install) hexo-generator-archive 插件支持
@@ -99,3 +99,10 @@ nofollow:
     enable: true
     exclude:
         - https://calamus.wiki
+
+algolia:
+  applicationID: 'Y775ZKH4PH'
+  apiKey: '97d209ee5575b0e8d11c24980f59e28f'
+  adminApiKey: 'a46b309f8f1e558c7d651d1cc0945532'
+  indexName: 'daily-FE'
+  chunkSize: 5000
