@@ -6,7 +6,8 @@
     "version": "3.8.0"
   },
   "scripts": {
-    "dev": "hexo s -p 2333 -o"
+    "dev": "hexo clean && hexo s -p 2333 -o",
+    "build": "hexo clean && hexo generate -d"
   },
   "dependencies": {
     "hexo": "^3.8.0",

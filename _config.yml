@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 每日前端
 subtitle:
 description:
 author: Calamus
@@ -12,8 +12,8 @@ timezone: UTc
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://calamus0427.github.io/daily-FE/
-root: /
+url: https://calamus.wiki/daily-FE/
+root: /daily-FE
 # permalink: :year/:month/:day/:title/
 permalink: articles/:title/
 # permalink: post/:title/ theme inside configr
@@ -74,7 +74,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: polarbear
+theme: dxx
 
 # 在归档页面显示所有文章 （Show all articles on archive page.）
 # 需要安装(Need to install) hexo-generator-archive 插件支持
@@ -84,14 +84,6 @@ archive_generator:
     monthly: false
     daily: false
 
-widget:
-  Tags: true
-  Categories: false
-  Custom: false
-
-widget_custom:
-    title: Test
-    content: <p>testing...</p>
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -106,4 +98,4 @@ server:
 nofollow:
     enable: true
     exclude:
-        - https://calamus0427.github.io
+        - https://calamus.wiki

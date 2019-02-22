@@ -3,7 +3,7 @@
 # ===========================================
 
 # Site creation time
-since: 2014
+since: 2015
 
 # Custom your favicon.ico in `site/source`
 favicon: /favicon.ico
@@ -17,8 +17,8 @@ rss: default
 # Menu Settings
 # ===========================================
 menu:
-  Archives: /archives
-  About: /about
+  归档: /archives
+  关于我: /about
 
 # ===========================================
 # Widget Settings
@@ -34,7 +34,7 @@ widget:
   Custom: false
 
 widget_custom:
-    title: Test
+    title: Calamus
     content: <p>testing...</p>
 
 # ===========================================
