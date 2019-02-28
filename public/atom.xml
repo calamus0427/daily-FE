@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-02-27T01:34:25.406Z</updated>
+  <updated>2019-02-28T01:50:23.551Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-02-28</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190228/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190228/</id>
+    <published>2019-02-28T09:05:33.000Z</published>
+    <updated>2019-02-28T01:50:23.551Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://zhuanlan.zhihu.com/p/57789538" rel="external nofollow noopener noreferrer" target="_blank">【译】小游戏大智慧，10 个让人眼前一亮的 JavaScript 游戏 </a></p></li><li><p><a href="https://juejin.im/post/5c76638e518825408e5ce507" rel="external nofollow noopener noreferrer" target="_blank">从0到1，了解NLP中的文本相似度 </a></p></li><li><p><a href="https://theappsolutions.com/blog/development/big-data-as-a-service/" rel="external nofollow noopener noreferrer" target="_blank">Big Data as a Service: What, How and Why </a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/57789538&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;【译】小游戏大智慧，10 个让人眼前一亮
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>前端面试总结</title>
