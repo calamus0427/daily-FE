@@ -14,7 +14,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="Chinese">
+<html class="theme-next muse use-motion" lang="zh">
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -100,7 +100,7 @@
 <meta property="og:title" content="每日前端">
 <meta property="og:url" content="https://calamus.wiki/daily-FE/archives/index.html">
 <meta property="og:site_name" content="每日前端">
-<meta property="og:locale" content="Chinese">
+<meta property="og:locale" content="zh">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="每日前端">
 
@@ -172,7 +172,7 @@
 
 </head>
 
-<body itemscope="" itemtype="http://schema.org/WebPage" lang="Chinese">
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh">
 
   
   
@@ -244,7 +244,7 @@
 
     
 
-    <a href="/daily-FE/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+    <a href="/daily-FE/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-calendar"></i> <br>归档</a>
 
   </li>
         
@@ -298,23 +298,6 @@
     <a href="/daily-FE/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
 
   </li>
-        
-        
-        
-          
-          <li class="menu-item menu-item-行程">
-
-    
-    
-    
-      
-    
-
-    
-
-    <a href="/daily-FE/schedule/" rel="section"><i class="menu-item-icon fa fa-fw fa-calendar"></i> <br>行程</a>
-
-  </li>
 
       
       
@@ -333,9 +316,6 @@
     
 
     
-    
-      
-      
     
       
       
@@ -412,18 +392,146 @@
   
   
   <div class="post-block archive">
+    <div id="calender">
+        
+          <div class="container archive-calendar">
+    <div class="card">
+        <div id="post-calendar" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://cdn.bootcss.com/echarts/4.2.1-rc1/echarts.min.js"></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/moment.js/2.24.0/moment.min.js"></script>
+<script type="text/javascript">
+    let myChart = echarts.init(document.getElementById('post-calendar'));
+
+
+    // var nameMap = (xconfig.language && config.language.indexOf('zh') >= 0) ? 'cn' : 'en';
+    var nameMap = 'cn' ;
+    var titleText = '打卡日历' ;
+
+    // calculate range.
+    var startDate = moment().subtract(1, 'years');
+    var endDate = moment();
+    var rangeArr = [startDate.format('YYYY-MM-DD'),endDate.format('YYYY-MM-DD')] ;
+
+    // post and count map.
+    var dateMap = new Map();
+    //site全局变量拿不到，先用写死的方式
+    var site = {
+      posts:[{
+        date:'2019-02-20',
+      },{
+        date:'2019-02-22',
+      },{
+        date:'2019-02-25',
+      },{
+        date:'2019-02-26',
+      },{
+        date:'2019-02-27',
+      },{
+        date:'2019-02-27',
+      },{
+        date:'2019-02-28',
+      },{
+        date:'2019-03-01',
+      }]
+    }
+    site.posts.forEach(function (post) {
+        var date = post.date ;
+        var count = dateMap.get(date);
+        dateMap.set(date, count == null || count == undefined ? 1 : count + 1);
+    });
+
+    // loop the data for the current year, generating the number of post per day
+    var i = 0;
+    var datePosts = [] ;
+    var dayTime = 3600 * 24 * 1000;
+    for (var time = startDate; time <= endDate; time += dayTime) {
+        var date = moment(time).format('YYYY-MM-DD');
+        datePosts.push([date,dateMap.has(date) ? dateMap.get(date) : 0])
+    }
+
+    var option = {
+        title: {
+            top: 0,
+            text: titleText,
+            left: 'center',
+            textStyle: {
+                color: '#3C4858'
+            }
+        },
+        tooltip: {
+            padding: 10,
+            backgroundColor: '#555',
+            borderColor: '#777',
+            borderWidth: 1,
+            formatter: function (obj) {
+                var value = obj.value;
+                return '<div style="font-size: 14px;">' + value[0] + '：更新' + value[1] + '篇文章❤️'+'</div>';
+            }
+        },
+        visualMap: {
+            show:true,
+            min: 0,
+            max: 10,
+            calculable: true,
+            type: 'piecewise',
+            orient: 'horizontal',
+            categories: [0, 1, 2, 3, 4],
+            left: 'center',
+            top: 65,
+            itemWidth: 12,
+            itemHeight: 12,
+            textStyle: {
+                color: '#000'
+            },
+            inRange: {
+                    symbol: 'rect',
+                    color: ['#ebedf0', '#99CCFF', '#60a5ea', '#3b91e6', '#135698']
+            },
+        },
+        calendar: {
+          top: 120,
+          left: 30,
+          right: 30,
+          range: rangeArr,
+          splitLine: {
+              show: false,
+          },
+          cellSize: [15, 15],
+          itemStyle: {
+              normal: {
+                  borderWidth: 2,
+                  borderColor: '#fff',
+              }
+          },
+          yearLabel: {show: false},
+          monthLabel: {
+              nameMap:  'cn',
+              fontSize: 10
+          },
+          dayLabel: {
+              nameMap: 'cn',
+              fontSize: 10
+          }
+        },
+        series: [{
+            type: 'heatmap',
+            coordinateSystem: 'calendar',
+            calendarIndex: 0,
+            data:  datePosts
+        }]
+
+    };
+
+    myChart.setOption(option);
+</script>
+
+        
+    </div>
     <div id="posts" class="posts-collapse">
       <span class="archive-move-on"></span>
-
-      
-      <span class="archive-page-counter">
-        
-        
-        
-          
-        
-        Um..! 8 posts in total. Keep on posting.
-      </span>
       
 
       
@@ -910,6 +1018,9 @@
 
 
 
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="https://cdn.calamus.xyz/clicklove.js"></script>
+
         
 <div class="busuanzi-count">
   <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
@@ -1053,8 +1164,8 @@
     notify: true,
     appId: 'XCEWpngeYNFT8arvigx7GESJ-gzGzoHsz',
     appKey: 'vpDdAh3yhVfFdBgOOcOB26D1',
-    placeholder: '留下你的爪印吧～',
-    avatar: 'mm',
+    placeholder: '留下你的爪印吧～支持markdown语法哦～',
+    avatar: 'wavatar',
     meta: guest,
     pageSize: '10' || 10,
     visitor: true
@@ -1116,5 +1227,3 @@
 
 </body>
 </html>
-<!-- 页面点击小红心 -->
-<script type="text/javascript" src="/js/src/clicklove.js"></script>
