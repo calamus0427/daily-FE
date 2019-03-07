@@ -401,6 +401,8 @@
         date:'2019-03-05',
       },{
         date:'2019-03-06',
+      },{
+        date:'2019-03-07',
       }]
     }
     site.posts.forEach(function (post) {
@@ -511,6 +513,41 @@
           <div class="collection-title">
             <h1 class="archive-year" id="archive-year-2019">2019</h1>
           </div>
+        
+        
+
+        
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+          <a class="post-title-link" href="/daily-FE/articles/20190307/" itemprop="url">
+            
+              <span itemprop="name">2019-03-07</span>
+            
+          </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated" datetime="2019-03-07T09:07:27Z" content="2019-03-07">
+          03-07
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+      
+
+        
+        
+        
+
         
         
 
@@ -942,7 +979,7 @@
                 
                   <a href="/daily-FE/archives">
                 
-                    <span class="site-state-item-count">11</span>
+                    <span class="site-state-item-count">12</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -1090,7 +1127,44 @@
 
 
 <!-- 页面点击小红心 -->
-<script type="text/javascript" src="https://cdn.calamus.xyz/clicklove.js"></script>
+<!-- <script type="text/javascript" src="https://cdn.calamus.xyz/blog_ali/clickCn.js"></script> -->
+<script>
+(function () {
+  // var coreSocialistValues = ["富强", "民主", "文明", "和谐", "自由", "平等", "公正", "法治", "爱国", "敬业", "诚信", "友善"],
+  var coreSocialistValues = ["爱我"],
+    index = Math.floor(Math.random() * coreSocialistValues.length);
+  document.body.addEventListener('click', function (e) {
+    if (e.target.tagName == 'A') {
+      return;
+    }
+    var x = e.pageX,
+      y = e.pageY,
+      span = document.createElement('span');
+    span.textContent = coreSocialistValues[index];
+    index = (index + 1) % coreSocialistValues.length;
+    span.style.cssText = ['z-index: 9999999; position: absolute; font-weight: bold; color: #E1244E; top: ', y - 20, 'px; left: ', x, 'px;'].join('');
+    document.body.appendChild(span);
+    animate(span);
+  });
+
+  function animate(el) {
+    var i = 0,
+      top = parseInt(el.style.top),
+      id = setInterval(frame, 16.7);
+
+    function frame() {
+      if (i > 180) {
+        clearInterval(id);
+        el.parentNode.removeChild(el);
+      } else {
+        i += 2;
+        el.style.top = top - i + 'px';
+        el.style.opacity = (180 - i) / 180;
+      }
+    }
+  }
+}());
+</script>
 
         
 <div class="busuanzi-count">
