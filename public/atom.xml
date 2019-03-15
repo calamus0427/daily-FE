@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-03-14T01:10:26.789Z</updated>
+  <updated>2019-03-15T01:40:30.805Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-03-15</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190315/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190315/</id>
+    <published>2019-03-15T09:32:47.000Z</published>
+    <updated>2019-03-15T01:40:30.805Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://www.infoq.com/news/2019/02/linaria-1-release" rel="external nofollow noopener noreferrer" target="_blank">Linaria 1.0 Released: CSS-in-JS with No Runtime</a></p></li><li><p><a href="https://www.infoq.cn/article/WpjjZSh3qsbdRPPkC*AW" rel="external nofollow noopener noreferrer" target="_blank">Node 和 JS 基金会宣布合并为 OpenJS 基金会</a></p></li><li><p><a href="https://www.infoq.cn/article/3*8POPcRSClQh1Cp9Sqg" rel="external nofollow noopener noreferrer" target="_blank">JavaScript 到底是面向对象还是基于对象？</a></p></li><li><p><a href="https://www.infoq.cn/article/c8ElIDINZ6v*o9dHw545" rel="external nofollow noopener noreferrer" target="_blank">京东 Vue 组件库 NutUI 2.0 发布：将支持跨平台！</a></p></li><li><p><a href="https://css-tricks.com/using-artificial-intelligence-to-generate-alt-text-on-images/" rel="external nofollow noopener noreferrer" target="_blank">Using Artificial Intelligence to Generate Alt Text on Images</a></p></li><li><p><a href="https://github.com/jdf2e/nutui/" rel="external nofollow noopener noreferrer" target="_blank">京东风格的轻量级移动端Vue组件库 (A Vue.js 2.0 UI Toolkit for Mobile Web)</a></p></li><li><p><a href="https://svgjs.com/docs/2.7/" rel="external nofollow noopener noreferrer" target="_blank">svg.js</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.infoq.com/news/2019/02/linaria-1-release&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Linar
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-03-14</title>
