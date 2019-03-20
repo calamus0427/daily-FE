@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-03-19T01:07:53.762Z</updated>
+  <updated>2019-03-20T01:54:30.815Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -17,13 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>20190319</title>
+    <title>2019-03-20</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190320/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190320/</id>
+    <published>2019-03-20T09:18:57.000Z</published>
+    <updated>2019-03-20T01:54:30.815Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://wanago.io/2019/03/18/node-js-typescript-6-sending-http-requests-understanding-multipart-form-data/" rel="external nofollow noopener noreferrer" target="_blank">Node.js TypeScript #6. Sending HTTP requests, understanding multipart/form-data</a></p></li><li><p><a href="https://blog.csdn.net/ifrwrit/article/details/86569680" rel="external nofollow noopener noreferrer" target="_blank">解决CORS跨域不能传递cookies的问题</a></p></li><li><p><a href="https://mp.weixin.qq.com/s/-ZVjjKxht5se1O37s-I6bQ" rel="external nofollow noopener noreferrer" target="_blank">带你走进PWA的业务实践</a></p></li><li><p><a href="https://segmentfault.com/a/1190000018577416" rel="external nofollow noopener noreferrer" target="_blank">Lottie-前端实现AE动效</a></p></li><li><p><a href="https://segmentfault.com/a/1190000018577143" rel="external nofollow noopener noreferrer" target="_blank">11 个最好的 JavaScript 动态效果库</a></p></li><li><p><a href="https://segmentfault.com/a/1190000018577041" rel="external nofollow noopener noreferrer" target="_blank">Vue 服务端渲染实践 ——Web应用首屏耗时最优化方案</a></p></li><li><p><a href="https://www.jeffjade.com/2019/03/18/153-best-front-end-hacking-cheatsheets/" rel="external nofollow noopener noreferrer" target="_blank">最好的前端黑客秘籍</a></p></li><li><p><a href="https://segmentfault.com/a/1190000018562367" rel="external nofollow noopener noreferrer" target="_blank">Javascript处理数组基础知识（含es6新语法）</a></p></li><li><p><a href="https://segmentfault.com/a/1190000013018257" rel="external nofollow noopener noreferrer" target="_blank">缓存详解</a></p></li><li><p><a href="https://segmentfault.com/a/1190000018564264" rel="external nofollow noopener noreferrer" target="_blank">vue的源码解析（passive特性</a></p></li><li><p><a href="https://segmentfault.com/a/1190000018572113" rel="external nofollow noopener noreferrer" target="_blank">JavaScript 中 call、apply、bind 用法和区别</a></p></li><li><p><a href="https://segmentfault.com/a/1190000018574554" rel="external nofollow noopener noreferrer" target="_blank">Generator函数</a></p></li><li><p><a href="https://uniapp.dcloud.io/" rel="external nofollow noopener noreferrer" target="_blank">uni-app 是一个使用 Vue.js 开发跨平台应用的前端框架，开发者编写一套代码，可编译到iOS、Android、H5、小程序等多个平台</a></p></li><li><p><a href="https://segmentfault.com/a/1190000018559038" rel="external nofollow noopener noreferrer" target="_blank">前端负责人不得不考虑的前端技术选型及构架（一）</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://wanago.io/2019/03/18/node-js-typescript-6-sending-http-requests-understanding-multipart-form-data/&quot; rel=&quot;extern
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2019-03-19</title>
     <link href="https://calamus.wiki/daily-FE/articles/20190319/"/>
     <id>https://calamus.wiki/daily-FE/articles/20190319/</id>
     <published>2019-03-19T09:05:46.000Z</published>
-    <updated>2019-03-19T01:07:53.762Z</updated>
+    <updated>2019-03-20T01:18:43.812Z</updated>
     
-    <content type="html"><![CDATA[<ol><li><p><a href="https://mp.weixin.qq.com/s/areoQX6grL6-XXZ5XYOmhA" rel="external nofollow noopener noreferrer" target="_blank">内网穿透工具原理</a></p></li><li><p><a href="https://juejin.im/post/5c8f0c6af265da67e20a3b0e" rel="external nofollow noopener noreferrer" target="_blank">逐行分析Koa v1 中间件原理</a></p></li><li><p><a href="https://juejin.im/post/5c8e4feb6fb9a070aa5ce200" rel="external nofollow noopener noreferrer" target="_blank">PNG图片压缩原理解析–屌丝的眼泪</a></p></li><li><p><a href="https://juejin.im/post/5c8efaf951882545e85c20e2" rel="external nofollow noopener noreferrer" target="_blank">Javascript 中最长的关键字序列长什么样子</a></p></li><li><p><a href="https://juejin.im/post/5c3acfa56fb9a049f36254be" rel="external nofollow noopener noreferrer" target="_blank">从头到脚撸一个多人视频聊天 — 前端 WebRTC 实战（一)</a></p></li></ol>]]></content>
+    <content type="html"><![CDATA[<ol><li><p><a href="https://mp.weixin.qq.com/s/areoQX6grL6-XXZ5XYOmhA" rel="external nofollow noopener noreferrer" target="_blank">内网穿透工具原理</a></p></li><li><p><a href="https://juejin.im/post/5c8f0c6af265da67e20a3b0e" rel="external nofollow noopener noreferrer" target="_blank">逐行分析Koa v1 中间件原理</a></p></li><li><p><a href="https://juejin.im/post/5c8e4feb6fb9a070aa5ce200" rel="external nofollow noopener noreferrer" target="_blank">PNG图片压缩原理解析–屌丝的眼泪</a></p></li><li><p><a href="https://juejin.im/post/5c8efaf951882545e85c20e2" rel="external nofollow noopener noreferrer" target="_blank">Javascript 中最长的关键字序列长什么样子</a></p></li><li><p><a href="https://juejin.im/post/5c3acfa56fb9a049f36254be" rel="external nofollow noopener noreferrer" target="_blank">从头到脚撸一个多人视频聊天 — 前端 WebRTC 实战（一)</a></p></li><li><p><a href="https://github.com/chenjiandongx/go-echarts" rel="external nofollow noopener noreferrer" target="_blank">go-echarts</a></p></li><li><p><a href="https://github.com/weiwenhao/tree-ql/blob/master/README-CN.md" rel="external nofollow noopener noreferrer" target="_blank">laravel扩展,通过简单的配置构建出一套极具描述性,可读性,且没有任何冗余的高性能API.</a></p></li><li><p><a href="https://segmentfault.com/a/1190000018553128" rel="external nofollow noopener noreferrer" target="_blank">做一个好看的红白机模拟器</a></p></li><li><p><a href="https://www.infoq.cn/article/QQyWDIemKtChvbq_rCPl" rel="external nofollow noopener noreferrer" target="_blank">没有 JS 的前端：体积更小、速度更快！</a></p></li><li><p><a href="https://juejin.im/post/5c8f47255188252dac6d261b" rel="external nofollow noopener noreferrer" target="_blank">HTTP Cache 浅析</a></p></li></ol>]]></content>
     
     <summary type="html">
     
@@ -431,33 +453,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo入门</title>
-    <link href="https://calamus.wiki/daily-FE/articles/hexo/"/>
-    <id>https://calamus.wiki/daily-FE/articles/hexo/</id>
-    <published>2019-02-20T16:42:24.000Z</published>
-    <updated>2019-02-22T08:57:27.507Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://www.calamus.xyz/" rel="external nofollow noopener noreferrer" target="_blank">Calamus</a>! This is my very first post. Check <a href="https://hexo.io/docs/" rel="external nofollow noopener noreferrer" target="_blank">documentation</a> for more info. If you get any problems when using Hexomd, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" rel="external nofollow noopener noreferrer" target="_blank">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" rel="external nofollow noopener noreferrer" target="_blank">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" rel="external nofollow noopener noreferrer" target="_blank">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" rel="external nofollow noopener noreferrer" target="_blank">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" rel="external nofollow noopener noreferrer" target="_blank">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" rel="external nofollow noopener noreferrer" target="_blank">Deployment</a></p><h2 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate -d</span><br></pre></td></tr></table></figure><h2 id="发布到GitHub上出现404等问题"><a href="#发布到GitHub上出现404等问题" class="headerlink" title="发布到GitHub上出现404等问题"></a>发布到GitHub上出现404等问题</h2><p>1.clean后再重新发布<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure></p><p>2.更改url地址<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">url: http://www.nideyuming.com/blog/</span><br><span class="line">root: /blog</span><br></pre></td></tr></table></figure></p><h2 id="增加搜索功能"><a href="#增加搜索功能" class="headerlink" title="增加搜索功能"></a>增加搜索功能</h2><p><a href="https://www.cnblogs.com/doublezcc/p/6140788.html" rel="external nofollow noopener noreferrer" target="_blank">https://www.cnblogs.com/doublezcc/p/6140788.html</a><br><a href="https://www.jianshu.com/p/5973c05d7100" rel="external nofollow noopener noreferrer" target="_blank">https://www.jianshu.com/p/5973c05d7100</a><br><a href="http://www.qingpingshan.com/m/view.php?aid=386198" rel="external nofollow noopener noreferrer" target="_blank">http://www.qingpingshan.com/m/view.php?aid=386198</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://www.calamus.xyz/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Calamus&lt;/a&gt;! This is my very fi
-      
-    
-    </summary>
-    
-      <category term="其他" scheme="https://calamus.wiki/daily-FE/categories/%E5%85%B6%E4%BB%96/"/>
-    
-      <category term="others" scheme="https://calamus.wiki/daily-FE/categories/%E5%85%B6%E4%BB%96/others/"/>
-    
-    
-      <category term="hexo" scheme="https://calamus.wiki/daily-FE/tags/hexo/"/>
     
   </entry>
   
