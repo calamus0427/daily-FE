@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-03-20T01:54:30.815Z</updated>
+  <updated>2019-03-21T05:35:41.888Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-03-21</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190321/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190321/</id>
+    <published>2019-03-21T13:34:16.000Z</published>
+    <updated>2019-03-21T05:35:41.888Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://zhuanlan.zhihu.com/p/59861523" rel="external nofollow noopener noreferrer" target="_blank">设计系统Ops(协同)</a></p></li><li><p><a href="https://juejin.im/post/5c91b760f265da60cb376cb5" rel="external nofollow noopener noreferrer" target="_blank">node 快速学习crypto模块</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/59861523&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;设计系统Ops(协同)&lt;/a&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-03-20</title>
@@ -427,28 +450,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5c7221e26fb9a04a0441a67e&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;如何在浏览器中编写一
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-02-22</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190222/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190222/</id>
-    <published>2019-02-22T16:42:24.000Z</published>
-    <updated>2019-02-22T06:34:53.141Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><a href="https://juejin.im/post/5c6d7a5cf265da2d9e175182" rel="external nofollow noopener noreferrer" target="_blank">前端面试之BFC</a></li><li><a href="https://juejin.im/post/5c6d6c566fb9a049aa6faba7" rel="external nofollow noopener noreferrer" target="_blank">前端面试之盒模型</a></li><li><a href="https://mp.weixin.qq.com/s/QGM5lWQZlccAs0KFYurOTw" rel="external nofollow noopener noreferrer" target="_blank">2019年给前端的几个建议</a></li><li><a href="https://www.ma-no.org/en/content/index_async-await-how-they-really-work-an-example_2420.php" rel="external nofollow noopener noreferrer" target="_blank">Async/Await how they really work: an example </a></li><li><a href="https://juejin.im/post/5c6ca856f265da2dce1f3af9" rel="external nofollow noopener noreferrer" target="_blank">X 为啥不是 hook？</a></li><li><a href="https://mp.weixin.qq.com/s/Kwre2hpEPNiJru_VJ9PY4A" rel="external nofollow noopener noreferrer" target="_blank">23种设计模式与案例分析</a></li><li><a href="https://juejin.im/post/5c6b6dcfe51d45529d331ab4" rel="external nofollow noopener noreferrer" target="_blank">急速 debug 实战二（浏览器 - 调试线上篇）</a></li><li><a href="https://juejin.im/post/5c6b7366e51d45016527d648" rel="external nofollow noopener noreferrer" target="_blank">WebSocket 协议 RFC 文档（全中文翻译）</a></li><li><a href="https://mp.weixin.qq.com/s/-L40hWQkNs6E_V1n6_DQtA" rel="external nofollow noopener noreferrer" target="_blank">可视化编程真的有那么糟糕吗</a></li><li><a href="https://www.cnblogs.com/xhload3d/p/10393685.html" rel="external nofollow noopener noreferrer" target="_blank">基于 HTML5 WebGL 的地铁站 3D 可视化系统</a></li><li><a href="https://juejin.im/post/5c6679ab6fb9a049f819d09f" rel="external nofollow noopener noreferrer" target="_blank">Electron-如何保护源码？</a></li><li><a href="https://mp.weixin.qq.com/s/OJx4CQPLggjv_c_z5d9cNg" rel="external nofollow noopener noreferrer" target="_blank">node项目拆包工程化</a></li><li><a href="https://alibaba.github.io/ice/" rel="external nofollow noopener noreferrer" target="_blank">ice飞冰</a></li><li><a href="https://www.zhihu.com/question/20790576/answer/32602154" rel="external nofollow noopener noreferrer" target="_blank">前端自动化部署</a></li><li><a href="https://juejin.im/post/5c356f68f265da61483bca61" rel="external nofollow noopener noreferrer" target="_blank">CI工作流</a></li><li><a href="https://animejs.com/" rel="external nofollow noopener noreferrer" target="_blank">动画库</a></li><li><a href="http://hcysun.me/vue-design/" rel="external nofollow noopener noreferrer" target="_blank">vue技术内幕</a></li><li><a href="https://ustbhuangyi.github.io/vue-analysis/" rel="external nofollow noopener noreferrer" target="_blank">vue技术揭秘</a></li><li><a href="https://tabler.io/" rel="external nofollow noopener noreferrer" target="_blank">tabler</a></li><li><a href="https://www.jianshu.com/p/c7b3b9c98d04" rel="external nofollow noopener noreferrer" target="_blank">dva.js</a></li><li><a href="https://imgcook.taobao.org/docs" rel="external nofollow noopener noreferrer" target="_blank">imgcook 为淘宝发布的将设计稿转化为前端页面的自动化工具</a></li><li><a href="https://localforage.docschina.org/" rel="external nofollow noopener noreferrer" target="_blank">localForage</a></li><li>[WebAssembly]</li><li><a href="https://electronjs.org/" rel="external nofollow noopener noreferrer" target="_blank">Electron</a></li><li>Carlo </li><li>LogRocket 前端日志记录工具</li><li><a href="http://web.jobbole.com/91664/" rel="external nofollow noopener noreferrer" target="_blank">在 Vue.js 中使用Mixin</a></li><li><a href="https://juejin.im/post/5c4591bee51d4507fb1d79be" rel="external nofollow noopener noreferrer" target="_blank">Canvas实用库Fabric.js使用手册</a></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://juejin.im/post/5c6d7a5cf265da2d9e175182&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;前端面试之BFC&lt;/a&gt;&lt;
       
     
     </summary>
