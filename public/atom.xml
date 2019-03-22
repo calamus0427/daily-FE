@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-03-21T05:35:41.888Z</updated>
+  <updated>2019-03-22T01:50:16.020Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-03-22</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190322/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190322/</id>
+    <published>2019-03-22T09:49:05.000Z</published>
+    <updated>2019-03-22T01:50:16.020Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://alligator.io/nodejs/intro-to-hapi/" rel="external nofollow noopener noreferrer" target="_blank">An introduction to the hapi Node.js Framework</a></p></li><li><p><a href="https://juejin.im/post/5c92599b5188252d7255111c" rel="external nofollow noopener noreferrer" target="_blank">前端JS代码的性能探究</a></p></li><li><p><a href="https://juejin.im/post/5c92c191f265da610e5eca59" rel="external nofollow noopener noreferrer" target="_blank">每日 30 秒 ⏱ 大家一起被捕吧</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://alligator.io/nodejs/intro-to-hapi/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;An introduction
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-03-21</title>
@@ -428,28 +450,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5c7290b36fb9a049b07dfb98&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;如何使用WebGL渲
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-02-25</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190225/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190225/</id>
-    <published>2019-02-25T10:36:55.000Z</published>
-    <updated>2019-02-25T03:04:40.642Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5c7221e26fb9a04a0441a67e" rel="external nofollow noopener noreferrer" target="_blank">如何在浏览器中编写一款蓝牙应用</a></p></li><li><p><a href="https://banggan.github.io/2019/02/20/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%80%85%E5%BA%94%E8%AF%A5%E6%98%8E%E7%99%BD%E7%9A%84%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/" rel="external nofollow noopener noreferrer" target="_blank">前端开发者应该明白的浏览器工作原理</a></p></li><li><p><a href="https://mp.weixin.qq.com/s/g9FANLiJ93JCVdRk3gunGQ" rel="external nofollow noopener noreferrer" target="_blank">Http Host头攻击原理和防御</a></p></li><li><p><a href="https://www.infoq.cn/article/c-cA0H0QIDMFjYoPBpUY" rel="external nofollow noopener noreferrer" target="_blank">Gitter：高颜值 GitHub 小程序客户端诞生记</a></p></li><li><p><a href="https://www.infoq.cn/article/Dxa8aM44oz*Lukk5Ufhy" rel="external nofollow noopener noreferrer" target="_blank">蚂蚁金服如何把前端性能监控做到极致?</a></p></li><li><p><a href="https://www.infoq.cn/article/U5UMbHYrzYW3_0GmMIIc" rel="external nofollow noopener noreferrer" target="_blank">每秒解析千兆字节的 JSON 解析器开源，秒杀一大波解析器</a></p></li><li><p><a href="https://www.infoq.com/news/2019/02/dojo-5-release" rel="external nofollow noopener noreferrer" target="_blank">JS Foundation Releases Dojo 5</a></p></li><li><p><a href="https://github.com/Tommy-White/deeplyAssign" rel="external nofollow noopener noreferrer" target="_blank">deeplyAssign，深度 Object.Assign</a></p></li><li><p><a href="https://github.com/frontarm/navi" rel="external nofollow noopener noreferrer" target="_blank">基于 hooks 和 suspense 的 react 路由</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5c7221e26fb9a04a0441a67e&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;如何在浏览器中编写一
       
     
     </summary>
