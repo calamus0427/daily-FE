@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-03-25T01:52:27.212Z</updated>
+  <updated>2019-03-27T00:59:21.915Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-03-27</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190327/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190327/</id>
+    <published>2019-03-27T08:58:35.000Z</published>
+    <updated>2019-03-27T00:59:21.915Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5c9731b96fb9a070ca104057" rel="external nofollow noopener noreferrer" target="_blank">如何开发一款 60fps 的“无缝滚动”插件</a></p></li><li><p><a href="https://juejin.im/post/5c98c978f265da60f00ed943" rel="external nofollow noopener noreferrer" target="_blank">图片压缩Canvas</a></p></li><li><p><a href="https://mariusschulz.com/blog/typescript-2-9-passing-generics-to-jsx-elements" rel="external nofollow noopener noreferrer" target="_blank">TypeScript 2.9: Passing Generics to JSX Elements</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5c9731b96fb9a070ca104057&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;如何开发一款 60f
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-03-25</title>
@@ -428,28 +450,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;https://segmentfault.com/a/1190000018119191&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;「前端面试题系列5」ES6 中箭头
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-02-27</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190227/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190227/</id>
-    <published>2019-02-27T09:05:25.000Z</published>
-    <updated>2019-02-27T01:34:25.406Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><a href="https://segmentfault.com/a/1190000018275641?_ea=7437891" rel="external nofollow noopener noreferrer" target="_blank">前端资源加载重试</a></li><li><a href="https://juejin.im/post/5c74ad81f265da2da00ebaf6" rel="external nofollow noopener noreferrer" target="_blank">已经 2019 年了，我依然赤手空拳制作网站</a></li><li><a href="https://juejin.im/post/5c748debf265da2da408134e" rel="external nofollow noopener noreferrer" target="_blank">马蹄疾 | 聊聊你可能并没有完全掌握的 Flex 布局：从概念入手，丝丝入扣</a></li><li><a href="https://juejin.im/post/5c73ad30f265da2db66de010" rel="external nofollow noopener noreferrer" target="_blank">React + Koa 实现服务端渲染(SSR) Part II </a></li><li><a href="https://segmentfault.com/a/1190000018194697?utm_source=weekly&amp;utm_medium=email&amp;utm_campaign=email_weekly" rel="external nofollow noopener noreferrer" target="_blank">Web前端开发标准规范</a></li><li><a href="https://segmentfault.com/a/1190000018263418" rel="external nofollow noopener noreferrer" target="_blank">web前端性能优化总结</a></li><li><a href="https://segmentfault.com/a/1190000018257360" rel="external nofollow noopener noreferrer" target="_blank">React 性能优化技巧总结</a></li><li><a href="https://segmentfault.com/a/1190000018273794" rel="external nofollow noopener noreferrer" target="_blank">工作中99%能用到的git命令</a></li><li><a href="https://segmentfault.com/a/1190000018233450" rel="external nofollow noopener noreferrer" target="_blank">弹性布局（display:flex;）属性详解</a></li><li><a href="https://segmentfault.com/a/1190000018227116" rel="external nofollow noopener noreferrer" target="_blank">简述vue-router实现原理</a></li><li><a href="https://segmentfault.com/a/1190000018143902" rel="external nofollow noopener noreferrer" target="_blank">前端js实现字符串/图片/excel文件下载</a></li><li><a href="https://segmentfault.com/a/1190000018128788" rel="external nofollow noopener noreferrer" target="_blank">ES6、7、8常用新特性总结(超实用)</a></li><li><a href="https://segmentfault.com/a/1190000018127390" rel="external nofollow noopener noreferrer" target="_blank">前端设计模式</a></li><li><a href="https://segmentfault.com/a/1190000018142584" rel="external nofollow noopener noreferrer" target="_blank">七个你没用过的炫酷开发工具推荐</a></li><li><a href="https://segmentfault.com/a/1190000018113832" rel="external nofollow noopener noreferrer" target="_blank">CSS粘性定位是怎样工作的</a></li><li><a href="https://segmentfault.com/a/1190000018113011" rel="external nofollow noopener noreferrer" target="_blank">你可能不熟悉的JS总结</a></li><li><a href="https://segmentfault.com/a/1190000018103601" rel="external nofollow noopener noreferrer" target="_blank">vue移动端小说阅读器vue全家桶项目，已部署到服务器可访问预览</a></li><li><a href="https://segmentfault.com/a/1190000018143902" rel="external nofollow noopener noreferrer" target="_blank">前端js实现字符串/图片/excel文件下载</a></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://segmentfault.com/a/1190000018275641?_ea=7437891&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;前端资源加
       
     
     </summary>
