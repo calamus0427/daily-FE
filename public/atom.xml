@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-03-27T00:59:21.915Z</updated>
+  <updated>2019-03-28T01:04:05.236Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-03-28</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190328/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190328/</id>
+    <published>2019-03-28T09:02:50.000Z</published>
+    <updated>2019-03-28T01:04:05.236Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5c99c17df265da6129788ae2" rel="external nofollow noopener noreferrer" target="_blank">小菜前端的技术栈是如何规划和演进的</a></p></li><li><p><a href="https://juejin.im/post/5c9a1645e51d4559bb5c666f" rel="external nofollow noopener noreferrer" target="_blank">实现高度“听话”的多行文本输入框</a></p></li><li><p><a href="https://juejin.im/post/5c98d208e51d4528b443f35d" rel="external nofollow noopener noreferrer" target="_blank">Promise 其实很简单</a></p></li><li><p><a href="https://www.codesky.me/archives/frontend-normalize.wind" rel="external nofollow noopener noreferrer" target="_blank">前端与数据归一化</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5c99c17df265da6129788ae2&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;小菜前端的技术栈是如
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-03-27</title>
@@ -428,28 +450,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/57789538&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;【译】小游戏大智慧，10 个让人眼前一亮
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>前端面试总结</title>
-    <link href="https://calamus.wiki/daily-FE/articles/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93/"/>
-    <id>https://calamus.wiki/daily-FE/articles/前端面试总结/</id>
-    <published>2019-02-27T09:27:47.000Z</published>
-    <updated>2019-02-27T01:34:25.406Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><a href="https://segmentfault.com/a/1190000018119191" rel="external nofollow noopener noreferrer" target="_blank">「前端面试题系列5」ES6 中箭头函数的用法</a></li><li><a href="https://segmentfault.com/a/1190000018106121" rel="external nofollow noopener noreferrer" target="_blank">刷前端面经笔记（一）</a></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://segmentfault.com/a/1190000018119191&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;「前端面试题系列5」ES6 中箭头
       
     
     </summary>
