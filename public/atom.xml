@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-03-28T01:04:05.236Z</updated>
+  <updated>2019-04-01T01:34:18.961Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-04-01</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190401/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190401/</id>
+    <published>2019-04-01T09:32:52.000Z</published>
+    <updated>2019-04-01T01:34:18.961Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><a href="https://juejin.im/post/5ca057966fb9a05e1a7a960c" rel="external nofollow noopener noreferrer" target="_blank">小球运动-常规</a></li></ol><ol start="2"><li><p><a href="https://juejin.im/post/5c9c2951518825159a092dfb" rel="external nofollow noopener noreferrer" target="_blank">嫌图标插件太大？canvas自制罗盘仪</a></p></li><li><p><a href="https://juejin.im/post/5c9f112751882567f8529586" rel="external nofollow noopener noreferrer" target="_blank">「前端那些事儿」④ 性能监控</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://juejin.im/post/5ca057966fb9a05e1a7a960c&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;小球运动-常规&lt;/a&gt;&lt;/
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-03-28</title>
@@ -428,28 +450,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5c75fa4af265da2d84109219&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;用Node + EJ
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-02-28</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190228/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190228/</id>
-    <published>2019-02-28T09:05:33.000Z</published>
-    <updated>2019-02-28T01:50:23.551Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://zhuanlan.zhihu.com/p/57789538" rel="external nofollow noopener noreferrer" target="_blank">【译】小游戏大智慧，10 个让人眼前一亮的 JavaScript 游戏 </a></p></li><li><p><a href="https://juejin.im/post/5c76638e518825408e5ce507" rel="external nofollow noopener noreferrer" target="_blank">从0到1，了解NLP中的文本相似度 </a></p></li><li><p><a href="https://theappsolutions.com/blog/development/big-data-as-a-service/" rel="external nofollow noopener noreferrer" target="_blank">Big Data as a Service: What, How and Why </a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/57789538&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;【译】小游戏大智慧，10 个让人眼前一亮
       
     
     </summary>
