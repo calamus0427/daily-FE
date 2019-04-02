@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-04-01T01:34:18.961Z</updated>
+  <updated>2019-04-02T01:53:05.235Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>前端实用网站</title>
+    <link href="https://calamus.wiki/daily-FE/articles/%E5%89%8D%E7%AB%AF%E5%AE%9E%E7%94%A8%E7%BD%91%E7%AB%99/"/>
+    <id>https://calamus.wiki/daily-FE/articles/前端实用网站/</id>
+    <published>2019-04-02T09:42:42.000Z</published>
+    <updated>2019-04-02T01:53:05.235Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前端社区"><a href="#前端社区" class="headerlink" title="前端社区"></a>前端社区</h1><ul><li><a href="https://cnodejs.org/" rel="external nofollow noopener noreferrer" target="_blank">cnodejs</a></li></ul><h1 id="vue相关"><a href="#vue相关" class="headerlink" title="vue相关"></a>vue相关</h1><ul><li><a href="http://hcysun.me/vue-design/art/" rel="external nofollow noopener noreferrer" target="_blank">vue技术内幕</a><h2 id="vue插件"><a href="#vue插件" class="headerlink" title="vue插件"></a>vue插件</h2></li></ul><h1 id="node相关"><a href="#node相关" class="headerlink" title="node相关"></a>node相关</h1><ul><li><a href="https://eggjs.org/" rel="external nofollow noopener noreferrer" target="_blank">egg</a></li></ul><h1 id="大佬的博客"><a href="#大佬的博客" class="headerlink" title="大佬的博客"></a>大佬的博客</h1><ul><li><a href="https://www.calamus.xyz" rel="external nofollow noopener noreferrer" target="_blank">calamus(我自己的渣渣博客要放到第一个)</a></li><li><a href="http://blog.cnbang.net/archives/" rel="external nofollow noopener noreferrer" target="_blank">bang’s blog</a></li></ul><h1 id="开发规范"><a href="#开发规范" class="headerlink" title="开发规范"></a>开发规范</h1><ul><li><a href="http://alloyteam.github.io/CodeGuide/" rel="external nofollow noopener noreferrer" target="_blank">腾讯代码规范</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;前端社区&quot;&gt;&lt;a href=&quot;#前端社区&quot; class=&quot;headerlink&quot; title=&quot;前端社区&quot;&gt;&lt;/a&gt;前端社区&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://cnodejs.org/&quot; rel=&quot;external nofollow no
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2019-04-02</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190402/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190402/</id>
+    <published>2019-04-02T09:17:57.000Z</published>
+    <updated>2019-04-02T01:27:54.317Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://github.com/996icu/996.ICU" rel="external nofollow noopener noreferrer" target="_blank">996.ICU</a></p></li><li><p><a href="https://github.com/formulahendry/955.WLB" rel="external nofollow noopener noreferrer" target="_blank">955.WLB</a></p></li><li><p><a href="https://juejin.im/post/5ca0d1dcf265da30a07d1fc6" rel="external nofollow noopener noreferrer" target="_blank">【译】Chrome 73版本关于Audio/Video的更新</a></p></li><li><p><a href="https://juejin.im/post/5ca15c1e51882567b544ee0b" rel="external nofollow noopener noreferrer" target="_blank">前端曝光数据埋点——Intersection Observer+vue指令</a></p></li><li><p><a href="https://segmentfault.com/a/1190000018668365" rel="external nofollow noopener noreferrer" target="_blank">http0.9-3.0对比</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/996icu/996.ICU&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;996.ICU&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;l
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-04-01</title>
@@ -406,50 +452,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5c7b7fad518825408b658326&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Vue源码简析之视图
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-03-04</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190304/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190304/</id>
-    <published>2019-03-04T09:11:04.000Z</published>
-    <updated>2019-03-04T01:13:25.505Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><a href="https://zhuanlan.zhihu.com/p/57842018" rel="external nofollow noopener noreferrer" target="_blank">在 React 中处理数据流问题的一些思考</a></li><li><a href="https://juejin.im/post/5c793a10e51d4506ce5b0918" rel="external nofollow noopener noreferrer" target="_blank">Vmo前端数据模型设计</a></li><li><a href="https://juejin.im/post/5c7a84b1518825629f3877a0" rel="external nofollow noopener noreferrer" target="_blank">如何理解CSS中的BFC特性</a></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/57842018&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;在 React 中处理数据流问题的一些思考&lt;/
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2018-03-01</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20180301/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20180301/</id>
-    <published>2019-03-01T09:46:37.000Z</published>
-    <updated>2019-03-01T02:25:27.061Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5c75fa4af265da2d84109219" rel="external nofollow noopener noreferrer" target="_blank">用Node + EJS写一个爬虫脚本每天定时女朋友发一封暖心邮件</a></p></li><li><p><a href="https://juejin.im/post/5c778a0a6fb9a049f23d7304" rel="external nofollow noopener noreferrer" target="_blank">7个让你获益匪浅的开放式前端面试题</a></p></li><li><p><a href="https://juejin.im/post/5c7646e2f265da2d8e70f681" rel="external nofollow noopener noreferrer" target="_blank">那些你需要知道的CSS-面试</a></p></li><li><p><a href="https://juejin.im/post/5c7784d5f265da2de713629c" rel="external nofollow noopener noreferrer" target="_blank">[译] Hooks 对 Vue 而言意味着什么</a></p></li><li><p><a href="https://juejin.im/post/5c77982ce51d45457d19797e" rel="external nofollow noopener noreferrer" target="_blank">你也许不知道的Vuejs - 最佳实践（2)</a></p></li><li><p><a href="https://juejin.im/post/5c763f56f265da2db27943ef" rel="external nofollow noopener noreferrer" target="_blank">Vue插件从封装到发布</a></p></li><li><p><a href="https://juejin.im/post/5c773c69f265da2dc675cbdf" rel="external nofollow noopener noreferrer" target="_blank">跨界 - Omi 发布多端统一框架 Omip 打通小程序与 Web</a></p></li><li><p><a href="https://juejin.im/post/5c773b746fb9a049f43bff0f" rel="external nofollow noopener noreferrer" target="_blank">小程序原生高颜值组件库–ColorUI组件库</a></p></li><li><p><a href="https://juejin.im/post/5c779fcf5188255e266abf07" rel="external nofollow noopener noreferrer" target="_blank">基于JS简单甘特图</a></p></li><li><p><a href="https://juejin.im/post/5c6276956fb9a04a06055925" rel="external nofollow noopener noreferrer" target="_blank">你知道前端对图片的处理方式吗？</a></p></li><li><p><a href="https://juejin.im/post/5c7646f26fb9a049fd108380" rel="external nofollow noopener noreferrer" target="_blank">从URL输入到页面展现到底发生什么</a></p></li><li><p><a href="https://juejin.im/post/5c6cdb85518825625c27215b" rel="external nofollow noopener noreferrer" target="_blank">全新版本仿网易云音乐来啦</a></p></li><li><p><a href="https://vue.ant.design/docs/vue/introduce-cn/" rel="external nofollow noopener noreferrer" target="_blank">Ant Design of Vue</a></p></li><li><p><a href="https://stackshare.io/posts/top-developer-tools-2018" rel="external nofollow noopener noreferrer" target="_blank">top50 developer-tools 2018</a></p></li><li><p><a href="https://juejin.im/post/5c7496fdf265da2dda6957d2" rel="external nofollow noopener noreferrer" target="_blank">JavaScript正则表达式备忘单</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5c75fa4af265da2d84109219&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;用Node + EJ
       
     
     </summary>
