@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-04-02T01:53:05.235Z</updated>
+  <updated>2019-04-03T02:12:16.572Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-04-03</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190403/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190403/</id>
+    <published>2019-04-03T09:27:30.000Z</published>
+    <updated>2019-04-03T02:12:16.572Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="http://kazupon.github.io/vue-i18n/installation.html" rel="external nofollow noopener noreferrer" target="_blank">Vue I18n</a></p></li><li><p><a href="http://avalonjs.coding.me/who.html" rel="external nofollow noopener noreferrer" target="_blank">avalon 2</a></p></li><li><p><a href="https://juejin.im/post/5ca2e1935188254416288eb2" rel="external nofollow noopener noreferrer" target="_blank">ES6、ES7、ES8、ES9、ES10新特性一览</a></p></li><li><p><a href="https://juejin.im/post/5ca2e15f6fb9a05e4f057f75" rel="external nofollow noopener noreferrer" target="_blank">掘金 AMA：腾讯 Omi 框架作者–dntzhang 聊前端开发、谈学习路径和技术进阶</a></p></li><li><p><a href="https://juejin.im/post/5ca321f76fb9a05e5d09bb8a" rel="external nofollow noopener noreferrer" target="_blank">为什么 Node 是小菜前端团队的核心技术栈</a></p></li><li><p><a href="https://juejin.im/post/5ca2fa5551882543db10d489" rel="external nofollow noopener noreferrer" target="_blank">[译] 从没有人告诉过我的 CSS 小知识</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://kazupon.github.io/vue-i18n/installation.html&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Vue I1
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>前端实用网站</title>
@@ -430,28 +452,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;https://juejin.im/post/5c7ce781e51d4514913c5bc4&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;选择 Grid 还是 Fl
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-03-05</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190305/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190305/</id>
-    <published>2019-03-05T09:11:46.000Z</published>
-    <updated>2019-03-05T01:13:02.814Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5c7b7fad518825408b658326" rel="external nofollow noopener noreferrer" target="_blank">Vue源码简析之视图生成（上）</a></p></li><li><p><a href="https://superjavascript.com/t/javascript-dates/" rel="external nofollow noopener noreferrer" target="_blank">JavaScript Dates Tutorial </a></p></li><li><p><a href="https://juejin.im/post/5c7c83cc6fb9a049ab0e5771" rel="external nofollow noopener noreferrer" target="_blank">service worker轻度探索 - 解决运营活动需求中的图片加载问题? </a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5c7b7fad518825408b658326&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Vue源码简析之视图
       
     
     </summary>
