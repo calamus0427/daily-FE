@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-04-12T01:11:13.430Z</updated>
+  <updated>2019-04-15T01:14:50.215Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-04-15</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190415/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190415/</id>
+    <published>2019-04-15T09:13:34.000Z</published>
+    <updated>2019-04-15T01:14:50.215Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5ca778a9e51d456a41708bd8" rel="external nofollow noopener noreferrer" target="_blank">用 canvas 做一个 DVD 待机动画</a></p></li><li><p><a href="https://juejin.im/post/5cab3d54f265da03a54bf74e" rel="external nofollow noopener noreferrer" target="_blank">【译】关于 JavaScript 的原型你应该知道的所有事情</a></p></li><li><p><a href="https://juejin.im/post/5cac63075188251af76edb89" rel="external nofollow noopener noreferrer" target="_blank">权重定位 FMP</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5ca778a9e51d456a41708bd8&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;用 canvas 做
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-04-12</title>
@@ -430,28 +452,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5c8856e6e51d456b30397f31&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;我最终是怎么玩转了 
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-03-13</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190313/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190313/</id>
-    <published>2019-03-13T09:45:16.000Z</published>
-    <updated>2019-03-13T02:24:02.466Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="http://www.chinaw3c.org/blog-web30.html" rel="external nofollow noopener noreferrer" target="_blank">致 Web 诞生30周年：Web 改变了这个世界！</a></p></li><li><p><a href="https://ponyfoo.com/articles/graphql-in-depth-what-why-and-how" rel="external nofollow noopener noreferrer" target="_blank">GraphQL in Depth: What, Why, and How</a></p></li><li><p><a href="https://juejin.im/post/5c87b2d7f265da2dce1f7e22" rel="external nofollow noopener noreferrer" target="_blank">浏览器端的二进制以及相关操作与转换</a></p></li><li><p><a href="https://juejin.im/post/5c878397f265da2dde07293b" rel="external nofollow noopener noreferrer" target="_blank">【面试总结】记一次失败的 bilibili 面试总结(1)</a></p></li><li><p><a href="https://mp.weixin.qq.com/s?__biz=MzU0OTExNzYwNg==&amp;mid=2247484615&amp;idx=1&amp;sn=3bcef21cb6777165fd23f1a571d56d63&amp;chksm=fbb58f0eccc20618f2631b1105963e401841978c970a17eb0ab41a5b76470b2444737d9493ed&amp;token=734937355&amp;lang=zh_CN#rd" rel="external nofollow noopener noreferrer" target="_blank">你真的了解webview么？</a></p></li><li><p><a href="https://juejin.im/post/5c87b54ce51d455f7943dddb" rel="external nofollow noopener noreferrer" target="_blank">2019 面试准备 - JS 防抖与节流</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.chinaw3c.org/blog-web30.html&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;致 Web 诞生30周年：Web 改
       
     
     </summary>
