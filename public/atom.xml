@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-04-15T01:14:50.215Z</updated>
+  <updated>2019-04-16T01:29:29.982Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-04-16</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190416/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190416/</id>
+    <published>2019-04-16T09:17:57.000Z</published>
+    <updated>2019-04-16T01:29:29.982Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cb00b1c6fb9a068a256b37c" rel="external nofollow noopener noreferrer" target="_blank">用 Feature First 的方式管理前端项目复杂度</a></p></li><li><p><a href="https://zhuanlan.zhihu.com/p/34288371" rel="external nofollow noopener noreferrer" target="_blank">对称加密与非对称加密</a></p></li><li><p><a href="https://juejin.im/post/5cb078f05188251ace1fedb4" rel="external nofollow noopener noreferrer" target="_blank">第三代移动端布局方案</a></p></li><li><p><a href="https://juejin.im/post/5cb444605188251ada7e320d" rel="external nofollow noopener noreferrer" target="_blank">理理Vue细节</a></p></li><li><p><a href="https://juejin.im/post/5cb03fbee51d456e853f810b" rel="external nofollow noopener noreferrer" target="_blank">前端如何处理十万级别的大量数据</a></p></li><li><p><a href="https://juejin.im/post/5cb3eed65188251b0351f2c4" rel="external nofollow noopener noreferrer" target="_blank">封装Vue组件的一些技巧</a></p></li><li><p><a href="https://juejin.im/post/5cb1d5a3f265da03587bed99" rel="external nofollow noopener noreferrer" target="_blank">重学 JS：为啥 await 在 forEach 中不生效</a></p></li><li><p><a href="https://juejin.im/post/5cb51871f265da0368145069" rel="external nofollow noopener noreferrer" target="_blank">Vue 理解之白话 getter/setter</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cb00b1c6fb9a068a256b37c&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;用 Feature 
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-04-15</title>
@@ -430,28 +452,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.infoq.com/news/2019/02/linaria-1-release&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Linar
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-03-14</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190314/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190314/</id>
-    <published>2019-03-14T08:54:50.000Z</published>
-    <updated>2019-03-14T01:10:26.789Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5c8856e6e51d456b30397f31" rel="external nofollow noopener noreferrer" target="_blank">我最终是怎么玩转了 Vue 的作用域插槽</a></p></li><li><p><a href="https://juejin.im/post/5c8074c2e51d4541ad0ca93" rel="external nofollow noopener noreferrer" target="_blank">跟underscore一起学数组去重</a></p></li><li><p><a href="https://juejin.im/post/5c84a331e51d453a47623447" rel="external nofollow noopener noreferrer" target="_blank">Webpack系列-第三篇流程杂记</a></p></li><li><p><a href="https://juejin.im/post/5c8650676fb9a049dc031483" rel="external nofollow noopener noreferrer" target="_blank">基于three.js的3D炫酷元素周期表</a></p></li><li><p><a href="https://juejin.im/post/5ba06119e51d450e84779ece" rel="external nofollow noopener noreferrer" target="_blank">初识three.js，搭建three.js+vue.js项目</a></p></li><li><p><a href="https://juejin.im/post/5b837c0b51882542d950efb4" rel="external nofollow noopener noreferrer" target="_blank">Web 魔方模拟器的设计与实现</a></p></li><li><p><a href="https://juejin.im/post/5b6d320f6fb9a04fac0d3f42" rel="external nofollow noopener noreferrer" target="_blank">H5 六边形消除游戏开发</a></p></li><li><p><a href="https://juejin.im/post/5a4cc3db6fb9a04514646fd3" rel="external nofollow noopener noreferrer" target="_blank">Three.js 再探 - 写一个跳一跳极简版游戏</a></p></li><li><p><a href="https://juejin.im/post/5c88d34fe51d4559d83381af" rel="external nofollow noopener noreferrer" target="_blank">【面试总结】记一次失败的 bilibili 面试总结(2)</a></p></li><li><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/flat#%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88" rel="external nofollow noopener noreferrer" target="_blank">Array.prototype.flat()</a></p></li><li><p><a href="https://vuetifyjs.com/zh-Hans/" rel="external nofollow noopener noreferrer" target="_blank">vuetifyjs</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5c8856e6e51d456b30397f31&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;我最终是怎么玩转了 
       
     
     </summary>
