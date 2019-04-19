@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-04-18T02:03:30.273Z</updated>
+  <updated>2019-04-19T02:48:55.259Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20190419</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190419/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190419/</id>
+    <published>2019-04-19T10:14:28.000Z</published>
+    <updated>2019-04-19T02:48:55.259Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cb3ea6ce51d456e896349d4" rel="external nofollow noopener noreferrer" target="_blank">Sequlize详解</a></p></li><li><p><a href="https://juejin.im/post/5cb35c866fb9a068b65e1eee" rel="external nofollow noopener noreferrer" target="_blank">梳理下常见的不冒泡事件</a></p></li><li><p><a href="https://css-tricks.com/using-the-web-speech-api-for-multilingual-translations/" rel="external nofollow noopener noreferrer" target="_blank">使用 Web Speech API 实现多语言翻译</a></p></li><li><p><a href="https://juejin.im/post/5cb7d7e4e51d456e51614a8e" rel="external nofollow noopener noreferrer" target="_blank">今天，小程序正式支持 SVG</a></p></li><li><p><a href="https://tencent.github.io/omi/" rel="external nofollow noopener noreferrer" target="_blank">omi</a></p></li><li><p><a href="https://juejin.im/post/5cb860a86fb9a06890705f14" rel="external nofollow noopener noreferrer" target="_blank">新人成长：新人如何快速融入技术实力强的前端团队</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cb3ea6ce51d456e896349d4&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Sequlize详解
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-04-18</title>
@@ -430,28 +452,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://wanago.io/2019/03/18/node-js-typescript-6-sending-http-requests-understanding-multipart-form-data/&quot; rel=&quot;extern
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-03-19</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190319/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190319/</id>
-    <published>2019-03-19T09:05:46.000Z</published>
-    <updated>2019-03-20T01:18:43.812Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://mp.weixin.qq.com/s/areoQX6grL6-XXZ5XYOmhA" rel="external nofollow noopener noreferrer" target="_blank">内网穿透工具原理</a></p></li><li><p><a href="https://juejin.im/post/5c8f0c6af265da67e20a3b0e" rel="external nofollow noopener noreferrer" target="_blank">逐行分析Koa v1 中间件原理</a></p></li><li><p><a href="https://juejin.im/post/5c8e4feb6fb9a070aa5ce200" rel="external nofollow noopener noreferrer" target="_blank">PNG图片压缩原理解析–屌丝的眼泪</a></p></li><li><p><a href="https://juejin.im/post/5c8efaf951882545e85c20e2" rel="external nofollow noopener noreferrer" target="_blank">Javascript 中最长的关键字序列长什么样子</a></p></li><li><p><a href="https://juejin.im/post/5c3acfa56fb9a049f36254be" rel="external nofollow noopener noreferrer" target="_blank">从头到脚撸一个多人视频聊天 — 前端 WebRTC 实战（一)</a></p></li><li><p><a href="https://github.com/chenjiandongx/go-echarts" rel="external nofollow noopener noreferrer" target="_blank">go-echarts</a></p></li><li><p><a href="https://github.com/weiwenhao/tree-ql/blob/master/README-CN.md" rel="external nofollow noopener noreferrer" target="_blank">laravel扩展,通过简单的配置构建出一套极具描述性,可读性,且没有任何冗余的高性能API.</a></p></li><li><p><a href="https://segmentfault.com/a/1190000018553128" rel="external nofollow noopener noreferrer" target="_blank">做一个好看的红白机模拟器</a></p></li><li><p><a href="https://www.infoq.cn/article/QQyWDIemKtChvbq_rCPl" rel="external nofollow noopener noreferrer" target="_blank">没有 JS 的前端：体积更小、速度更快！</a></p></li><li><p><a href="https://juejin.im/post/5c8f47255188252dac6d261b" rel="external nofollow noopener noreferrer" target="_blank">HTTP Cache 浅析</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/areoQX6grL6-XXZ5XYOmhA&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;内网穿透工具原理
       
     
     </summary>
