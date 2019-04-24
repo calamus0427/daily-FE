@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-04-23T02:10:24.313Z</updated>
+  <updated>2019-04-24T02:28:57.117Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-04-24</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190424/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190424/</id>
+    <published>2019-04-24T09:58:03.000Z</published>
+    <updated>2019-04-24T02:28:57.117Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cb9204be51d456e541b4ccd" rel="external nofollow noopener noreferrer" target="_blank">Gitlab自动部署之一：阿里云安装Gitlab笔记</a></p></li><li><p><a href="https://zhuanlan.zhihu.com/p/63346965" rel="external nofollow noopener noreferrer" target="_blank">TypeScript - 一种思维方式</a></p></li><li><p><a href="https://juejin.im/post/5cb527aee51d456e671c7da7" rel="external nofollow noopener noreferrer" target="_blank">解析 CSS 格式化上下文</a></p></li><li><p><a href="https://juejin.im/post/5cb9e563f265da03712999e8" rel="external nofollow noopener noreferrer" target="_blank">从 IIFE 聊到 Babel 带你深入了解前端模块化发展体系</a></p></li><li><p><a href="https://juejin.im/post/5cbdee71f265da03b57b5866" rel="external nofollow noopener noreferrer" target="_blank">前端适配：移动端/web端适配方案</a></p></li><li><p><a href="https://segmentfault.com/a/1190000018964794" rel="external nofollow noopener noreferrer" target="_blank">基于vue-cli3.0构建功能完善的移动端架子</a></p></li><li><p><a href="https://segmentfault.com/a/1190000018961782" rel="external nofollow noopener noreferrer" target="_blank">前端必懂之Sticky Footer(粘性页脚)</a></p></li><li><p><a href="https://segmentfault.com/a/1190000014832185" rel="external nofollow noopener noreferrer" target="_blank">Vue页面骨架屏注入实践</a></p></li><li><p><a href="http://30ke.cn/doc/js-regexp" rel="external nofollow noopener noreferrer" target="_blank">常用JavaScript正则表达式汇编与示例</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cb9204be51d456e541b4ccd&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Gitlab自动部署
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>FE1</title>
@@ -339,9 +361,9 @@
     <link href="https://calamus.wiki/daily-FE/articles/%E5%89%8D%E7%AB%AF%E5%AE%9E%E7%94%A8%E7%BD%91%E7%AB%99/"/>
     <id>https://calamus.wiki/daily-FE/articles/前端实用网站/</id>
     <published>2019-04-02T09:42:42.000Z</published>
-    <updated>2019-04-02T01:53:05.235Z</updated>
+    <updated>2019-04-24T02:28:57.117Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前端社区"><a href="#前端社区" class="headerlink" title="前端社区"></a>前端社区</h1><ul><li><a href="https://cnodejs.org/" rel="external nofollow noopener noreferrer" target="_blank">cnodejs</a></li></ul><h1 id="vue相关"><a href="#vue相关" class="headerlink" title="vue相关"></a>vue相关</h1><ul><li><a href="http://hcysun.me/vue-design/art/" rel="external nofollow noopener noreferrer" target="_blank">vue技术内幕</a><h2 id="vue插件"><a href="#vue插件" class="headerlink" title="vue插件"></a>vue插件</h2></li></ul><h1 id="node相关"><a href="#node相关" class="headerlink" title="node相关"></a>node相关</h1><ul><li><a href="https://eggjs.org/" rel="external nofollow noopener noreferrer" target="_blank">egg</a></li></ul><h1 id="大佬的博客"><a href="#大佬的博客" class="headerlink" title="大佬的博客"></a>大佬的博客</h1><ul><li><a href="https://www.calamus.xyz" rel="external nofollow noopener noreferrer" target="_blank">calamus(我自己的渣渣博客要放到第一个)</a></li><li><a href="http://blog.cnbang.net/archives/" rel="external nofollow noopener noreferrer" target="_blank">bang’s blog</a></li></ul><h1 id="开发规范"><a href="#开发规范" class="headerlink" title="开发规范"></a>开发规范</h1><ul><li><a href="http://alloyteam.github.io/CodeGuide/" rel="external nofollow noopener noreferrer" target="_blank">腾讯代码规范</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="前端社区"><a href="#前端社区" class="headerlink" title="前端社区"></a>前端社区</h1><ul><li><a href="https://cnodejs.org/" rel="external nofollow noopener noreferrer" target="_blank">cnodejs</a></li></ul><h1 id="vue相关"><a href="#vue相关" class="headerlink" title="vue相关"></a>vue相关</h1><ul><li><a href="http://hcysun.me/vue-design/art/" rel="external nofollow noopener noreferrer" target="_blank">vue技术内幕</a><h2 id="vue插件"><a href="#vue插件" class="headerlink" title="vue插件"></a>vue插件</h2></li></ul><h1 id="node相关"><a href="#node相关" class="headerlink" title="node相关"></a>node相关</h1><ul><li><a href="https://eggjs.org/" rel="external nofollow noopener noreferrer" target="_blank">egg</a></li></ul><h1 id="大佬的博客"><a href="#大佬的博客" class="headerlink" title="大佬的博客"></a>大佬的博客</h1><ul><li><a href="https://www.calamus.xyz" rel="external nofollow noopener noreferrer" target="_blank">calamus(我自己的渣渣博客要放到第一个)</a></li><li><a href="http://blog.cnbang.net/archives/" rel="external nofollow noopener noreferrer" target="_blank">bang’s blog</a></li></ul><h1 id="开发规范"><a href="#开发规范" class="headerlink" title="开发规范"></a>开发规范</h1><ul><li><a href="http://alloyteam.github.io/CodeGuide/" rel="external nofollow noopener noreferrer" target="_blank">腾讯代码规范</a></li></ul><h1 id="常用代码"><a href="#常用代码" class="headerlink" title="常用代码"></a>常用代码</h1><ul><li><a href="http://30ke.cn/doc/js-regexp" rel="external nofollow noopener noreferrer" target="_blank">常用JavaScript正则表达式汇编与示例</a></li></ul>]]></content>
     
     <summary type="html">
     
@@ -417,28 +439,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5c99c17df265da6129788ae2&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;小菜前端的技术栈是如
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-03-27</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190327/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190327/</id>
-    <published>2019-03-27T08:58:35.000Z</published>
-    <updated>2019-03-27T00:59:21.915Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5c9731b96fb9a070ca104057" rel="external nofollow noopener noreferrer" target="_blank">如何开发一款 60fps 的“无缝滚动”插件</a></p></li><li><p><a href="https://juejin.im/post/5c98c978f265da60f00ed943" rel="external nofollow noopener noreferrer" target="_blank">图片压缩Canvas</a></p></li><li><p><a href="https://mariusschulz.com/blog/typescript-2-9-passing-generics-to-jsx-elements" rel="external nofollow noopener noreferrer" target="_blank">TypeScript 2.9: Passing Generics to JSX Elements</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5c9731b96fb9a070ca104057&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;如何开发一款 60f
       
     
     </summary>
