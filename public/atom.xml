@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-04-24T02:28:57.117Z</updated>
+  <updated>2019-04-25T02:39:40.010Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-04-25</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190425/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190425/</id>
+    <published>2019-04-25T08:21:01.000Z</published>
+    <updated>2019-04-25T02:39:40.010Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cbda50e6fb9a03212505511" rel="external nofollow noopener noreferrer" target="_blank">我们或许不需要 React 的 Form 组件</a></p></li><li><p><a href="https://juejin.im/post/5cb85ee05188251b1457a2d9" rel="external nofollow noopener noreferrer" target="_blank">CSS——CSS 给文本加样式：② 文本属性</a></p></li><li><p><a href="https://juejin.im/post/5cbc7700e51d456e8c1d3c52" rel="external nofollow noopener noreferrer" target="_blank">这次我要上SSR</a></p></li><li><p><a href="https://juejin.im/post/5cbfdd356fb9a031fe3bc80b" rel="external nofollow noopener noreferrer" target="_blank">带你从0开发图表库系列-初具雏形</a></p></li><li><p><a href="https://juejin.im/post/5cbf192de51d456e27504bdb" rel="external nofollow noopener noreferrer" target="_blank">如何选择正确的Node框架：Express，Koa还是Hapi？</a></p></li><li><p><a href="https://juejin.im/post/5cbdbea3f265da037875967f" rel="external nofollow noopener noreferrer" target="_blank">用vue2.6实现一个抖音很火的【时间轮盘】屏保小DEMO</a></p></li><li><p><a href="https://juejin.im/post/5cbfdeca6fb9a032514baf0c" rel="external nofollow noopener noreferrer" target="_blank">Node 12 值得关注的新特性</a></p></li><li><p><a href="https://juejin.im/post/5cb895d4e51d456e4e08864b" rel="external nofollow noopener noreferrer" target="_blank">egg+vue 管理后台系统的权限认证与控制</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cbda50e6fb9a03212505511&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;我们或许不需要 Re
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-04-24</title>
@@ -417,28 +439,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;https://juejin.im/post/5ca057966fb9a05e1a7a960c&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;小球运动-常规&lt;/a&gt;&lt;/
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-03-28</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190328/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190328/</id>
-    <published>2019-03-28T09:02:50.000Z</published>
-    <updated>2019-03-28T01:04:05.236Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5c99c17df265da6129788ae2" rel="external nofollow noopener noreferrer" target="_blank">小菜前端的技术栈是如何规划和演进的</a></p></li><li><p><a href="https://juejin.im/post/5c9a1645e51d4559bb5c666f" rel="external nofollow noopener noreferrer" target="_blank">实现高度“听话”的多行文本输入框</a></p></li><li><p><a href="https://juejin.im/post/5c98d208e51d4528b443f35d" rel="external nofollow noopener noreferrer" target="_blank">Promise 其实很简单</a></p></li><li><p><a href="https://www.codesky.me/archives/frontend-normalize.wind" rel="external nofollow noopener noreferrer" target="_blank">前端与数据归一化</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5c99c17df265da6129788ae2&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;小菜前端的技术栈是如
       
     
     </summary>
