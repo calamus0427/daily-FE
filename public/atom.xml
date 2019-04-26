@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-04-25T02:39:40.010Z</updated>
+  <updated>2019-04-26T02:06:15.633Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-04-26</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190426/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190426/</id>
+    <published>2019-04-26T09:30:20.000Z</published>
+    <updated>2019-04-26T02:06:15.633Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cc16951e51d45400f5d5852" rel="external nofollow noopener noreferrer" target="_blank">一百行js代码实现一个校验工具</a></p></li><li><p><a href="https://juejin.im/post/5cbd30e7e51d456e803516ba" rel="external nofollow noopener noreferrer" target="_blank">一次Web端大量图片同时加载卡顿问题的优化之旅</a></p></li><li><p><a href="https://juejin.im/post/5ca0df87f265da30827a10f7" rel="external nofollow noopener noreferrer" target="_blank">【译】缓存 React 中事件监听来提升性能</a></p></li><li><p><a href="https://juejin.im/post/5cc02aacf265da039e1ff3fa" rel="external nofollow noopener noreferrer" target="_blank">「全栈之路」Web前端开发的后端指南</a></p></li><li><p><a href="https://juejin.im/post/5cc089eae51d456e7d189f9d" rel="external nofollow noopener noreferrer" target="_blank">可能是最全的前端动效库汇总</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cc16951e51d45400f5d5852&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;一百行js代码实现一
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-04-25</title>
@@ -417,28 +439,6 @@
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/996icu/996.ICU&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;996.ICU&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;l
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-04-01</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190401/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190401/</id>
-    <published>2019-04-01T09:32:52.000Z</published>
-    <updated>2019-04-01T01:34:18.961Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><a href="https://juejin.im/post/5ca057966fb9a05e1a7a960c" rel="external nofollow noopener noreferrer" target="_blank">小球运动-常规</a></li></ol><ol start="2"><li><p><a href="https://juejin.im/post/5c9c2951518825159a092dfb" rel="external nofollow noopener noreferrer" target="_blank">嫌图标插件太大？canvas自制罗盘仪</a></p></li><li><p><a href="https://juejin.im/post/5c9f112751882567f8529586" rel="external nofollow noopener noreferrer" target="_blank">「前端那些事儿」④ 性能监控</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://juejin.im/post/5ca057966fb9a05e1a7a960c&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;小球运动-常规&lt;/a&gt;&lt;/
       
     
     </summary>
