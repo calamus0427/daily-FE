@@ -96,17 +96,17 @@
 
 
 
-  <meta name="description" content="前端性能监控：你了解 Performance Timeline Level 2 吗？   【译】JavaScript 的内存模型  《HTTP/2 基础教程》 读书笔记  开发Vue组件系列之模态框  「Vue进阶」5分钟撸一个Vue CLI 插件  人生不过一场绚烂循环  基于 HTML5 WebGL 智能城市的模拟运行  给localStorage加上过期时间">
+  <meta name="description" content="使用webpack4搭建一个基于Vue的组件库  Vue UI组件库开发经验漫谈  创建, 发布自己的 Vue UI 组件库  从零开始搭建Vue组件库 VV-UI">
 <meta property="og:type" content="article">
-<meta property="og:title" content="2019-04-18">
-<meta property="og:url" content="https://calamus.wiki/daily-FE/articles/20190418/index.html">
+<meta property="og:title" content="vue组件库开发">
+<meta property="og:url" content="https://calamus.wiki/daily-FE/articles/vue组件库开发/index.html">
 <meta property="og:site_name" content="每日前端">
-<meta property="og:description" content="前端性能监控：你了解 Performance Timeline Level 2 吗？   【译】JavaScript 的内存模型  《HTTP/2 基础教程》 读书笔记  开发Vue组件系列之模态框  「Vue进阶」5分钟撸一个Vue CLI 插件  人生不过一场绚烂循环  基于 HTML5 WebGL 智能城市的模拟运行  给localStorage加上过期时间">
+<meta property="og:description" content="使用webpack4搭建一个基于Vue的组件库  Vue UI组件库开发经验漫谈  创建, 发布自己的 Vue UI 组件库  从零开始搭建Vue组件库 VV-UI">
 <meta property="og:locale" content="zh">
-<meta property="og:updated_time" content="2019-04-18T02:03:30.273Z">
+<meta property="og:updated_time" content="2019-04-29T10:16:04.042Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="2019-04-18">
-<meta name="twitter:description" content="前端性能监控：你了解 Performance Timeline Level 2 吗？   【译】JavaScript 的内存模型  《HTTP/2 基础教程》 读书笔记  开发Vue组件系列之模态框  「Vue进阶」5分钟撸一个Vue CLI 插件  人生不过一场绚烂循环  基于 HTML5 WebGL 智能城市的模拟运行  给localStorage加上过期时间">
+<meta name="twitter:title" content="vue组件库开发">
+<meta name="twitter:description" content="使用webpack4搭建一个基于Vue的组件库  Vue UI组件库开发经验漫谈  创建, 发布自己的 Vue UI 组件库  从零开始搭建Vue组件库 VV-UI">
 
 
 
@@ -115,7 +115,7 @@
 
 
 
-  <link rel="canonical" href="https://calamus.wiki/daily-FE/articles/20190418/">
+  <link rel="canonical" href="https://calamus.wiki/daily-FE/articles/vue组件库开发/">
 
 
 
@@ -125,7 +125,7 @@
   };
 </script>
 
-  <title>2019-04-18 | 每日前端</title>
+  <title>vue组件库开发 | 每日前端</title>
   
 
 
@@ -369,7 +369,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://calamus.wiki/daily-FE/daily-FE/articles/20190418/">
+    <link itemprop="mainEntityOfPage" href="https://calamus.wiki/daily-FE/daily-FE/articles/vue组件库开发/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Calamus">
@@ -386,7 +386,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">2019-04-18
+          <h1 class="post-title" itemprop="name headline">vue组件库开发
 
               
             
@@ -412,7 +412,7 @@
                 
               
 
-              <time title="Created: 2019-04-18 09:11:23 / Modified: 02:03:30" itemprop="dateCreated datePublished" datetime="2019-04-18T09:11:23Z">2019-04-18</time>
+              <time title="Created: 2019-04-29 18:03:11 / Modified: 10:16:04" itemprop="dateCreated datePublished" datetime="2019-04-29T18:03:11Z">2019-04-29</time>
             
 
             
@@ -434,8 +434,8 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
             
-                <a href="/daily-FE/articles/20190418/#comments" itemprop="discussionUrl">
-                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count valine-comment-count" data-xid="/daily-FE/articles/20190418/" itemprop="commentCount"></span>
+                <a href="/daily-FE/articles/vue组件库开发/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count valine-comment-count" data-xid="/daily-FE/articles/vue组件库开发/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -443,7 +443,7 @@
 
           
           
-            <span id="/daily-FE/articles/20190418/" class="leancloud_visitors" data-flag-title="2019-04-18">
+            <span id="/daily-FE/articles/vue组件库开发/" class="leancloud_visitors" data-flag-title="vue组件库开发">
               <span class="post-meta-divider">|</span>
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
@@ -481,25 +481,16 @@
       
 
       
-        <ol>
-<li><a href="https://juejin.im/post/5cb19aece51d456e4037727e" rel="external nofollow noopener noreferrer" target="_blank">前端性能监控：你了解 Performance Timeline Level 2 吗？</a></li>
-</ol>
-<ol start="2">
-<li><p><a href="https://juejin.im/post/5cb3ceb5f265da03a54c0f88" rel="external nofollow noopener noreferrer" target="_blank">【译】JavaScript 的内存模型</a></p>
+        <ul>
+<li><p><a href="https://segmentfault.com/a/1190000015877664" rel="external nofollow noopener noreferrer" target="_blank">使用webpack4搭建一个基于Vue的组件库</a></p>
 </li>
-<li><p><a href="https://juejin.im/post/5cb54286e51d456e235d9be6" rel="external nofollow noopener noreferrer" target="_blank">《HTTP/2 基础教程》 读书笔记</a></p>
+<li><p><a href="https://www.jianshu.com/p/dbc008d92121" rel="external nofollow noopener noreferrer" target="_blank">Vue UI组件库开发经验漫谈</a></p>
 </li>
-<li><p><a href="https://juejin.im/post/5cb719ac6fb9a0689173a76f" rel="external nofollow noopener noreferrer" target="_blank">开发Vue组件系列之模态框</a></p>
+<li><p><a href="https://blog.csdn.net/baidu_25464429/article/details/81153798" rel="external nofollow noopener noreferrer" target="_blank">创建, 发布自己的 Vue UI 组件库</a></p>
 </li>
-<li><p><a href="https://juejin.im/post/5cb59c4bf265da03a743e979" rel="external nofollow noopener noreferrer" target="_blank">「Vue进阶」5分钟撸一个Vue CLI 插件</a></p>
+<li><p><a href="https://www.cnblogs.com/tiedaweishao/p/7825997.html" rel="external nofollow noopener noreferrer" target="_blank">从零开始搭建Vue组件库 VV-UI</a></p>
 </li>
-<li><p><a href="https://juejin.im/post/5cb422646fb9a068973ed129" rel="external nofollow noopener noreferrer" target="_blank">人生不过一场绚烂循环</a></p>
-</li>
-<li><p><a href="https://juejin.im/post/5cb66d98518825401f79a731" rel="external nofollow noopener noreferrer" target="_blank">基于 HTML5 WebGL 智能城市的模拟运行</a></p>
-</li>
-<li><p><a href="https://juejin.im/post/5cb6f656f265da036c5780ae" rel="external nofollow noopener noreferrer" target="_blank">给localStorage加上过期时间</a></p>
-</li>
-</ol>
+</ul>
 
       
     </div>
@@ -633,8 +624,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/daily-FE/articles/20190417/" rel="next" title="2019-04-17">
-                <i class="fa fa-chevron-left"></i> 2019-04-17
+              <a href="/daily-FE/articles/20190429/" rel="next" title="2019-04-29">
+                <i class="fa fa-chevron-left"></i> 2019-04-29
               </a>
             
           </div>
@@ -642,10 +633,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/daily-FE/articles/20190419/" rel="prev" title="20190419">
-                20190419 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>

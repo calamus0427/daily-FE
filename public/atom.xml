@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-04-29T01:55:12.638Z</updated>
+  <updated>2019-04-29T10:16:04.042Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vue组件库开发</title>
+    <link href="https://calamus.wiki/daily-FE/articles/vue%E7%BB%84%E4%BB%B6%E5%BA%93%E5%BC%80%E5%8F%91/"/>
+    <id>https://calamus.wiki/daily-FE/articles/vue组件库开发/</id>
+    <published>2019-04-29T18:03:11.000Z</published>
+    <updated>2019-04-29T10:16:04.042Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><p><a href="https://segmentfault.com/a/1190000015877664" rel="external nofollow noopener noreferrer" target="_blank">使用webpack4搭建一个基于Vue的组件库</a></p></li><li><p><a href="https://www.jianshu.com/p/dbc008d92121" rel="external nofollow noopener noreferrer" target="_blank">Vue UI组件库开发经验漫谈</a></p></li><li><p><a href="https://blog.csdn.net/baidu_25464429/article/details/81153798" rel="external nofollow noopener noreferrer" target="_blank">创建, 发布自己的 Vue UI 组件库</a></p></li><li><p><a href="https://www.cnblogs.com/tiedaweishao/p/7825997.html" rel="external nofollow noopener noreferrer" target="_blank">从零开始搭建Vue组件库 VV-UI</a></p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://segmentfault.com/a/1190000015877664&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;使用webpack4搭建一个
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-04-29</title>
@@ -415,28 +437,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5ca995626fb9a05e1a7aabd8&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;从 JS 编译原理到
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-04-03</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190403/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190403/</id>
-    <published>2019-04-03T09:27:30.000Z</published>
-    <updated>2019-04-03T02:12:16.572Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="http://kazupon.github.io/vue-i18n/installation.html" rel="external nofollow noopener noreferrer" target="_blank">Vue I18n</a></p></li><li><p><a href="http://avalonjs.coding.me/who.html" rel="external nofollow noopener noreferrer" target="_blank">avalon 2</a></p></li><li><p><a href="https://juejin.im/post/5ca2e1935188254416288eb2" rel="external nofollow noopener noreferrer" target="_blank">ES6、ES7、ES8、ES9、ES10新特性一览</a></p></li><li><p><a href="https://juejin.im/post/5ca2e15f6fb9a05e4f057f75" rel="external nofollow noopener noreferrer" target="_blank">掘金 AMA：腾讯 Omi 框架作者–dntzhang 聊前端开发、谈学习路径和技术进阶</a></p></li><li><p><a href="https://juejin.im/post/5ca321f76fb9a05e5d09bb8a" rel="external nofollow noopener noreferrer" target="_blank">为什么 Node 是小菜前端团队的核心技术栈</a></p></li><li><p><a href="https://juejin.im/post/5ca2fa5551882543db10d489" rel="external nofollow noopener noreferrer" target="_blank">[译] 从没有人告诉过我的 CSS 小知识</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://kazupon.github.io/vue-i18n/installation.html&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Vue I1
       
     
     </summary>
