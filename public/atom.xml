@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-04-28T01:26:21.570Z</updated>
+  <updated>2019-04-29T01:55:12.638Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-04-29</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190429/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190429/</id>
+    <published>2019-04-29T09:14:48.000Z</published>
+    <updated>2019-04-29T01:55:12.638Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cbe76d8f265da036d79bbe5" rel="external nofollow noopener noreferrer" target="_blank">从0到1完成一个Babel插件</a></p></li><li><p><a href="https://juejin.im/post/5cc2c24ae51d456e6d1334ef" rel="external nofollow noopener noreferrer" target="_blank">3D应用开发中的欧拉角和旋转矩阵</a></p></li><li><p><a href="https://juejin.im/post/5cc52fdff265da038c021d08" rel="external nofollow noopener noreferrer" target="_blank">5G到来，App的未来，是JavaScript，Flutter还是Native ？</a></p></li><li><p><a href="https://juejin.im/post/5cc55eb5e51d456e577f93f0" rel="external nofollow noopener noreferrer" target="_blank">JS无形装逼，最为致命</a></p></li><li><p>实现页面截图</p></li></ol><ul><li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Tutorial" rel="external nofollow noopener noreferrer" target="_blank">canvas</a><br>创建一个包含XML的SVG图像涉及到的元素为<foreignobject>，将DOM改写为canvas，然后利用canvas的toDataURL方法实现将DOM输出为包含图片展示的data url。</foreignobject></li><li>使用<a href="https://github.com/niklasvh/html2canvas" rel="external nofollow noopener noreferrer" target="_blank">HtmlCanvas2</a>实现。</li><li>使用<a href="https://github.com/cburgmer/rasterizeHTML.js" rel="external nofollow noopener noreferrer" target="_blank">rasterizeHTML.js</a>实现。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cbe76d8f265da036d79bbe5&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;从0到1完成一个Ba
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-04-28</title>
@@ -415,28 +437,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://kazupon.github.io/vue-i18n/installation.html&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Vue I1
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>前端实用网站</title>
-    <link href="https://calamus.wiki/daily-FE/articles/%E5%89%8D%E7%AB%AF%E5%AE%9E%E7%94%A8%E7%BD%91%E7%AB%99/"/>
-    <id>https://calamus.wiki/daily-FE/articles/前端实用网站/</id>
-    <published>2019-04-02T09:42:42.000Z</published>
-    <updated>2019-04-24T02:28:57.117Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="前端社区"><a href="#前端社区" class="headerlink" title="前端社区"></a>前端社区</h1><ul><li><a href="https://cnodejs.org/" rel="external nofollow noopener noreferrer" target="_blank">cnodejs</a></li></ul><h1 id="vue相关"><a href="#vue相关" class="headerlink" title="vue相关"></a>vue相关</h1><ul><li><a href="http://hcysun.me/vue-design/art/" rel="external nofollow noopener noreferrer" target="_blank">vue技术内幕</a><h2 id="vue插件"><a href="#vue插件" class="headerlink" title="vue插件"></a>vue插件</h2></li></ul><h1 id="node相关"><a href="#node相关" class="headerlink" title="node相关"></a>node相关</h1><ul><li><a href="https://eggjs.org/" rel="external nofollow noopener noreferrer" target="_blank">egg</a></li></ul><h1 id="大佬的博客"><a href="#大佬的博客" class="headerlink" title="大佬的博客"></a>大佬的博客</h1><ul><li><a href="https://www.calamus.xyz" rel="external nofollow noopener noreferrer" target="_blank">calamus(我自己的渣渣博客要放到第一个)</a></li><li><a href="http://blog.cnbang.net/archives/" rel="external nofollow noopener noreferrer" target="_blank">bang’s blog</a></li></ul><h1 id="开发规范"><a href="#开发规范" class="headerlink" title="开发规范"></a>开发规范</h1><ul><li><a href="http://alloyteam.github.io/CodeGuide/" rel="external nofollow noopener noreferrer" target="_blank">腾讯代码规范</a></li></ul><h1 id="常用代码"><a href="#常用代码" class="headerlink" title="常用代码"></a>常用代码</h1><ul><li><a href="http://30ke.cn/doc/js-regexp" rel="external nofollow noopener noreferrer" target="_blank">常用JavaScript正则表达式汇编与示例</a></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;前端社区&quot;&gt;&lt;a href=&quot;#前端社区&quot; class=&quot;headerlink&quot; title=&quot;前端社区&quot;&gt;&lt;/a&gt;前端社区&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://cnodejs.org/&quot; rel=&quot;external nofollow no
       
     
     </summary>
