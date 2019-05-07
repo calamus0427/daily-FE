@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-05-06T01:51:12.859Z</updated>
+  <updated>2019-05-07T02:16:22.184Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -17,13 +17,57 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>跨端框架</title>
+    <link href="https://calamus.wiki/daily-FE/articles/three/"/>
+    <id>https://calamus.wiki/daily-FE/articles/three/</id>
+    <published>2019-05-07T10:15:34.000Z</published>
+    <updated>2019-05-07T02:16:22.184Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><a href="https://cml.js.org/#/" rel="external nofollow noopener noreferrer" target="_blank">Chameleon 变色龙</a><br> 滴滴开源的跨端框架：一套代码运行多端，一端所见即多端所见</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://cml.js.org/#/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Chameleon 变色龙&lt;/a&gt;&lt;br&gt; 滴滴开源的跨端框架：一套代码运行多
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2019-05-07</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190507/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190507/</id>
+    <published>2019-05-07T09:17:32.000Z</published>
+    <updated>2019-05-07T02:14:38.818Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://leaverou.github.io/css3patterns/#" rel="external nofollow noopener noreferrer" target="_blank">CSS3 Patterns Gallery</a></p></li><li><p><a href="https://bennettfeely.com/" rel="external nofollow noopener noreferrer" target="_blank">Bennett Feely Blog</a></p></li><li><p><a href="https://juejin.im/post/5cccf5b0e51d453a907b4af1" rel="external nofollow noopener noreferrer" target="_blank">vue的列表交错过渡</a></p></li><li><p><a href="https://juejin.im/post/5cc7afdde51d456e671c7e48" rel="external nofollow noopener noreferrer" target="_blank">灵活运用JavaScript开发技巧</a></p></li><li><p><a href="https://juejin.im/post/5ccf98eae51d453a4a357e4a" rel="external nofollow noopener noreferrer" target="_blank">这几个概念你可能还是没搞清require、import和export</a></p></li><li><p><a href="https://juejin.im/post/5cd0bdfc6fb9a031f10ca08c" rel="external nofollow noopener noreferrer" target="_blank">高级前端工程师面试必备（持续更新中）</a></p></li><li><p><a href="https://juejin.im/post/5ccfa5be51882540407a1bbc" rel="external nofollow noopener noreferrer" target="_blank">利用babel(AST)优雅地解决0.1+0.2！=0.3的问题</a></p></li><li><p><a href="https://juejin.im/post/5ccfa5aae51d45368c317c83" rel="external nofollow noopener noreferrer" target="_blank">Chameleon跨端框架——一个理想主义团队的开源作品</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://leaverou.github.io/css3patterns/#&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;CSS3 Patterns Ga
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>2019-05-06</title>
     <link href="https://calamus.wiki/daily-FE/articles/20190506/"/>
     <id>https://calamus.wiki/daily-FE/articles/20190506/</id>
     <published>2019-05-06T09:31:37.000Z</published>
-    <updated>2019-05-06T01:51:12.859Z</updated>
+    <updated>2019-05-06T01:59:42.999Z</updated>
     
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cce2a4651882541992d447c" rel="external nofollow noopener noreferrer" target="_blank">【译】10 个你不知道你需要的 HTML 元素</a></p></li><li><p><a href="https://juejin.im/post/5cc5b7516fb9a032086dd7a1" rel="external nofollow noopener noreferrer" target="_blank">小程序之蓝牙的使用</a></p></li><li><p><a href="https://mp.weixin.qq.com/s/Se8zSslA4duRzjmgXOP8Ig" rel="external nofollow noopener noreferrer" target="_blank">Map与WeakMap</a></p></li><li><p><a href="https://juejin.im/post/5cce4b1cf265da0373719819" rel="external nofollow noopener noreferrer" target="_blank">[手把手系列之]Docker 部署 vue 项目</a></p></li><li><p><a href="https://juejin.im/post/5cced0096fb9a032426510ad" rel="external nofollow noopener noreferrer" target="_blank">细谈 vue - slot 篇</a></p></li><li><p><a href="https://juejin.im/post/5cceb99fe51d453a59418b75" rel="external nofollow noopener noreferrer" target="_blank">透过Keep-Alive实现防抖&amp;节流组件</a></p></li><li><p><a href="https://juejin.im/post/5cce49036fb9a031eb58a8f9" rel="external nofollow noopener noreferrer" target="_blank">彻底揭秘keep-alive原理</a></p></li><li><p><a href="https://juejin.im/post/5cce9b976fb9a0322415aba4" rel="external nofollow noopener noreferrer" target="_blank">[译] 使用 VS Code 调试 Node.js 的超简单方法</a></p></li></ol>]]></content>
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cce2a4651882541992d447c" rel="external nofollow noopener noreferrer" target="_blank">【译】10 个你不知道你需要的 HTML 元素</a></p></li><li><p><a href="https://juejin.im/post/5cc5b7516fb9a032086dd7a1" rel="external nofollow noopener noreferrer" target="_blank">小程序之蓝牙的使用</a></p></li><li><p><a href="https://mp.weixin.qq.com/s/Se8zSslA4duRzjmgXOP8Ig" rel="external nofollow noopener noreferrer" target="_blank">Map与WeakMap</a></p></li><li><p><a href="https://juejin.im/post/5cce4b1cf265da0373719819" rel="external nofollow noopener noreferrer" target="_blank">[手把手系列之]Docker 部署 vue 项目</a></p></li><li><p><a href="https://juejin.im/post/5cced0096fb9a032426510ad" rel="external nofollow noopener noreferrer" target="_blank">细谈 vue - slot 篇</a></p></li><li><p><a href="https://juejin.im/post/5cceb99fe51d453a59418b75" rel="external nofollow noopener noreferrer" target="_blank">透过Keep-Alive实现防抖&amp;节流组件</a></p></li><li><p><a href="https://juejin.im/post/5cce49036fb9a031eb58a8f9" rel="external nofollow noopener noreferrer" target="_blank">彻底揭秘keep-alive原理</a></p></li><li><p><a href="https://juejin.im/post/5cce9b976fb9a0322415aba4" rel="external nofollow noopener noreferrer" target="_blank">[译] 使用 VS Code 调试 Node.js 的超简单方法</a></p></li><li><p><a href="https://juejin.im/post/5cbc8b38e51d456e6b5d7dbe" rel="external nofollow noopener noreferrer" target="_blank">InteractiveGraph 实现酷炫关系图谱之前瞻</a></p></li><li><p><a href="https://github.com/grapheco/InteractiveGraph" rel="external nofollow noopener noreferrer" target="_blank">InteractiveGraph</a></p></li></ol>]]></content>
     
     <summary type="html">
     
@@ -393,50 +437,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5ca778a9e51d456a41708bd8&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;用 canvas 做
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-04-12</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190412/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190412/</id>
-    <published>2019-04-12T09:05:17.000Z</published>
-    <updated>2019-04-12T01:11:13.430Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cadc358e51d456e5633ddb2" rel="external nofollow noopener noreferrer" target="_blank">迁移iOS API到前端并实现前后端分离（非Node.js）</a></p></li><li><p><a href="https://juejin.im/post/5caab98af265da24e238d9d2" rel="external nofollow noopener noreferrer" target="_blank">【VSC】Snippets不完全指南</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cadc358e51d456e5633ddb2&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;迁移iOS API到
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-04-11</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190411/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190411/</id>
-    <published>2019-04-11T09:17:02.000Z</published>
-    <updated>2019-04-11T01:56:39.057Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://segmentfault.com/a/1190000018785911" rel="external nofollow noopener noreferrer" target="_blank">深入前端性能监控</a></p></li><li><p><a href="https://juejin.im/post/5cab54d76fb9a0688e06566e" rel="external nofollow noopener noreferrer" target="_blank">LD | 前端一定要知道的设计常识(一) | 席克定律</a></p></li><li><p><a href="https://juejin.im/post/5cac8b28f265da0368143cfb" rel="external nofollow noopener noreferrer" target="_blank">CSS 你到底有多少长度单位？</a></p></li><li><p><a href="https://juejin.im/post/5ca0c0abe51d4553a942c17d" rel="external nofollow noopener noreferrer" target="_blank">你不知道的浏览器页面渲染机制</a></p></li><li><p><a href="https://juejin.im/post/5caddf14e51d456e3267e3de" rel="external nofollow noopener noreferrer" target="_blank">使用 d3.js 力导布局绘制资源拓扑图</a></p></li><li><p><a href="https://juejin.im/post/5caaacc0e51d452b45296487" rel="external nofollow noopener noreferrer" target="_blank">深入理解前端性能监控</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://segmentfault.com/a/1190000018785911&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;深入前端性能监控&lt;/a&gt;&lt;/
       
     
     </summary>
