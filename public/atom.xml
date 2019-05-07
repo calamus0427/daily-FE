@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-05-07T02:16:22.184Z</updated>
+  <updated>2019-05-07T04:02:30.302Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>gantt</title>
+    <link href="https://calamus.wiki/daily-FE/articles/gantt/"/>
+    <id>https://calamus.wiki/daily-FE/articles/gantt/</id>
+    <published>2019-05-07T11:52:45.000Z</published>
+    <updated>2019-05-07T04:02:30.302Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><p><a href="https://dhtmlx.com/docs/products/dhtmlxGantt/" rel="external nofollow noopener noreferrer" target="_blank">dhtmlxGantt</a><br>有开源有商业版的甘特图任务web工具，看了下代码，貌似全用div画出来的，不得不佩服一下</p></li><li><p><a href="https://www.open-open.com/blog/5035945120547344082.html" rel="external nofollow noopener noreferrer" target="_blank">采用纯Html/Javascript实现的几个甘特图</a></p></li><li><p><a href="https://codepen.io/search/pens?q=gantt&amp;page=1&amp;order=popularity&amp;depth=everything" rel="external nofollow noopener noreferrer" target="_blank">codepen</a></p></li><li><p><a href="https://codepen.io/jonathanlee/pen/KJZebM" rel="external nofollow noopener noreferrer" target="_blank">svg</a></p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://dhtmlx.com/docs/products/dhtmlxGantt/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;dhtmlxGantt&lt;
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>跨端框架</title>
@@ -43,9 +65,9 @@
     <link href="https://calamus.wiki/daily-FE/articles/20190507/"/>
     <id>https://calamus.wiki/daily-FE/articles/20190507/</id>
     <published>2019-05-07T09:17:32.000Z</published>
-    <updated>2019-05-07T02:14:38.818Z</updated>
+    <updated>2019-05-07T04:00:23.590Z</updated>
     
-    <content type="html"><![CDATA[<ol><li><p><a href="https://leaverou.github.io/css3patterns/#" rel="external nofollow noopener noreferrer" target="_blank">CSS3 Patterns Gallery</a></p></li><li><p><a href="https://bennettfeely.com/" rel="external nofollow noopener noreferrer" target="_blank">Bennett Feely Blog</a></p></li><li><p><a href="https://juejin.im/post/5cccf5b0e51d453a907b4af1" rel="external nofollow noopener noreferrer" target="_blank">vue的列表交错过渡</a></p></li><li><p><a href="https://juejin.im/post/5cc7afdde51d456e671c7e48" rel="external nofollow noopener noreferrer" target="_blank">灵活运用JavaScript开发技巧</a></p></li><li><p><a href="https://juejin.im/post/5ccf98eae51d453a4a357e4a" rel="external nofollow noopener noreferrer" target="_blank">这几个概念你可能还是没搞清require、import和export</a></p></li><li><p><a href="https://juejin.im/post/5cd0bdfc6fb9a031f10ca08c" rel="external nofollow noopener noreferrer" target="_blank">高级前端工程师面试必备（持续更新中）</a></p></li><li><p><a href="https://juejin.im/post/5ccfa5be51882540407a1bbc" rel="external nofollow noopener noreferrer" target="_blank">利用babel(AST)优雅地解决0.1+0.2！=0.3的问题</a></p></li><li><p><a href="https://juejin.im/post/5ccfa5aae51d45368c317c83" rel="external nofollow noopener noreferrer" target="_blank">Chameleon跨端框架——一个理想主义团队的开源作品</a></p></li></ol>]]></content>
+    <content type="html"><![CDATA[<ol><li><p><a href="https://leaverou.github.io/css3patterns/#" rel="external nofollow noopener noreferrer" target="_blank">CSS3 Patterns Gallery</a></p></li><li><p><a href="https://bennettfeely.com/" rel="external nofollow noopener noreferrer" target="_blank">Bennett Feely Blog</a></p></li><li><p><a href="https://juejin.im/post/5cccf5b0e51d453a907b4af1" rel="external nofollow noopener noreferrer" target="_blank">vue的列表交错过渡</a></p></li><li><p><a href="https://juejin.im/post/5cc7afdde51d456e671c7e48" rel="external nofollow noopener noreferrer" target="_blank">灵活运用JavaScript开发技巧</a></p></li><li><p><a href="https://juejin.im/post/5ccf98eae51d453a4a357e4a" rel="external nofollow noopener noreferrer" target="_blank">这几个概念你可能还是没搞清require、import和export</a></p></li><li><p><a href="https://juejin.im/post/5cd0bdfc6fb9a031f10ca08c" rel="external nofollow noopener noreferrer" target="_blank">高级前端工程师面试必备（持续更新中）</a></p></li><li><p><a href="https://juejin.im/post/5ccfa5be51882540407a1bbc" rel="external nofollow noopener noreferrer" target="_blank">利用babel(AST)优雅地解决0.1+0.2！=0.3的问题</a></p></li><li><p><a href="https://juejin.im/post/5ccfa5aae51d45368c317c83" rel="external nofollow noopener noreferrer" target="_blank">Chameleon跨端框架——一个理想主义团队的开源作品</a></p></li><li><p><a href="https://chenyeah.com/posts/458fb5c9/" rel="external nofollow noopener noreferrer" target="_blank">抖音去水印详细原理步骤</a></p></li><li><p><a href="https://gallery.echartsjs.com/editor.html?c=xrkJZ2pfeZ" rel="external nofollow noopener noreferrer" target="_blank">Echarts实现俄罗斯方块</a></p></li></ol>]]></content>
     
     <summary type="html">
     
@@ -415,28 +437,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cb00b1c6fb9a068a256b37c&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;用 Feature 
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-04-15</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190415/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190415/</id>
-    <published>2019-04-15T09:13:34.000Z</published>
-    <updated>2019-04-15T01:14:50.215Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5ca778a9e51d456a41708bd8" rel="external nofollow noopener noreferrer" target="_blank">用 canvas 做一个 DVD 待机动画</a></p></li><li><p><a href="https://juejin.im/post/5cab3d54f265da03a54bf74e" rel="external nofollow noopener noreferrer" target="_blank">【译】关于 JavaScript 的原型你应该知道的所有事情</a></p></li><li><p><a href="https://juejin.im/post/5cac63075188251af76edb89" rel="external nofollow noopener noreferrer" target="_blank">权重定位 FMP</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5ca778a9e51d456a41708bd8&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;用 canvas 做
       
     
     </summary>
