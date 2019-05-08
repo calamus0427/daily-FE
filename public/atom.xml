@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-05-07T04:02:30.302Z</updated>
+  <updated>2019-05-08T03:44:28.309Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20190508</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190508/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190508/</id>
+    <published>2019-05-08T11:39:04.000Z</published>
+    <updated>2019-05-08T03:44:28.309Z</updated>
+    
+    <content type="html"><![CDATA[<p>手机丢了，自闭了</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;手机丢了，自闭了&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>gantt</title>
@@ -415,28 +437,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cb5c3445188256c83279255&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;前端代码质量管理（一
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-04-16</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190416/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190416/</id>
-    <published>2019-04-16T09:17:57.000Z</published>
-    <updated>2019-04-16T01:29:29.982Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cb00b1c6fb9a068a256b37c" rel="external nofollow noopener noreferrer" target="_blank">用 Feature First 的方式管理前端项目复杂度</a></p></li><li><p><a href="https://zhuanlan.zhihu.com/p/34288371" rel="external nofollow noopener noreferrer" target="_blank">对称加密与非对称加密</a></p></li><li><p><a href="https://juejin.im/post/5cb078f05188251ace1fedb4" rel="external nofollow noopener noreferrer" target="_blank">第三代移动端布局方案</a></p></li><li><p><a href="https://juejin.im/post/5cb444605188251ada7e320d" rel="external nofollow noopener noreferrer" target="_blank">理理Vue细节</a></p></li><li><p><a href="https://juejin.im/post/5cb03fbee51d456e853f810b" rel="external nofollow noopener noreferrer" target="_blank">前端如何处理十万级别的大量数据</a></p></li><li><p><a href="https://juejin.im/post/5cb3eed65188251b0351f2c4" rel="external nofollow noopener noreferrer" target="_blank">封装Vue组件的一些技巧</a></p></li><li><p><a href="https://juejin.im/post/5cb1d5a3f265da03587bed99" rel="external nofollow noopener noreferrer" target="_blank">重学 JS：为啥 await 在 forEach 中不生效</a></p></li><li><p><a href="https://juejin.im/post/5cb51871f265da0368145069" rel="external nofollow noopener noreferrer" target="_blank">Vue 理解之白话 getter/setter</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cb00b1c6fb9a068a256b37c&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;用 Feature 
       
     
     </summary>
