@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-05-10T01:35:02.936Z</updated>
+  <updated>2019-05-13T02:23:20.755Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-05-13</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190513/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190513/</id>
+    <published>2019-05-13T09:54:16.000Z</published>
+    <updated>2019-05-13T02:23:20.755Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cd6387d518825682348442d" rel="external nofollow noopener noreferrer" target="_blank">TypeScript - 一种思维方式</a></p></li><li><p><a href="https://juejin.im/post/5cd0fdfc51882535ba2b442b" rel="external nofollow noopener noreferrer" target="_blank">相对时间表达式 —— 解决相对时间序列化的问题</a></p></li><li><p><a href="https://juejin.im/post/5cd67fb9f265da037129bb64" rel="external nofollow noopener noreferrer" target="_blank">[译] Javascript 中 Array.push 要比 Array.concat 快 945 倍！🤯🤔</a></p></li><li><p><a href="https://juejin.im/post/5cd7dcff51882569562224a5" rel="external nofollow noopener noreferrer" target="_blank">一张思维导图辅助你深入了解 Vue | Vue-Router | Vuex 源码架构</a></p></li><li><p><a href="https://juejin.im/post/5cd7e82b51882568ac191709" rel="external nofollow noopener noreferrer" target="_blank">webpack的那些事儿</a></p></li><li><p><a href="https://juejin.im/post/5cd7d3286fb9a0323a01d29a" rel="external nofollow noopener noreferrer" target="_blank">从今天开始，拿起VuePress打造属于自己的专属博客</a></p></li><li><p><a href="https://juejin.im/post/5cd8c361f265da03a33c5521" rel="external nofollow noopener noreferrer" target="_blank">25 岁，毕业写代码的这三年</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cd6387d518825682348442d&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;TypeScript
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-05-10</title>
@@ -415,28 +437,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cb941caf265da03a743eed2&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;css奇技淫巧-色彩
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>20190419</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190419/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190419/</id>
-    <published>2019-04-19T10:14:28.000Z</published>
-    <updated>2019-04-19T02:48:55.259Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cb3ea6ce51d456e896349d4" rel="external nofollow noopener noreferrer" target="_blank">Sequlize详解</a></p></li><li><p><a href="https://juejin.im/post/5cb35c866fb9a068b65e1eee" rel="external nofollow noopener noreferrer" target="_blank">梳理下常见的不冒泡事件</a></p></li><li><p><a href="https://css-tricks.com/using-the-web-speech-api-for-multilingual-translations/" rel="external nofollow noopener noreferrer" target="_blank">使用 Web Speech API 实现多语言翻译</a></p></li><li><p><a href="https://juejin.im/post/5cb7d7e4e51d456e51614a8e" rel="external nofollow noopener noreferrer" target="_blank">今天，小程序正式支持 SVG</a></p></li><li><p><a href="https://tencent.github.io/omi/" rel="external nofollow noopener noreferrer" target="_blank">omi</a></p></li><li><p><a href="https://juejin.im/post/5cb860a86fb9a06890705f14" rel="external nofollow noopener noreferrer" target="_blank">新人成长：新人如何快速融入技术实力强的前端团队</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cb3ea6ce51d456e896349d4&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Sequlize详解
       
     
     </summary>
