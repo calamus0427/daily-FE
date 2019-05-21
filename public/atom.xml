@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-05-20T01:37:52.756Z</updated>
+  <updated>2019-05-21T01:40:20.303Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,57 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>写Vue组件库文档的一些方法</title>
+    <link href="https://calamus.wiki/daily-FE/articles/docs/"/>
+    <id>https://calamus.wiki/daily-FE/articles/docs/</id>
+    <published>2019-05-21T09:39:03.000Z</published>
+    <updated>2019-05-21T01:40:20.303Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p>vue-markdown-loader</p></li><li><p>vuepress</p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;vue-markdown-loader&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;vuepress&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+      
+    
+    </summary>
+    
+      <category term="web" scheme="https://calamus.wiki/daily-FE/categories/web/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2019-05-21</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190521/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190521/</id>
+    <published>2019-05-21T09:21:26.000Z</published>
+    <updated>2019-05-21T03:32:23.050Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5ce288eee51d454f72302450" rel="external nofollow noopener noreferrer" target="_blank">【进阶 6-2 期】深入高阶函数应用之柯里化</a></p></li><li><p><a href="https://juejin.im/post/5ce20e0f51882545555eaa95" rel="external nofollow noopener noreferrer" target="_blank">❤520，就用CSS给你的她（他）送颗心❤</a></p></li><li><p><a href="https://juejin.im/post/5ce21064f265da1ba647bdce" rel="external nofollow noopener noreferrer" target="_blank">9012 年了，Array 数组的方法赶紧用起来！</a></p></li><li><p><a href="https://juejin.im/post/5ce21c8ee51d45109725fdbe" rel="external nofollow noopener noreferrer" target="_blank">UI组件库从1到N开发心得-组件篇</a></p></li><li><p><a href="https://juejin.im/post/5ce249896fb9a07ea712e26e" rel="external nofollow noopener noreferrer" target="_blank">时间切片（Time Slicing）</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019235155" rel="external nofollow noopener noreferrer" target="_blank">提升网站页面速度的14条最佳实践（二）</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019239162" rel="external nofollow noopener noreferrer" target="_blank">前端工作流中的hooks</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019239594" rel="external nofollow noopener noreferrer" target="_blank">如何在Canvas中添加事件</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019239906" rel="external nofollow noopener noreferrer" target="_blank">使用service worker做缓存来加快首屏速度，可行么？</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019240609" rel="external nofollow noopener noreferrer" target="_blank">怎样阅读 ECMAScript 规范？</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5ce288eee51d454f72302450&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;【进阶 6-2 期】
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-05-20</title>
@@ -241,7 +292,7 @@
     <link href="https://calamus.wiki/daily-FE/articles/three/"/>
     <id>https://calamus.wiki/daily-FE/articles/three/</id>
     <published>2019-05-07T10:15:34.000Z</published>
-    <updated>2019-05-07T02:16:22.184Z</updated>
+    <updated>2019-05-21T01:40:20.306Z</updated>
     
     <content type="html"><![CDATA[<ol><li><a href="https://cml.js.org/#/" rel="external nofollow noopener noreferrer" target="_blank">Chameleon 变色龙</a><br> 滴滴开源的跨端框架：一套代码运行多端，一端所见即多端所见</li></ol>]]></content>
     
@@ -254,6 +305,8 @@
       
     
     </summary>
+    
+      <category term="web" scheme="https://calamus.wiki/daily-FE/categories/web/"/>
     
     
   </entry>
@@ -351,7 +404,7 @@
     <link href="https://calamus.wiki/daily-FE/articles/vue%E7%BB%84%E4%BB%B6%E5%BA%93%E5%BC%80%E5%8F%91/"/>
     <id>https://calamus.wiki/daily-FE/articles/vue组件库开发/</id>
     <published>2019-04-29T18:03:11.000Z</published>
-    <updated>2019-04-30T07:56:00.870Z</updated>
+    <updated>2019-05-21T01:40:20.329Z</updated>
     
     <content type="html"><![CDATA[<ul><li><p><a href="https://www.cnblogs.com/calamus/p/10796462.html" rel="external nofollow noopener noreferrer" target="_blank">我的笔记–【造轮子】开发vue组件库meowUI</a></p></li><li><p><a href="https://segmentfault.com/a/1190000015877664" rel="external nofollow noopener noreferrer" target="_blank">使用webpack4搭建一个基于Vue的组件库</a></p></li><li><p><a href="https://www.jianshu.com/p/dbc008d92121" rel="external nofollow noopener noreferrer" target="_blank">Vue UI组件库开发经验漫谈</a></p></li><li><p><a href="https://blog.csdn.net/baidu_25464429/article/details/81153798" rel="external nofollow noopener noreferrer" target="_blank">创建, 发布自己的 Vue UI 组件库</a></p></li><li><p><a href="https://www.cnblogs.com/tiedaweishao/p/7825997.html" rel="external nofollow noopener noreferrer" target="_blank">从零开始搭建Vue组件库 VV-UI</a></p></li><li><p><a href="https://segmentfault.com/a/1190000007026819" rel="external nofollow noopener noreferrer" target="_blank">Element 一套优雅的 Vue 2 组件库是如何开发的</a></p></li></ul>]]></content>
     
@@ -364,6 +417,8 @@
       
     
     </summary>
+    
+      <category term="web" scheme="https://calamus.wiki/daily-FE/categories/web/"/>
     
     
   </entry>
@@ -405,50 +460,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cbe850a5188250a971337d1&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Tampermonk
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-04-26</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190426/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190426/</id>
-    <published>2019-04-26T09:30:20.000Z</published>
-    <updated>2019-04-26T02:06:15.633Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cc16951e51d45400f5d5852" rel="external nofollow noopener noreferrer" target="_blank">一百行js代码实现一个校验工具</a></p></li><li><p><a href="https://juejin.im/post/5cbd30e7e51d456e803516ba" rel="external nofollow noopener noreferrer" target="_blank">一次Web端大量图片同时加载卡顿问题的优化之旅</a></p></li><li><p><a href="https://juejin.im/post/5ca0df87f265da30827a10f7" rel="external nofollow noopener noreferrer" target="_blank">【译】缓存 React 中事件监听来提升性能</a></p></li><li><p><a href="https://juejin.im/post/5cc02aacf265da039e1ff3fa" rel="external nofollow noopener noreferrer" target="_blank">「全栈之路」Web前端开发的后端指南</a></p></li><li><p><a href="https://juejin.im/post/5cc089eae51d456e7d189f9d" rel="external nofollow noopener noreferrer" target="_blank">可能是最全的前端动效库汇总</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cc16951e51d45400f5d5852&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;一百行js代码实现一
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-04-25</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190425/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190425/</id>
-    <published>2019-04-25T08:21:01.000Z</published>
-    <updated>2019-04-25T02:39:40.010Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cbda50e6fb9a03212505511" rel="external nofollow noopener noreferrer" target="_blank">我们或许不需要 React 的 Form 组件</a></p></li><li><p><a href="https://juejin.im/post/5cb85ee05188251b1457a2d9" rel="external nofollow noopener noreferrer" target="_blank">CSS——CSS 给文本加样式：② 文本属性</a></p></li><li><p><a href="https://juejin.im/post/5cbc7700e51d456e8c1d3c52" rel="external nofollow noopener noreferrer" target="_blank">这次我要上SSR</a></p></li><li><p><a href="https://juejin.im/post/5cbfdd356fb9a031fe3bc80b" rel="external nofollow noopener noreferrer" target="_blank">带你从0开发图表库系列-初具雏形</a></p></li><li><p><a href="https://juejin.im/post/5cbf192de51d456e27504bdb" rel="external nofollow noopener noreferrer" target="_blank">如何选择正确的Node框架：Express，Koa还是Hapi？</a></p></li><li><p><a href="https://juejin.im/post/5cbdbea3f265da037875967f" rel="external nofollow noopener noreferrer" target="_blank">用vue2.6实现一个抖音很火的【时间轮盘】屏保小DEMO</a></p></li><li><p><a href="https://juejin.im/post/5cbfdeca6fb9a032514baf0c" rel="external nofollow noopener noreferrer" target="_blank">Node 12 值得关注的新特性</a></p></li><li><p><a href="https://juejin.im/post/5cb895d4e51d456e4e08864b" rel="external nofollow noopener noreferrer" target="_blank">egg+vue 管理后台系统的权限认证与控制</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cbda50e6fb9a03212505511&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;我们或许不需要 Re
       
     
     </summary>

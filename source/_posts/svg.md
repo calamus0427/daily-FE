@@ -2,6 +2,8 @@
 title: '常用的一些svg动画库'
 date: 2019-04-10 16:37:33
 tags:
+categories: 
+- web
 ---
 
 - [Vivus](http://maxwellito.github.io/vivus/)
