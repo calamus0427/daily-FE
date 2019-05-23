@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-05-21T01:40:20.303Z</updated>
+  <updated>2019-05-23T01:48:15.600Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-05-23</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190523/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190523/</id>
+    <published>2019-05-23T09:21:47.000Z</published>
+    <updated>2019-05-23T01:48:15.600Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5ce515fb518825642c3f42dd" rel="external nofollow noopener noreferrer" target="_blank">让前端开发者失业的技术，Flutter Web初体验</a></p></li><li><p><a href="https://juejin.im/post/5ce4171ff265da1bd04eb4f3" rel="external nofollow noopener noreferrer" target="_blank">2019 前端面试 | 知其然，并知其所以然</a></p></li><li><p><a href="https://juejin.im/post/5ccacfb96fb9a03201243cb9" rel="external nofollow noopener noreferrer" target="_blank">有助于理解前端工具的 node 知识</a></p></li><li><p><a href="https://blog.fundebug.com/2017/07/17/10-javascript-difficulties/" rel="external nofollow noopener noreferrer" target="_blank">10个JavaScript难点</a></p></li><li><p><a href="https://juejin.im/post/5ce531b65188252d215ed8b7" rel="external nofollow noopener noreferrer" target="_blank">一文教您如何通过 Docker 快速搭建各种测试环境(Mysql, Redis, Elasticsearch, MongoDB) | 建议收藏</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019265371" rel="external nofollow noopener noreferrer" target="_blank">新发布的 TypeScript 3.5 RC 作出的改进和优化</a></p></li><li><p><a href="https://mozilla.github.io/pdf.js/web/viewer.html" rel="external nofollow noopener noreferrer" target="_blank">PC项目里面使用pdf.js在线预览pdf文件功能</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5ce515fb518825642c3f42dd&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;让前端开发者失业的技
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2019-05-22</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190522/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190522/</id>
+    <published>2019-05-22T09:56:31.000Z</published>
+    <updated>2019-05-22T02:35:37.455Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5c02142fe51d4511be77aad7" rel="external nofollow noopener noreferrer" target="_blank">面试官(6): 写过『通用前端组件』吗?</a></p></li><li><p><a href="https://juejin.im/post/5afc5242f265da0b7f44bee4" rel="external nofollow noopener noreferrer" target="_blank">优雅的提交你的 Git Commit Message</a></p></li><li><p><a href="https://www.zhangxinxu.com/wordpress/2013/09/css3-animation-requestanimationframe-tween-%E5%8A%A8%E7%94%BB%E7%AE%97%E6%B3%95/" rel="external nofollow noopener noreferrer" target="_blank">CSS3动画那么强，requestAnimationFrame还有毛线用？</a></p></li><li><p><a href="https://juejin.im/post/5ce3b519f265da1bb31c0d5f" rel="external nofollow noopener noreferrer" target="_blank">7个有用的Vue开发技巧</a></p></li><li><p><a href="https://www.purgecss.com/" rel="external nofollow noopener noreferrer" target="_blank">purgecss</a></p></li><li><p><a href="https://juejin.im/post/5ce3e400f265da1bab298359" rel="external nofollow noopener noreferrer" target="_blank">VUE防抖与节流的最佳解决方案——函数式组件</a></p></li><li><p><a href="https://juejin.im/post/5ce3b267f265da1bd260c0d7" rel="external nofollow noopener noreferrer" target="_blank">jQuery老矣，尚能饭否</a></p></li><li><p><a href="https://juejin.im/post/5bc57e616fb9a05d396f3fc9" rel="external nofollow noopener noreferrer" target="_blank">前端必备自定义滚动库——iScroll</a></p></li><li><p><a href="https://www.npmjs.com/package/better-scroll" rel="external nofollow noopener noreferrer" target="_blank">better-scroll</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5c02142fe51d4511be77aad7&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;面试官(6): 写过
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>写Vue组件库文档的一些方法</title>
@@ -419,50 +463,6 @@
     </summary>
     
       <category term="web" scheme="https://calamus.wiki/daily-FE/categories/web/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-04-29</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190429/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190429/</id>
-    <published>2019-04-29T09:14:48.000Z</published>
-    <updated>2019-04-29T01:55:12.638Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cbe76d8f265da036d79bbe5" rel="external nofollow noopener noreferrer" target="_blank">从0到1完成一个Babel插件</a></p></li><li><p><a href="https://juejin.im/post/5cc2c24ae51d456e6d1334ef" rel="external nofollow noopener noreferrer" target="_blank">3D应用开发中的欧拉角和旋转矩阵</a></p></li><li><p><a href="https://juejin.im/post/5cc52fdff265da038c021d08" rel="external nofollow noopener noreferrer" target="_blank">5G到来，App的未来，是JavaScript，Flutter还是Native ？</a></p></li><li><p><a href="https://juejin.im/post/5cc55eb5e51d456e577f93f0" rel="external nofollow noopener noreferrer" target="_blank">JS无形装逼，最为致命</a></p></li><li><p>实现页面截图</p></li></ol><ul><li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Tutorial" rel="external nofollow noopener noreferrer" target="_blank">canvas</a><br>创建一个包含XML的SVG图像涉及到的元素为<foreignobject>，将DOM改写为canvas，然后利用canvas的toDataURL方法实现将DOM输出为包含图片展示的data url。</foreignobject></li><li>使用<a href="https://github.com/niklasvh/html2canvas" rel="external nofollow noopener noreferrer" target="_blank">HtmlCanvas2</a>实现。</li><li>使用<a href="https://github.com/cburgmer/rasterizeHTML.js" rel="external nofollow noopener noreferrer" target="_blank">rasterizeHTML.js</a>实现。</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cbe76d8f265da036d79bbe5&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;从0到1完成一个Ba
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-04-28</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190428/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190428/</id>
-    <published>2019-04-28T09:17:27.000Z</published>
-    <updated>2019-04-28T01:26:21.570Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cbe850a5188250a971337d1" rel="external nofollow noopener noreferrer" target="_blank">Tampermonkey还你一个干净整洁的上网体验</a></p></li><li><p><a href="https://juejin.im/post/5cc06e44f265da03a54c201b" rel="external nofollow noopener noreferrer" target="_blank">如何构建一个WEB同构应用</a></p></li><li><p><a href="https://juejin.im/post/5cbe8087e51d456e747c5355" rel="external nofollow noopener noreferrer" target="_blank">你不知道的 CSS 文档流技巧，让布局更简单</a></p></li><li><p><a href="https://juejin.im/post/5cc1da82f265da036023b628" rel="external nofollow noopener noreferrer" target="_blank">一名【合格】前端工程师的自检清单</a></p></li><li><p><a href="https://juejin.im/post/5cc3bcb0f265da03681463a0" rel="external nofollow noopener noreferrer" target="_blank">前端应该知道的web登录</a></p></li><li><p><a href="https://juejin.im/post/5cc45db8f265da037129a5f2" rel="external nofollow noopener noreferrer" target="_blank">爬虫被封怎么办？用Node构建一个私人IP代理池</a></p></li><li><p><a href="https://juejin.im/post/5cc2ef0ef265da0379417f8f" rel="external nofollow noopener noreferrer" target="_blank">WebGL 手撸3d贺卡+小草飘动滤镜</a></p></li><li><p><a href="https://juejin.im/post/5cc427776fb9a0323070d97b" rel="external nofollow noopener noreferrer" target="_blank">2019 JS经典面试题（基础+高级）</a></p></li><li><p><a href="https://juejin.im/post/5cc2b8b9e51d456e40377319" rel="external nofollow noopener noreferrer" target="_blank">前端错误监控 -【Vue】与【Sentry】的结合</a></p></li><li><p><a href="https://juejin.im/post/5cc3ee025188252512412224" rel="external nofollow noopener noreferrer" target="_blank">每日一题(开开森森学前端之Object系列)</a></p></li><li><p><a href="https://juejin.im/post/5cb03ce46fb9a068a4117ed2" rel="external nofollow noopener noreferrer" target="_blank">到底JS柯里化在项目中怎么用？</a></p></li><li><p><a href="https://juejin.im/post/5cc26dfef265da037b611738" rel="external nofollow noopener noreferrer" target="_blank">(下篇)中高级前端大厂面试秘籍，寒冬中为您保驾护航，直通大厂</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cbe850a5188250a971337d1&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Tampermonk
-      
-    
-    </summary>
     
     
   </entry>
