@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-05-23T01:48:15.600Z</updated>
+  <updated>2019-05-24T02:15:18.792Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20190524</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190524/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190524/</id>
+    <published>2019-05-24T09:48:26.000Z</published>
+    <updated>2019-05-24T02:15:18.792Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5ce604aef265da1b827a746b" rel="external nofollow noopener noreferrer" target="_blank">如何写好一个vue组件【实战篇】-写一个抽屉组件</a></p></li><li><p><a href="https://juejin.im/post/5ce694c1f265da1b6e657c84" rel="external nofollow noopener noreferrer" target="_blank">代码注释的艺术，再也不怕被说代码可读性差啦！</a></p></li><li><p><a href="https://juejin.im/post/5ce60afde51d455ca04361b1" rel="external nofollow noopener noreferrer" target="_blank">探秘 flex 上下文中神奇的自动 margin</a></p></li><li><p><a href="https://juejin.im/post/5c03b85ae51d450c740de19c" rel="external nofollow noopener noreferrer" target="_blank">面试官(7): 聊一聊 Babel?</a></p></li><li><p><a href="https://juejin.im/post/5ce24f8ae51d45106477bd45" rel="external nofollow noopener noreferrer" target="_blank">可能是你需要的react + typescript 50条规范和经验</a></p></li><li><p><a href="https://juejin.im/post/5ce74a4ef265da1b6a346deb" rel="external nofollow noopener noreferrer" target="_blank">如何选择正确的后端渲染框架：Next, Nuxt, Nest?</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019268306" rel="external nofollow noopener noreferrer" target="_blank">【整理】18种推荐的CSS命名和书写规范</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019268920" rel="external nofollow noopener noreferrer" target="_blank">30分钟用Node.js构建一个API服务器</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019274156" rel="external nofollow noopener noreferrer" target="_blank">用100行代码，完成自己的前端构建工具！</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019274437" rel="external nofollow noopener noreferrer" target="_blank">前端每日实战 168# 视频演示如何利用 Web Animation API 制作一个切换英语单词的交互动画</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019274301" rel="external nofollow noopener noreferrer" target="_blank">实用的 Web 布局技巧：Flex 主轴上的自动外边距</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5ce604aef265da1b827a746b&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;如何写好一个vue组
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-05-23</title>
@@ -439,30 +461,6 @@
       
     
     </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>vue组件库开发</title>
-    <link href="https://calamus.wiki/daily-FE/articles/vue%E7%BB%84%E4%BB%B6%E5%BA%93%E5%BC%80%E5%8F%91/"/>
-    <id>https://calamus.wiki/daily-FE/articles/vue组件库开发/</id>
-    <published>2019-04-29T18:03:11.000Z</published>
-    <updated>2019-05-21T01:40:20.329Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li><p><a href="https://www.cnblogs.com/calamus/p/10796462.html" rel="external nofollow noopener noreferrer" target="_blank">我的笔记–【造轮子】开发vue组件库meowUI</a></p></li><li><p><a href="https://segmentfault.com/a/1190000015877664" rel="external nofollow noopener noreferrer" target="_blank">使用webpack4搭建一个基于Vue的组件库</a></p></li><li><p><a href="https://www.jianshu.com/p/dbc008d92121" rel="external nofollow noopener noreferrer" target="_blank">Vue UI组件库开发经验漫谈</a></p></li><li><p><a href="https://blog.csdn.net/baidu_25464429/article/details/81153798" rel="external nofollow noopener noreferrer" target="_blank">创建, 发布自己的 Vue UI 组件库</a></p></li><li><p><a href="https://www.cnblogs.com/tiedaweishao/p/7825997.html" rel="external nofollow noopener noreferrer" target="_blank">从零开始搭建Vue组件库 VV-UI</a></p></li><li><p><a href="https://segmentfault.com/a/1190000007026819" rel="external nofollow noopener noreferrer" target="_blank">Element 一套优雅的 Vue 2 组件库是如何开发的</a></p></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.cnblogs.com/calamus/p/10796462.html&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;我的笔记–【造轮子】
-      
-    
-    </summary>
-    
-      <category term="web" scheme="https://calamus.wiki/daily-FE/categories/web/"/>
     
     
   </entry>
