@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-05-24T02:15:18.792Z</updated>
+  <updated>2019-05-27T01:34:34.201Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-09-27</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190927/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190927/</id>
+    <published>2019-05-27T09:24:48.000Z</published>
+    <updated>2019-05-27T01:34:34.201Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5ce88a3951882533182d7e7d" rel="external nofollow noopener noreferrer" target="_blank">【译】11 种在大多数教程中找不到的JavaScript技巧</a></p></li><li><p><a href="https://juejin.im/post/5ce9f666e51d45777621baf7" rel="external nofollow noopener noreferrer" target="_blank">前端面经分享|腾讯</a></p></li><li><p><a href="https://juejin.im/post/5cea1e1ae51d4510664d1652" rel="external nofollow noopener noreferrer" target="_blank">关于webpack4的14个知识点,童叟无欺</a></p></li><li><p><a href="https://juejin.im/post/5ceaaaf0e51d45508c2fb7c0" rel="external nofollow noopener noreferrer" target="_blank">中高级前端开发高频面试题</a></p></li><li><p><a href="https://juejin.im/post/5cea6e5fe51d45775e33f4de" rel="external nofollow noopener noreferrer" target="_blank">【Step-By-Step】一周面试题 &amp;&amp; 答案汇总 / 周刊01</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5ce88a3951882533182d7e7d&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;【译】11 种在大多
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>20190524</title>
@@ -436,28 +458,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://zellwk.com/blog/async-await/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;JavaScript中的async/awa
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-04-30</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190430/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190430/</id>
-    <published>2019-04-30T09:19:08.000Z</published>
-    <updated>2019-04-30T01:31:42.357Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://www.yuque.com/afx/blog/those-days" rel="external nofollow noopener noreferrer" target="_blank">【推荐】那些年的体验技术部</a></p></li><li><p><a href="https://juejin.im/post/5cc1c58a5188252da9453ae9" rel="external nofollow noopener noreferrer" target="_blank">Web 性能之 TCP 详解</a></p></li><li><p><a href="https://juejin.im/post/5cc55c336fb9a032086dd701" rel="external nofollow noopener noreferrer" target="_blank">面试官：自己搭建过vue开发环境吗？</a></p></li><li><p><a href="https://juejin.im/post/5cc6f07ce51d456e3a5f089b" rel="external nofollow noopener noreferrer" target="_blank">《三分钟阅读》7个有用的JavaScript技巧</a></p></li><li><p><a href="https://juejin.im/post/5cc64083f265da038a1480bd" rel="external nofollow noopener noreferrer" target="_blank">译】JS常用正则表达式备忘录</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.yuque.com/afx/blog/those-days&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;【推荐】那些年的体验技术部&lt;/a
       
     
     </summary>
