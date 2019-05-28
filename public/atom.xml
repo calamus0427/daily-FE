@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-05-27T01:34:34.201Z</updated>
+  <updated>2019-05-28T03:00:04.836Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>2019-09-27</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190927/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190927/</id>
+    <title>2019-05-28</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190528/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190528/</id>
+    <published>2019-05-28T09:37:45.000Z</published>
+    <updated>2019-05-28T03:00:04.836Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://mp.weixin.qq.com/s/jlYUzsyUb76RExsoFz4S2w" rel="external nofollow noopener noreferrer" target="_blank">代码神注释鉴赏，喜欢拿去用</a></p></li><li><p><a href="https://mp.weixin.qq.com/s?__biz=MjM5NDAwOTUzNA==&amp;mid=2247485242&amp;idx=1&amp;sn=25aaa79c673c49e4ac6fabc08d1d5668&amp;chksm=a68f1feb91f896fd3d56b110ada05bcf2062b4469d335e423c50321555d746c8bd28efc9a959&amp;scene=21#wechat_redirect" rel="external nofollow noopener noreferrer" target="_blank">21个奇葩注释，程序员看了都点赞</a></p></li><li><p><a href="https://juejin.im/post/5cea1f705188250640005472" rel="external nofollow noopener noreferrer" target="_blank">大型项目前端架构浅谈（8000字原创）</a></p></li><li><p><a href="https://juejin.im/post/5ceb5b4b6fb9a07ea803a87e" rel="external nofollow noopener noreferrer" target="_blank">《阿里云前端技术周刊》第六期</a></p></li><li><p><a href="https://juejin.im/post/5cea9ba86fb9a07eda02f496" rel="external nofollow noopener noreferrer" target="_blank">基于vue做一个禅道主页拖拽效果</a></p></li><li><p><a href="https://juejin.im/post/5ceb490451882532b93019df" rel="external nofollow noopener noreferrer" target="_blank">vue全家桶+Echarts+百度地图，搭建数据可视化系统（【续】接口篇）</a></p></li><li><p><a href="https://juejin.im/post/5cead18df265da1bc552405b" rel="external nofollow noopener noreferrer" target="_blank">你本可以少写些if-else</a></p></li><li><p><a href="https://juejin.im/post/5ceacf09e51d454f73356cc4" rel="external nofollow noopener noreferrer" target="_blank">你的网站或许不需要前端构建</a></p></li><li><p><a href="https://www.browsersync.io/" rel="external nofollow noopener noreferrer" target="_blank">browsersync</a></p></li><li><p><a href="https://www.jianshu.com/p/868b97794224" rel="external nofollow noopener noreferrer" target="_blank">表驱动编程总结</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/jlYUzsyUb76RExsoFz4S2w&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;代码神注释鉴赏，
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2019-05-27</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190527/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190527/</id>
     <published>2019-05-27T09:24:48.000Z</published>
-    <updated>2019-05-27T01:34:34.201Z</updated>
+    <updated>2019-05-28T01:38:08.805Z</updated>
     
     <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5ce88a3951882533182d7e7d" rel="external nofollow noopener noreferrer" target="_blank">【译】11 种在大多数教程中找不到的JavaScript技巧</a></p></li><li><p><a href="https://juejin.im/post/5ce9f666e51d45777621baf7" rel="external nofollow noopener noreferrer" target="_blank">前端面经分享|腾讯</a></p></li><li><p><a href="https://juejin.im/post/5cea1e1ae51d4510664d1652" rel="external nofollow noopener noreferrer" target="_blank">关于webpack4的14个知识点,童叟无欺</a></p></li><li><p><a href="https://juejin.im/post/5ceaaaf0e51d45508c2fb7c0" rel="external nofollow noopener noreferrer" target="_blank">中高级前端开发高频面试题</a></p></li><li><p><a href="https://juejin.im/post/5cea6e5fe51d45775e33f4de" rel="external nofollow noopener noreferrer" target="_blank">【Step-By-Step】一周面试题 &amp;&amp; 答案汇总 / 周刊01</a></p></li></ol>]]></content>
     
@@ -380,16 +402,16 @@
     <link href="https://calamus.wiki/daily-FE/articles/three/"/>
     <id>https://calamus.wiki/daily-FE/articles/three/</id>
     <published>2019-05-07T10:15:34.000Z</published>
-    <updated>2019-05-21T01:40:20.306Z</updated>
+    <updated>2019-05-28T01:49:23.846Z</updated>
     
-    <content type="html"><![CDATA[<ol><li><a href="https://cml.js.org/#/" rel="external nofollow noopener noreferrer" target="_blank">Chameleon 变色龙</a><br> 滴滴开源的跨端框架：一套代码运行多端，一端所见即多端所见</li></ol>]]></content>
+    <content type="html"><![CDATA[<ol><li><p><a href="https://cml.js.org/#/" rel="external nofollow noopener noreferrer" target="_blank">Chameleon 变色龙</a><br> 滴滴开源的跨端框架：一套代码运行多端，一端所见即多端所见（5.1 star）</p></li><li><p><a href="http://omijs.org" rel="external nofollow noopener noreferrer" target="_blank">omi</a><br> 腾讯：基于 Web Components 并支持 IE8+(omio)，小程序(omip) 和 任意前端框架集成（9k star）</p></li><li><p><a href="https://github.com/dcloudio/uni-app" rel="external nofollow noopener noreferrer" target="_blank">uni-app</a><br>7端跨端框架：uni-app 是一个使用 Vue.js 开发跨平台应用的前端框架（7.5k star）</p></li><li><p><a href="https://taro.jd.com/" rel="external nofollow noopener noreferrer" target="_blank">taro</a><br>JD:多端统一开发框架，支持用 React 的开发方式编写一次代码，生成能运行在微信/百度/支付宝/字节跳动小程序、H5、React Native 等的应用。(18.8k star)</p></li></ol>]]></content>
     
     <summary type="html">
     
       
       
         &lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://cml.js.org/#/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Chameleon 变色龙&lt;/a&gt;&lt;br&gt; 滴滴开源的跨端框架：一套代码运行多
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://cml.js.org/#/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Chameleon 变色龙&lt;/a&gt;&lt;br&gt; 滴滴开源的跨端框架：一套代码
       
     
     </summary>
@@ -436,28 +458,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cce2a4651882541992d447c&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;【译】10 个你不知
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-05-05</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190505/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190505/</id>
-    <published>2019-05-05T09:22:02.000Z</published>
-    <updated>2019-05-05T01:32:42.673Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://zellwk.com/blog/async-await/" rel="external nofollow noopener noreferrer" target="_blank">JavaScript中的async/await</a></p></li><li><p><a href="https://juejin.im/post/5ccab910f265da035378ec43" rel="external nofollow noopener noreferrer" target="_blank">《权力的游戏》3d地图-基于Mapbox customlayer </a></p></li><li><p><a href="https://segmentfault.com/a/1190000018997167?utm_source=weekly&amp;utm_medium=email&amp;utm_campaign=email_weekly" rel="external nofollow noopener noreferrer" target="_blank">技术栈：小菜前端的技术栈是如何规划和演进的</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019015346?utm_source=weekly&amp;utm_medium=email&amp;utm_campaign=email_weekly" rel="external nofollow noopener noreferrer" target="_blank">程序员笔记——如何编写优雅的Dockerfile</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019013576?utm_source=weekly&amp;utm_medium=email&amp;utm_campaign=email_weekly" rel="external nofollow noopener noreferrer" target="_blank">基于TensorFlow.js的JavaScript机器学习</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019035021?utm_source=weekly&amp;utm_medium=email&amp;utm_campaign=email_weekly" rel="external nofollow noopener noreferrer" target="_blank">从灭霸的无限手套说起</a></p></li><li><p><a href="https://segmentfault.com/q/1010000019026987?utm_source=weekly&amp;utm_medium=email&amp;utm_campaign=email_weekly" rel="external nofollow noopener noreferrer" target="_blank">for of循环中， 怎么只让他弹出一次提示</a></p></li><li><p><a href="https://juejin.im/post/5cb45a06f265da03474df54e" rel="external nofollow noopener noreferrer" target="_blank">【前端词典】提高幸福感的 9 个 CSS 技巧</a></p></li><li><p><a href="https://juejin.im/post/5cccf5b0e51d453a907b4af1" rel="external nofollow noopener noreferrer" target="_blank">vue的列表交错过渡</a></p></li><li><p><a href="https://juejin.im/post/5ccd68f0f265da039e2001c5" rel="external nofollow noopener noreferrer" target="_blank">尝试用 vue 实现灭霸打响指英雄消失的效果 demo</a></p></li><li><p><a href="https://juejin.im/post/5ccc480de51d456e671c7e57" rel="external nofollow noopener noreferrer" target="_blank">30岁的程序员，你慌了吗？</a></p></li><li><p><a href="https://juejin.im/post/5ccc3eab6fb9a0321e16b18e" rel="external nofollow noopener noreferrer" target="_blank">Vue+Express实现登录状态权限验证</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://zellwk.com/blog/async-await/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;JavaScript中的async/awa
       
     
     </summary>
