@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-05-30T02:21:24.146Z</updated>
+  <updated>2019-05-31T02:03:49.198Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-05-31</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190531/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190531/</id>
+    <published>2019-05-31T09:38:28.000Z</published>
+    <updated>2019-05-31T02:03:49.198Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cf01c0251882503050edec9" rel="external nofollow noopener noreferrer" target="_blank">『前端技术』相比后端是否只能打辅助?</a> 👍👍👍👍👍👍</p></li><li><p><a href="https://juejin.im/post/5cf0733de51d4510803ce34e" rel="external nofollow noopener noreferrer" target="_blank">你要的 React 面试知识点，都在这了</a></p></li><li><p><a href="https://juejin.im/post/5cf07db1e51d4577407b1ccb" rel="external nofollow noopener noreferrer" target="_blank">业内首个 React Native转微信小程序引擎 Alita 正式发布</a></p></li><li><p><a href="https://juejin.im/post/5cef46226fb9a07eaf2b7516" rel="external nofollow noopener noreferrer" target="_blank">一个合格的中级前端工程师必须要掌握的 28 个 JavaScript 技巧</a>👍👍👍</p></li><li><p><a href="https://juejin.im/post/5cef749451882530810e0626" rel="external nofollow noopener noreferrer" target="_blank">Vue底层架构及其应用</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019341766" rel="external nofollow noopener noreferrer" target="_blank">GitLab CI/CD 在 Node.js 项目中的实践</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019329984" rel="external nofollow noopener noreferrer" target="_blank">使用 apiDoc 为你的Node.js API 生成文档</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019342789" rel="external nofollow noopener noreferrer" target="_blank">借助CSS来管理js事件</a>👍👍👍</p></li><li><p><a href="https://segmentfault.com/a/1190000019342737" rel="external nofollow noopener noreferrer" target="_blank">Vue微信公众号兼容微信JS-SDK，使用分享等功能</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019339543" rel="external nofollow noopener noreferrer" target="_blank">Gatsby极速入门—添加博客内容页（4）</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cf01c0251882503050edec9&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;『前端技术』相比后端
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>20190530</title>
@@ -437,30 +459,6 @@
       
     
     </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>跨端框架</title>
-    <link href="https://calamus.wiki/daily-FE/articles/three/"/>
-    <id>https://calamus.wiki/daily-FE/articles/three/</id>
-    <published>2019-05-07T10:15:34.000Z</published>
-    <updated>2019-05-28T06:45:10.821Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://cml.js.org/#/" rel="external nofollow noopener noreferrer" target="_blank">Chameleon 变色龙</a><br> 滴滴开源的跨端框架：一套代码运行多端，一端所见即多端所见（5.1 star）</p></li><li><p><a href="http://omijs.org" rel="external nofollow noopener noreferrer" target="_blank">omi</a><br> 腾讯：基于 Web Components 并支持 IE8+(omio)，小程序(omip) 和 任意前端框架集成（9k star）</p></li><li><p><a href="https://github.com/dcloudio/uni-app" rel="external nofollow noopener noreferrer" target="_blank">uni-app</a><br>7端跨端框架：uni-app 是一个使用 Vue.js 开发跨平台应用的前端框架（7.5k star）</p></li><li><p><a href="https://taro.jd.com/" rel="external nofollow noopener noreferrer" target="_blank">taro</a><br>JD:多端统一开发框架，支持用 React 的开发方式编写一次代码，生成能运行在微信/百度/支付宝/字节跳动小程序、H5、React Native 等的应用。(18.8k star)</p></li><li><p><a href="https://facebook.github.io/react-native/" rel="external nofollow noopener noreferrer" target="_blank">react native</a><br>使用JavaScript和React构建本机移动应用程序(77.6k star)</p></li><li><p><a href="https://weex.apache.org/" rel="external nofollow noopener noreferrer" target="_blank">Vue weex</a><br> 阿里：基于vue构建移动跨平台UI的框架(17.5k star)</p></li><li><p><a href="https://ionicframework.com/" rel="external nofollow noopener noreferrer" target="_blank">ionic</a><br> 开源移动应用程序开发框架，可以使用Web技术轻松构建高质量的原生和渐进式Web应用程序,已经支持vue了(38.1k star)</p></li><li><p><a href="https://flutter.dev" rel="external nofollow noopener noreferrer" target="_blank">flutter</a><br>Flutter可以轻松快速地构建漂亮的移动应用程序。今年支持web端了(65.2k star)</p></li><li><p>Hybrid APP， PhoneGap/Cordova<br>比较早期的构建移动端应用工具，性能上和其他的相比较落后</p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://cml.js.org/#/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Chameleon 变色龙&lt;/a&gt;&lt;br&gt; 滴滴开源的跨端框架：一套代码
-      
-    
-    </summary>
-    
-      <category term="web" scheme="https://calamus.wiki/daily-FE/categories/web/"/>
     
     
   </entry>
