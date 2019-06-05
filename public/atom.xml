@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-06-04T01:47:40.893Z</updated>
+  <updated>2019-06-05T02:13:43.014Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,53 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>design</title>
+    <link href="https://calamus.wiki/daily-FE/articles/design/"/>
+    <id>https://calamus.wiki/daily-FE/articles/design/</id>
+    <published>2019-06-05T10:04:29.000Z</published>
+    <updated>2019-06-05T02:13:43.014Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://818ps.com/?route_id=15597002586851&amp;route=1,&amp;after_route=1" rel="external nofollow noopener noreferrer" target="_blank">图怪兽</a></p><p><a href="https://www.awwwards.com/?utm_source=nicelinks.site" rel="external nofollow noopener noreferrer" target="_blank">Awwwards - Website Awards - Best Web Design Trends</a></p><p><a href="https://dribbble.com/?utm_source=nicelinks.site" rel="external nofollow noopener noreferrer" target="_blank">Dribbble</a></p><p><a href="https://www.sketch.com/?utm_source=nicelinks.site" rel="external nofollow noopener noreferrer" target="_blank">sketch</a></p><p><a href="https://www.fotor.com.cn/?utm_source=nicelinks.site" rel="external nofollow noopener noreferrer" target="_blank">fotor懒设计</a></p><p><a href="https://modao.cc/?utm_source=nicelinks.site" rel="external nofollow noopener noreferrer" target="_blank">墨刀</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://818ps.com/?route_id=15597002586851&amp;amp;route=1,&amp;amp;after_route=1&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_
+      
+    
+    </summary>
+    
+      <category term="网站收集" scheme="https://calamus.wiki/daily-FE/categories/%E7%BD%91%E7%AB%99%E6%94%B6%E9%9B%86/"/>
+    
+      <category term="设计" scheme="https://calamus.wiki/daily-FE/categories/%E7%BD%91%E7%AB%99%E6%94%B6%E9%9B%86/%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2019-06-05</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190605/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190605/</id>
+    <published>2019-06-05T09:31:27.000Z</published>
+    <updated>2019-06-05T02:16:56.789Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://www.jeffjade.com/2019/05/31/155-arya-markdown-online-editor/?utm_source=segmentfault.com" rel="external nofollow noopener noreferrer" target="_blank">Arya - 在线 Markdown 编辑器</a></p></li><li><p><a href="https://www.strilliant.com/2017/10/26/the-best-front-end-hacking-cheatsheets-%E2%80%94-all-in-one-place/" rel="external nofollow noopener noreferrer" target="_blank">The best front-end hacking cheatsheets — all in one place.</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019364597" rel="external nofollow noopener noreferrer" target="_blank">用CSS Grid Shepherd 技术对数据进行排序</a></p></li><li><p><a href="https://juejin.im/post/5cf7042df265da1ba647d9d1" rel="external nofollow noopener noreferrer" target="_blank">如何在 JS 循环中正确使用 async 与 await</a></p></li><li><p><a href="https://juejin.im/post/5cf6ff12f265da1b7c610614" rel="external nofollow noopener noreferrer" target="_blank">基于 HTML5 WebGL 的 3D 模型斜面生成</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://www.jeffjade.com/2019/05/31/155-arya-markdown-online-editor/?utm_source=segmentfault.com&quot; rel=&quot;external nofollo
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-06-04</title>
@@ -412,50 +459,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cd6387d518825682348442d&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;TypeScript
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-05-10</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190510/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190510/</id>
-    <published>2019-05-10T09:19:40.000Z</published>
-    <updated>2019-05-10T01:35:02.936Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cd301b6f265da036902b026" rel="external nofollow noopener noreferrer" target="_blank">前端技术 | react-router，去中心化式路由</a></p></li><li><p><a href="https://juejin.im/post/5cb58292f265da03b57b4e26" rel="external nofollow noopener noreferrer" target="_blank">图像延迟加载  &amp;&amp; 列表图顺序加载</a></p></li><li><p><a href="https://juejin.im/post/5cd397ece51d453ae21957c4" rel="external nofollow noopener noreferrer" target="_blank">Flutter 1.5 发布，正式成为全平台 UI 框架！</a></p></li><li><p><a href="https://juejin.im/post/5cd1ab3df265da03587c142a" rel="external nofollow noopener noreferrer" target="_blank">「中高级前端」窥探数据结构的世界- ES6版</a></p></li><li><p><a href="https://juejin.im/post/5cd45480e51d453a572aa2cf" rel="external nofollow noopener noreferrer" target="_blank">使用 Node.js 写一个代码生成器</a></p></li><li><p><a href="https://juejin.im/post/5c92ff94f265da6128275a85" rel="external nofollow noopener noreferrer" target="_blank">手摸手，带你用vue撸后台 系列五(v4.0新版本)</a></p></li><li><p><a href="https://www.cnblogs.com/liuxianan/p/chrome-plugin-develop.html" rel="external nofollow noopener noreferrer" target="_blank">【干货】Chrome插件(扩展)开发全攻略</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cd301b6f265da036902b026&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;前端技术 | rea
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>20190509</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190509/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190509/</id>
-    <published>2019-05-09T09:33:30.000Z</published>
-    <updated>2019-05-09T01:44:53.950Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://mp.weixin.qq.com/s/D7TpMYgcpZh5FA2qzv-vTA" rel="external nofollow noopener noreferrer" target="_blank">阿里巴巴程序员常用的 15 款开发者工具</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019026756?name=css&amp;description=&amp;isPrivate=1" rel="external nofollow noopener noreferrer" target="_blank">使用这些 CSS 属性选择器来提高前端开发效率！</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019105262" rel="external nofollow noopener noreferrer" target="_blank">学会JavaScript测试你就是同行中最亮的仔（妹）</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019110488" rel="external nofollow noopener noreferrer" target="_blank">栅格GRID: 未来可期 更便捷的布局方式</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019111452" rel="external nofollow noopener noreferrer" target="_blank">VueCli+Node+mongodb打造个人博客（含前台展示及后台管理系统）（上）</a><br><a href="https://segmentfault.com/a/1190000019116519" rel="external nofollow noopener noreferrer" target="_blank">VueCli+Node+mongodb打造个人博客（含前台展示及后台管理系统）（中）</a><br><a href="https://segmentfault.com/a/1190000019117165" rel="external nofollow noopener noreferrer" target="_blank">VueCli+Node+mongodb打造个人博客（含前台展示及后台管理系统）（下）</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019114128" rel="external nofollow noopener noreferrer" target="_blank">js数字计算丢失精度问题解决方案</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019116373" rel="external nofollow noopener noreferrer" target="_blank">基于 Github API 的图床 Chrome 插件开发全纪录</a></p></li><li><p><a href="http://topic.30ke.cn/svg" rel="external nofollow noopener noreferrer" target="_blank">可缩放矢量图（SVG）不完全教程</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/D7TpMYgcpZh5FA2qzv-vTA&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;阿里巴巴程序员常
       
     
     </summary>
