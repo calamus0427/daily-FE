@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-06-06T01:52:20.098Z</updated>
+  <updated>2019-06-10T01:58:31.147Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-06-10</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190610/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190610/</id>
+    <published>2019-06-10T09:33:05.000Z</published>
+    <updated>2019-06-10T01:58:31.147Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cfb1907e51d457756536760" rel="external nofollow noopener noreferrer" target="_blank">[现场实录] VueConf 2019 尤雨溪演讲总结</a> 👍👍👍</p></li><li><p><a href="https://juejin.im/post/5cfcaa7ae51d45109b01b161" rel="external nofollow noopener noreferrer" target="_blank">JavaScript 中数组方法 reduce 的妙用之处</a></p></li><li><p><a href="https://juejin.im/post/5cfcd4c5f265da1bb13f246e" rel="external nofollow noopener noreferrer" target="_blank">如何实现一个下载进度条/播放进度条</a></p></li><li><p><a href="https://juejin.im/post/5cfd2ec7e51d45554877a59f" rel="external nofollow noopener noreferrer" target="_blank">用JS开发跨平台桌面应用，从原理到实践</a></p></li><li><p><a href="https://juejin.im/post/5cf765275188257c6b51775f" rel="external nofollow noopener noreferrer" target="_blank">前端大文件上传</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cfb1907e51d457756536760&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;[现场实录] Vue
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-06-06</title>
@@ -437,28 +459,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/sVgX-YqucglgTX8oc9JjtA&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;图片防盗链的爱恨
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-05-14</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190514/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190514/</id>
-    <published>2019-05-14T09:15:13.000Z</published>
-    <updated>2019-05-14T01:44:27.420Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://segmentfault.com/a/1190000019126657?utm_source=weekly&amp;utm_medium=email&amp;utm_campaign=email_weekly" rel="external nofollow noopener noreferrer" target="_blank">9102年：手写一个React脚手架 【已优化至完美版】</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019146249?utm_source=weekly&amp;utm_medium=email&amp;utm_campaign=email_weekly" rel="external nofollow noopener noreferrer" target="_blank">10个有趣的javascript和css库（2019年最新）</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019089019?utm_source=weekly&amp;utm_medium=email&amp;utm_campaign=email_weekly" rel="external nofollow noopener noreferrer" target="_blank">Android屏幕适配方案分析</a></p></li><li><p><a href="https://juejin.im/post/5cd963ddf265da039f0f3169" rel="external nofollow noopener noreferrer" target="_blank">10秒钟构建你自己的”造轮子”工厂！ 2019年github/npm工程化协作开发栈最佳实践</a></p></li><li><p><a href="https://juejin.im/post/5cd965356fb9a032435dc735" rel="external nofollow noopener noreferrer" target="_blank">前端 api 请求缓存方案</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://segmentfault.com/a/1190000019126657?utm_source=weekly&amp;amp;utm_medium=email&amp;amp;utm_campaign=email_weekly&quot; rel=&quot;
       
     
     </summary>
