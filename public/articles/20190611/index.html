@@ -96,17 +96,17 @@
 
 
 
-  <meta name="description" content="Chameleon 变色龙 滴滴开源的跨端框架：一套代码运行多端，一端所见即多端所见（5.1 star）  omi 腾讯：基于 Web Components 并支持 IE8+(omio)，小程序(omip) 和 任意前端框架集成（9k star）  uni-app7端跨端框架：uni-app 是一个使用 Vue.js 开发跨平台应用的前端框架（7.5k star）  taroJD:多端统一开发框">
+  <meta name="description" content="【进阶 6-4 期】深入浅出防抖函数 debounce  我还没搞懂 JS 中 this 指向及继承，直到有人向我这样解释它    我写小程序像菜虚鲲——1、唱，跳，rap，篮球   一些使用的 git 小技巧   Vue Function-based API RFC   JavaScript 的简洁之道   leetcode题解  前端答疑-对象引用-vue共享数据源的三种方式  packag">
 <meta property="og:type" content="article">
-<meta property="og:title" content="跨端框架">
-<meta property="og:url" content="https://calamus.wiki/daily-FE/articles/three/index.html">
+<meta property="og:title" content="2019-06-11">
+<meta property="og:url" content="https://calamus.wiki/daily-FE/articles/20190611/index.html">
 <meta property="og:site_name" content="每日前端">
-<meta property="og:description" content="Chameleon 变色龙 滴滴开源的跨端框架：一套代码运行多端，一端所见即多端所见（5.1 star）  omi 腾讯：基于 Web Components 并支持 IE8+(omio)，小程序(omip) 和 任意前端框架集成（9k star）  uni-app7端跨端框架：uni-app 是一个使用 Vue.js 开发跨平台应用的前端框架（7.5k star）  taroJD:多端统一开发框">
+<meta property="og:description" content="【进阶 6-4 期】深入浅出防抖函数 debounce  我还没搞懂 JS 中 this 指向及继承，直到有人向我这样解释它    我写小程序像菜虚鲲——1、唱，跳，rap，篮球   一些使用的 git 小技巧   Vue Function-based API RFC   JavaScript 的简洁之道   leetcode题解  前端答疑-对象引用-vue共享数据源的三种方式  packag">
 <meta property="og:locale" content="zh">
-<meta property="og:updated_time" content="2019-05-28T06:45:10.821Z">
+<meta property="og:updated_time" content="2019-06-11T01:50:39.938Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="跨端框架">
-<meta name="twitter:description" content="Chameleon 变色龙 滴滴开源的跨端框架：一套代码运行多端，一端所见即多端所见（5.1 star）  omi 腾讯：基于 Web Components 并支持 IE8+(omio)，小程序(omip) 和 任意前端框架集成（9k star）  uni-app7端跨端框架：uni-app 是一个使用 Vue.js 开发跨平台应用的前端框架（7.5k star）  taroJD:多端统一开发框">
+<meta name="twitter:title" content="2019-06-11">
+<meta name="twitter:description" content="【进阶 6-4 期】深入浅出防抖函数 debounce  我还没搞懂 JS 中 this 指向及继承，直到有人向我这样解释它    我写小程序像菜虚鲲——1、唱，跳，rap，篮球   一些使用的 git 小技巧   Vue Function-based API RFC   JavaScript 的简洁之道   leetcode题解  前端答疑-对象引用-vue共享数据源的三种方式  packag">
 
 
 
@@ -115,7 +115,7 @@
 
 
 
-  <link rel="canonical" href="https://calamus.wiki/daily-FE/articles/three/">
+  <link rel="canonical" href="https://calamus.wiki/daily-FE/articles/20190611/">
 
 
 
@@ -125,7 +125,7 @@
   };
 </script>
 
-  <title>跨端框架 | 每日前端</title>
+  <title>2019-06-11 | 每日前端</title>
   
 
 
@@ -369,7 +369,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://calamus.wiki/daily-FE/daily-FE/articles/three/">
+    <link itemprop="mainEntityOfPage" href="https://calamus.wiki/daily-FE/daily-FE/articles/20190611/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Calamus">
@@ -386,7 +386,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">跨端框架
+          <h1 class="post-title" itemprop="name headline">2019-06-11
 
               
             
@@ -412,46 +412,16 @@
                 
               
 
-              <time title="Created: 2019-05-07 10:15:34" itemprop="dateCreated datePublished" datetime="2019-05-07T10:15:34Z">2019-05-07</time>
+              <time title="Created: 2019-06-11 09:39:51 / Modified: 01:50:39" itemprop="dateCreated datePublished" datetime="2019-06-11T09:39:51Z">2019-06-11</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2019-05-28 06:45:10" itemprop="dateModified" datetime="2019-05-28T06:45:10Z">2019-05-28</time>
               
             
           </span>
 
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/daily-FE/categories/web/" itemprop="url" rel="index"><span itemprop="name">web</span></a></span>
-
-                
-                
-              
-            </span>
           
 
           
@@ -464,8 +434,8 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
             
-                <a href="/daily-FE/articles/three/#comments" itemprop="discussionUrl">
-                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count valine-comment-count" data-xid="/daily-FE/articles/three/" itemprop="commentCount"></span>
+                <a href="/daily-FE/articles/20190611/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count valine-comment-count" data-xid="/daily-FE/articles/20190611/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -473,7 +443,7 @@
 
           
           
-            <span id="/daily-FE/articles/three/" class="leancloud_visitors" data-flag-title="跨端框架">
+            <span id="/daily-FE/articles/20190611/" class="leancloud_visitors" data-flag-title="2019-06-11">
               <span class="post-meta-divider">|</span>
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
@@ -512,23 +482,29 @@
 
       
         <ol>
-<li><p><a href="https://cml.js.org/#/" rel="external nofollow noopener noreferrer" target="_blank">Chameleon 变色龙</a><br> 滴滴开源的跨端框架：一套代码运行多端，一端所见即多端所见（5.1 star）</p>
+<li><p><a href="https://juejin.im/post/5cfe66fa6fb9a07ee1691ddb" rel="external nofollow noopener noreferrer" target="_blank">【进阶 6-4 期】深入浅出防抖函数 debounce</a></p>
 </li>
-<li><p><a href="http://omijs.org" rel="external nofollow noopener noreferrer" target="_blank">omi</a><br> 腾讯：基于 Web Components 并支持 IE8+(omio)，小程序(omip) 和 任意前端框架集成（9k star）</p>
+<li><p><a href="https://juejin.im/post/5cfd9d30f265da1b94213d28" rel="external nofollow noopener noreferrer" target="_blank">我还没搞懂 JS 中 this 指向及继承，直到有人向我这样解释它</a></p>
 </li>
-<li><p><a href="https://github.com/dcloudio/uni-app" rel="external nofollow noopener noreferrer" target="_blank">uni-app</a><br>7端跨端框架：uni-app 是一个使用 Vue.js 开发跨平台应用的前端框架（7.5k star）</p>
+</ol>
+<ol start="3">
+<li><a href="https://juejin.im/post/5cfdd89ef265da1b9253cf24" rel="external nofollow noopener noreferrer" target="_blank">我写小程序像菜虚鲲——1、唱，跳，rap，篮球</a></li>
+</ol>
+<ol start="4">
+<li><a href="https://juejin.im/post/5cfe63f4f265da1bd522c437" rel="external nofollow noopener noreferrer" target="_blank">一些使用的 git 小技巧</a></li>
+</ol>
+<ol start="5">
+<li><a href="https://zhuanlan.zhihu.com/p/68477600" rel="external nofollow noopener noreferrer" target="_blank">Vue Function-based API RFC</a></li>
+</ol>
+<ol start="6">
+<li><a href="https://juejin.im/post/5cfe34f4f265da1b5d57a09b" rel="external nofollow noopener noreferrer" target="_blank">JavaScript 的简洁之道</a></li>
+</ol>
+<ol start="7">
+<li><p><a href="https://github.com/azl397985856/leetcode/blob/master/thanksGiving.md" rel="external nofollow noopener noreferrer" target="_blank">leetcode题解</a></p>
 </li>
-<li><p><a href="https://taro.jd.com/" rel="external nofollow noopener noreferrer" target="_blank">taro</a><br>JD:多端统一开发框架，支持用 React 的开发方式编写一次代码，生成能运行在微信/百度/支付宝/字节跳动小程序、H5、React Native 等的应用。(18.8k star)</p>
+<li><p><a href="https://segmentfault.com/a/1190000019432855" rel="external nofollow noopener noreferrer" target="_blank">前端答疑-对象引用-vue共享数据源的三种方式</a></p>
 </li>
-<li><p><a href="https://facebook.github.io/react-native/" rel="external nofollow noopener noreferrer" target="_blank">react native</a><br>使用JavaScript和React构建本机移动应用程序(77.6k star)</p>
-</li>
-<li><p><a href="https://weex.apache.org/" rel="external nofollow noopener noreferrer" target="_blank">Vue weex</a><br> 阿里：基于vue构建移动跨平台UI的框架(17.5k star)</p>
-</li>
-<li><p><a href="https://ionicframework.com/" rel="external nofollow noopener noreferrer" target="_blank">ionic</a><br> 开源移动应用程序开发框架，可以使用Web技术轻松构建高质量的原生和渐进式Web应用程序,已经支持vue了(38.1k star)</p>
-</li>
-<li><p><a href="https://flutter.dev" rel="external nofollow noopener noreferrer" target="_blank">flutter</a><br>Flutter可以轻松快速地构建漂亮的移动应用程序。今年支持web端了(65.2k star)</p>
-</li>
-<li><p>Hybrid APP， PhoneGap/Cordova<br>比较早期的构建移动端应用工具，性能上和其他的相比较落后</p>
+<li><p><a href="https://segmentfault.com/a/1190000019438150" rel="external nofollow noopener noreferrer" target="_blank">package.json 中 你还不清楚的 browser，module，main 字段优先级</a></p>
 </li>
 </ol>
 
@@ -664,8 +640,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/daily-FE/articles/20190507/" rel="next" title="2019-05-07">
-                <i class="fa fa-chevron-left"></i> 2019-05-07
+              <a href="/daily-FE/articles/20190610/" rel="next" title="2019-06-10">
+                <i class="fa fa-chevron-left"></i> 2019-06-10
               </a>
             
           </div>
@@ -673,10 +649,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/daily-FE/articles/gantt/" rel="prev" title="gantt">
-                gantt <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
