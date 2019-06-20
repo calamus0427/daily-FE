@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-06-18T01:43:31.549Z</updated>
+  <updated>2019-06-20T02:15:40.742Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-06-20</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190620/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190620/</id>
+    <published>2019-06-20T10:02:38.000Z</published>
+    <updated>2019-06-20T02:15:40.742Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><a href="https://juejin.im/post/5d0a5365f265da1b5d57b0ab" rel="external nofollow noopener noreferrer" target="_blank">【进阶 6-5 期】[译] Throttle 和 Debounce 在 React 中的应用</a></li></ol><ol start="2"><li><a href="https://juejin.im/post/5d0ad9a4f265da1bae38ffe6" rel="external nofollow noopener noreferrer" target="_blank">【译】一行css代码搞定响应式布局</a></li></ol><ol start="3"><li><a href="https://juejin.im/post/5d0a48d86fb9a07ea803cf23" rel="external nofollow noopener noreferrer" target="_blank">一文彻底理解JavaScript的深拷贝与浅拷贝</a></li></ol><ol start="4"><li><a href="https://juejin.im/post/5d0adced6fb9a07ea7131560" rel="external nofollow noopener noreferrer" target="_blank">你为什么有那么多时间写博客？</a></li></ol><ol start="5"><li><a href="https://juejin.im/post/5cfe4e8a6fb9a07ec63b09a4" rel="external nofollow noopener noreferrer" target="_blank">富文本原理了解一下？</a></li></ol><ol start="6"><li><a href="https://juejin.im/post/5d08405a5188253049042d72" rel="external nofollow noopener noreferrer" target="_blank">观众老爷们，来试试这个用 Vue 撸的数据可视化后台吧</a></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://juejin.im/post/5d0a5365f265da1b5d57b0ab&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;【进阶 6-5 期】[译]
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2019-06-19</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190619/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190619/</id>
+    <published>2019-06-19T09:30:32.000Z</published>
+    <updated>2019-06-19T01:38:47.035Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d0976c66fb9a07efa091bcf" rel="external nofollow noopener noreferrer" target="_blank">10个流行的JavaScript面试题</a></p></li><li><p><a href="https://juejin.im/post/5d085be0f265da1bac401937" rel="external nofollow noopener noreferrer" target="_blank">掘金最污的 React16.x 图文视频教程(2万5千字长文-慎入)</a></p></li><li><p><a href="https://juejin.im/post/5d0878aaf265da1b83338f74" rel="external nofollow noopener noreferrer" target="_blank">8年前端开发的知识点沉淀(不知道会多少字，一直写下去吧…)</a></p></li><li><p><a href="https://juejin.im/post/5d087c0d6fb9a07eda031959" rel="external nofollow noopener noreferrer" target="_blank">更优雅地基于 canvas 在前端画海报</a></p></li><li><p><a href="https://juejin.im/post/5d085ce85188255e1305cda1" rel="external nofollow noopener noreferrer" target="_blank">虚拟 DOM 到底是什么？</a></p></li><li><p><a href="https://www.zhihu.com/question/327657434/answer/704499103" rel="external nofollow noopener noreferrer" target="_blank">毕设答辩，老师说node不可能写后台怎么办?</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d0976c66fb9a07efa091bcf&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;10个流行的Java
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-06-18</title>
@@ -411,57 +455,6 @@
       
     
     </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-05-22</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190522/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190522/</id>
-    <published>2019-05-22T09:56:31.000Z</published>
-    <updated>2019-05-22T02:35:37.455Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5c02142fe51d4511be77aad7" rel="external nofollow noopener noreferrer" target="_blank">面试官(6): 写过『通用前端组件』吗?</a></p></li><li><p><a href="https://juejin.im/post/5afc5242f265da0b7f44bee4" rel="external nofollow noopener noreferrer" target="_blank">优雅的提交你的 Git Commit Message</a></p></li><li><p><a href="https://www.zhangxinxu.com/wordpress/2013/09/css3-animation-requestanimationframe-tween-%E5%8A%A8%E7%94%BB%E7%AE%97%E6%B3%95/" rel="external nofollow noopener noreferrer" target="_blank">CSS3动画那么强，requestAnimationFrame还有毛线用？</a></p></li><li><p><a href="https://juejin.im/post/5ce3b519f265da1bb31c0d5f" rel="external nofollow noopener noreferrer" target="_blank">7个有用的Vue开发技巧</a></p></li><li><p><a href="https://www.purgecss.com/" rel="external nofollow noopener noreferrer" target="_blank">purgecss</a></p></li><li><p><a href="https://juejin.im/post/5ce3e400f265da1bab298359" rel="external nofollow noopener noreferrer" target="_blank">VUE防抖与节流的最佳解决方案——函数式组件</a></p></li><li><p><a href="https://juejin.im/post/5ce3b267f265da1bd260c0d7" rel="external nofollow noopener noreferrer" target="_blank">jQuery老矣，尚能饭否</a></p></li><li><p><a href="https://juejin.im/post/5bc57e616fb9a05d396f3fc9" rel="external nofollow noopener noreferrer" target="_blank">前端必备自定义滚动库——iScroll</a></p></li><li><p><a href="https://www.npmjs.com/package/better-scroll" rel="external nofollow noopener noreferrer" target="_blank">better-scroll</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5c02142fe51d4511be77aad7&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;面试官(6): 写过
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>写Vue组件库文档的一些方法</title>
-    <link href="https://calamus.wiki/daily-FE/articles/docs/"/>
-    <id>https://calamus.wiki/daily-FE/articles/docs/</id>
-    <published>2019-05-21T09:39:03.000Z</published>
-    <updated>2019-05-21T01:40:20.303Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p>vue-markdown-loader</p></li><li><p>vuepress</p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;vue-markdown-loader&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;vuepress&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-
-      
-    
-    </summary>
-    
-      <category term="web" scheme="https://calamus.wiki/daily-FE/categories/web/"/>
     
     
   </entry>
