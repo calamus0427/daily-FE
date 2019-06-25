@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-06-24T01:42:55.109Z</updated>
+  <updated>2019-06-25T01:41:27.162Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-06-25</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190625/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190625/</id>
+    <published>2019-06-25T09:30:08.000Z</published>
+    <updated>2019-06-25T01:41:27.162Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d10364e51882532d937f261" rel="external nofollow noopener noreferrer" target="_blank">这几天国外关于 Vue 新 API 的一些争论</a></p></li><li><p><a href="https://juejin.im/post/5d0e11196fb9a07eee5ed6d2" rel="external nofollow noopener noreferrer" target="_blank">[译] 如何写出漂亮的 JavaScript 代码</a></p></li><li><p><a href="https://juejin.im/post/5d1166b5f265da1b725c0f88" rel="external nofollow noopener noreferrer" target="_blank">ES10 目前可以使用的5个新特性</a></p></li><li><p><a href="https://juejin.im/post/5d0ee2906fb9a07ea33c1f8b" rel="external nofollow noopener noreferrer" target="_blank">一文速览React全栈</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d10364e51882532d937f261&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;这几天国外关于 Vu
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>20190624</title>
@@ -430,28 +452,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/jlYUzsyUb76RExsoFz4S2w&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;代码神注释鉴赏，
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-05-27</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190527/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190527/</id>
-    <published>2019-05-27T09:24:48.000Z</published>
-    <updated>2019-05-28T01:38:08.805Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5ce88a3951882533182d7e7d" rel="external nofollow noopener noreferrer" target="_blank">【译】11 种在大多数教程中找不到的JavaScript技巧</a></p></li><li><p><a href="https://juejin.im/post/5ce9f666e51d45777621baf7" rel="external nofollow noopener noreferrer" target="_blank">前端面经分享|腾讯</a></p></li><li><p><a href="https://juejin.im/post/5cea1e1ae51d4510664d1652" rel="external nofollow noopener noreferrer" target="_blank">关于webpack4的14个知识点,童叟无欺</a></p></li><li><p><a href="https://juejin.im/post/5ceaaaf0e51d45508c2fb7c0" rel="external nofollow noopener noreferrer" target="_blank">中高级前端开发高频面试题</a></p></li><li><p><a href="https://juejin.im/post/5cea6e5fe51d45775e33f4de" rel="external nofollow noopener noreferrer" target="_blank">【Step-By-Step】一周面试题 &amp;&amp; 答案汇总 / 周刊01</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5ce88a3951882533182d7e7d&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;【译】11 种在大多
       
     
     </summary>
