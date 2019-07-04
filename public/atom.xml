@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-07-03T01:54:56.921Z</updated>
+  <updated>2019-07-04T01:23:16.325Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-07-04</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190704/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190704/</id>
+    <published>2019-07-04T09:18:01.000Z</published>
+    <updated>2019-07-04T01:23:16.325Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://github.com/airuikun/blog/issues/1" rel="external nofollow noopener noreferrer" target="_blank">PNG图片压缩原理</a></p></li><li><p><a href="https://juejin.im/post/5d1471d5e51d45108223fca2" rel="external nofollow noopener noreferrer" target="_blank">权限管理的设计和实现</a></p></li><li><p><a href="https://mp.weixin.qq.com/s/bWP1AtARhHkDhamGTAuTPg" rel="external nofollow noopener noreferrer" target="_blank">Node环境性能监控</a></p></li><li><p><a href="https://www.jianshu.com/p/11279cf09b3a" rel="external nofollow noopener noreferrer" target="_blank">svg在vue项目中的使用</a></p></li><li><p><a href="https://juejin.im/post/5d1b7704f265da1b971a8ebd" rel="external nofollow noopener noreferrer" target="_blank">太惊艳了，这些画都是CSS的杰作！</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/airuikun/blog/issues/1&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;PNG图片压缩原理&lt;/a&gt;&lt;/p
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-07-03</title>
@@ -430,28 +452,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/RIX1W7zvZCSNgOQLOCHO-Q&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;苹果 WWDC 
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-06-03</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190603/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190603/</id>
-    <published>2019-06-03T09:33:22.000Z</published>
-    <updated>2019-06-03T01:59:15.336Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5cf411d8e51d4550a629b222" rel="external nofollow noopener noreferrer" target="_blank">细谈 vue - transition 篇</a></p></li><li><p><a href="https://juejin.im/post/5cf4727bf265da1ba915666e" rel="external nofollow noopener noreferrer" target="_blank">重构文档库，120 多篇原创汇总</a></p></li><li><p><a href="https://juejin.im/post/5cf3bc756fb9a07eb94f7444" rel="external nofollow noopener noreferrer" target="_blank">毕设开源了，126个star，39个fork</a></p></li><li><p><a href="https://juejin.im/post/5cf3365ff265da1b9612ec78" rel="external nofollow noopener noreferrer" target="_blank">关于裸辞，关于前端面试</a></p></li><li><p><a href="https://juejin.im/post/5cf3dfc0f265da1b9612ed07" rel="external nofollow noopener noreferrer" target="_blank">【切图仔日常】浅谈CSS3动画之凌波微步–steps()</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019364516" rel="external nofollow noopener noreferrer" target="_blank">Angular v8 发布！来看看有什么新功能</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019367175" rel="external nofollow noopener noreferrer" target="_blank">使用React、Electron、Dva、Webpack、Node.js、Websocket快速构建跨平台应用</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019364550" rel="external nofollow noopener noreferrer" target="_blank">8 个你不知道的 DOM 功能</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019368091" rel="external nofollow noopener noreferrer" target="_blank">六种组织CSS的方式</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5cf411d8e51d4550a629b222&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;细谈 vue - t
       
     
     </summary>
