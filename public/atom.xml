@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-07-18T03:10:36.562Z</updated>
+  <updated>2019-07-19T02:12:29.800Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-07-19</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190719/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190719/</id>
+    <published>2019-07-19T10:10:25.000Z</published>
+    <updated>2019-07-19T02:12:29.800Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://mp.weixin.qq.com/s/kxYQvAOKCjPMmxpyQg5s_Q" rel="external nofollow noopener noreferrer" target="_blank">百人研发团队管理的难题：研发管理、绩效考核、组织文化、OKR</a></p></li><li><p><a href="https://juejin.im/post/5d2c25c9e51d457778117433" rel="external nofollow noopener noreferrer" target="_blank">移动端浏览器前端优化策略</a></p></li><li><p><a href="https://juejin.im/post/5d30c0cd6fb9a07efd474427" rel="external nofollow noopener noreferrer" target="_blank">「技术面试」问答中有什么十分实用的面试技巧?</a></p></li><li><p><a href="https://juejin.im/post/5d1385b25188253dc975b577" rel="external nofollow noopener noreferrer" target="_blank">【前端词典】CDN 带来这些性能优化</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/kxYQvAOKCjPMmxpyQg5s_Q&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;百人研发团队管理
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-07-18</title>
@@ -427,28 +449,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d0976c66fb9a07efa091bcf&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;10个流行的Java
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-06-18</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190618/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190618/</id>
-    <published>2019-06-18T09:26:22.000Z</published>
-    <updated>2019-06-18T01:43:31.549Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d0824c0f265da1bd04ee1bb" rel="external nofollow noopener noreferrer" target="_blank">如何在JavaScript中访问暂未存在的嵌套对象</a></p></li><li><p><a href="https://juejin.im/post/5d06f152f265da1bb564f7e4" rel="external nofollow noopener noreferrer" target="_blank">5种处理Vue异常的方法</a></p></li><li><p><a href="https://juejin.im/post/5d07a51b5188254dd63c21ce" rel="external nofollow noopener noreferrer" target="_blank">说说 JavaScript 中函数的防抖 (Debounce) 与节流 (Throttle)</a></p></li><li><p><a href="https://juejin.im/post/5d0706a6f265da1bc23f77a9" rel="external nofollow noopener noreferrer" target="_blank">中高级前端必须要了解的–JS中的内存管理</a></p></li><li><p><a href="https://juejin.im/post/5d06e9c76fb9a07ee4636235" rel="external nofollow noopener noreferrer" target="_blank">面试必考–ES6中Promise全解析</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019504744" rel="external nofollow noopener noreferrer" target="_blank">从渲染原理谈前端性能优化</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019506178" rel="external nofollow noopener noreferrer" target="_blank">【译】2019年，如何设计Web页面</a></p></li><li><p><a href="https://segmentfault.com/a/1190000019507684" rel="external nofollow noopener noreferrer" target="_blank">通过json用canvas生成分享海报,支持微信小程序和web</a></p></li><li><p><a href="https://mp.weixin.qq.com/s/NxNzo45pe1z7PqQHXt4wmQ" rel="external nofollow noopener noreferrer" target="_blank">MongoDB凭什么跻身数据库排行前五？</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d0824c0f265da1bd04ee1bb&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;如何在JavaScr
       
     
     </summary>
