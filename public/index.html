@@ -1,0 +1,2637 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/daily-FE/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/daily-FE/css/main.css?v=7.0.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.calamus.xyz/favicon.ico?v=7.0.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.calamus.xyz/favicon.ico?v=7.0.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.calamus.xyz/favicon.ico?v=7.0.0">
+
+
+  <link rel="mask-icon" href="https://cdn.calamus.xyz/favicon.ico?v=7.0.0" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/daily-FE/',
+    scheme: 'Muse',
+    version: '7.0.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: 'Y775ZKH4PH',
+      apiKey: '97d209ee5575b0e8d11c24980f59e28f',
+      indexName: 'daily-FE',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"搜索","hits_empty":"找不到任何关于 ${query} 的文章","hits_stats":"共找到 ${hits} 篇文章，花了 ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="每日前端">
+<meta property="og:url" content="https://calamus.wiki/daily-FE/index.html">
+<meta property="og:site_name" content="每日前端">
+<meta property="og:locale" content="zh">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="每日前端">
+
+
+
+  <link rel="alternate" href="/daily-FE/atom.xml" title="每日前端" type="application/atom+xml">
+
+
+
+
+  <link rel="canonical" href="https://calamus.wiki/daily-FE/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>每日前端</title>
+  
+
+
+
+
+
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?61112614ce9f268b947d7041d63b1c6f";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/daily-FE/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">每日前端</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-首页">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/daily-FE/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-归档">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/daily-FE/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-calendar"></i> <br>归档</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-分类">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/daily-FE/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-关于">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/daily-FE/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>Search</a>
+        </li>
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+    <div class="site-search">
+      
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://calamus.wiki/daily-FE/daily-FE/articles/20190830/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Calamus">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://cdn.calamus.xyz/leimu.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="每日前端">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/daily-FE/articles/20190830/" class="post-title-link" itemprop="url">2019-08-30</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2019-08-30 14:34:58 / Modified: 06:37:53" itemprop="dateCreated datePublished" datetime="2019-08-30T14:34:58Z">2019-08-30</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <a href="/daily-FE/articles/20190830/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count valine-comment-count" data-xid="/daily-FE/articles/20190830/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+            <span id="/daily-FE/articles/20190830/" class="leancloud_visitors" data-flag-title="2019-08-30">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Views: </span>
+              
+                <span class="leancloud-visitors-count"></span>
+            </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ol>
+<li><p><a href="https://juejin.im/post/5d673044f265da03d60f12f7" rel="external nofollow noopener noreferrer" target="_blank">【译】JS解构的五种有趣用法</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d664786f265da03ee6a694f" rel="external nofollow noopener noreferrer" target="_blank">Canvas 实现一个“刮刮乐”游戏</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d6735bc51882513cb4907b9" rel="external nofollow noopener noreferrer" target="_blank">理解 Flex 算法和常见应用</a></p>
+</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://calamus.wiki/daily-FE/daily-FE/articles/20190815/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Calamus">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://cdn.calamus.xyz/leimu.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="每日前端">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/daily-FE/articles/20190815/" class="post-title-link" itemprop="url">20190815</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2019-08-15 09:39:39 / Modified: 02:12:09" itemprop="dateCreated datePublished" datetime="2019-08-15T09:39:39Z">2019-08-15</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <a href="/daily-FE/articles/20190815/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count valine-comment-count" data-xid="/daily-FE/articles/20190815/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+            <span id="/daily-FE/articles/20190815/" class="leancloud_visitors" data-flag-title="20190815">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Views: </span>
+              
+                <span class="leancloud-visitors-count"></span>
+            </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ol>
+<li><p><a href="https://juejin.im/post/5d4f8d96f265da03a715c469" rel="external nofollow noopener noreferrer" target="_blank">浏览器显示及交互背后的原理</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d4ab921e51d4562165534a1" rel="external nofollow noopener noreferrer" target="_blank">混沌工程：给你的前端系统添点乱</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5ba862d9f265da0ae472868a" rel="external nofollow noopener noreferrer" target="_blank">如何管理CSS“内裤”</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d5137066fb9a06b2a203214" rel="external nofollow noopener noreferrer" target="_blank">少年，撸猫吗</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d51e16d6fb9a06ae17d6bbc" rel="external nofollow noopener noreferrer" target="_blank">22 道高频 JavaScript 手写面试题及答案</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d53a8895188257fad671cbc" rel="external nofollow noopener noreferrer" target="_blank">一篇朴实的文章带你30分钟捋完TypeScript,方法是正反对比</a></p>
+</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://calamus.wiki/daily-FE/daily-FE/articles/20190729/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Calamus">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://cdn.calamus.xyz/leimu.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="每日前端">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/daily-FE/articles/20190729/" class="post-title-link" itemprop="url">2019-07-29</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2019-07-29 09:17:59 / Modified: 01:20:05" itemprop="dateCreated datePublished" datetime="2019-07-29T09:17:59Z">2019-07-29</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <a href="/daily-FE/articles/20190729/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count valine-comment-count" data-xid="/daily-FE/articles/20190729/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+            <span id="/daily-FE/articles/20190729/" class="leancloud_visitors" data-flag-title="2019-07-29">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Views: </span>
+              
+                <span class="leancloud-visitors-count"></span>
+            </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ol>
+<li><p><a href="https://juejin.im/post/5d3a58df5188251ce02ff228" rel="external nofollow noopener noreferrer" target="_blank">多网站项目的 CSS 架构</a></p>
+</li>
+<li><p><a href="https://dev.to/shafikshaon/interesting-facts-in-javascript-22nk" rel="external nofollow noopener noreferrer" target="_blank">JS 中有趣的事实</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d3968845188254bc1109db0" rel="external nofollow noopener noreferrer" target="_blank">理解动态规划</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d3d72ea5188254a9b3726e3" rel="external nofollow noopener noreferrer" target="_blank">Vue必知必会（8）数组有哪些方法支持响应式更新，如不支持如何处理，底层原理如何实现的？</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d3d122e51882520911db850" rel="external nofollow noopener noreferrer" target="_blank">Chrome 77 开发者工具新特性</a></p>
+</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://calamus.wiki/daily-FE/daily-FE/articles/20190726/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Calamus">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://cdn.calamus.xyz/leimu.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="每日前端">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/daily-FE/articles/20190726/" class="post-title-link" itemprop="url">2019-07-26</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2019-07-26 09:04:17 / Modified: 01:07:50" itemprop="dateCreated datePublished" datetime="2019-07-26T09:04:17Z">2019-07-26</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <a href="/daily-FE/articles/20190726/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count valine-comment-count" data-xid="/daily-FE/articles/20190726/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+            <span id="/daily-FE/articles/20190726/" class="leancloud_visitors" data-flag-title="2019-07-26">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Views: </span>
+              
+                <span class="leancloud-visitors-count"></span>
+            </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ol>
+<li><p><a href="https://mp.weixin.qq.com/s/pROCXZNZ7RKeYDlDUJng_Q" rel="external nofollow noopener noreferrer" target="_blank">领域设计在前端的应用</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d3700ff6fb9a07ea648b41f" rel="external nofollow noopener noreferrer" target="_blank">浏览器什么时候会发起网络请求，去加载一张图片? </a></p>
+</li>
+<li><p><a href="http://www.alloyteam.com/2019/07/web-applications-offline/" rel="external nofollow noopener noreferrer" target="_blank">前端离线化探索</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d3946335188255ac45f7331" rel="external nofollow noopener noreferrer" target="_blank">2019下半年，该用用grid网格布局了！</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d3967a56fb9a07efc49cca1" rel="external nofollow noopener noreferrer" target="_blank">来，跟我一起实现diff算法!</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d39175df265da1b904c2576" rel="external nofollow noopener noreferrer" target="_blank">canvas+js从0开始撸一个俄罗斯方块</a></p>
+</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://calamus.wiki/daily-FE/daily-FE/articles/20190725/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Calamus">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://cdn.calamus.xyz/leimu.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="每日前端">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/daily-FE/articles/20190725/" class="post-title-link" itemprop="url">2019-07-25</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2019-07-25 09:20:30 / Modified: 02:03:59" itemprop="dateCreated datePublished" datetime="2019-07-25T09:20:30Z">2019-07-25</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <a href="/daily-FE/articles/20190725/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count valine-comment-count" data-xid="/daily-FE/articles/20190725/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+            <span id="/daily-FE/articles/20190725/" class="leancloud_visitors" data-flag-title="2019-07-25">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Views: </span>
+              
+                <span class="leancloud-visitors-count"></span>
+            </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ol>
+<li><p><a href="https://juejin.im/post/5d367656f265da1b904c2126" rel="external nofollow noopener noreferrer" target="_blank">WebAssembly 不完全指北</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d3702dcf265da1b961345d1" rel="external nofollow noopener noreferrer" target="_blank">使用 Cypress 进行 React 应用的端到端测试</a></p>
+</li>
+<li><p><a href="https://mp.weixin.qq.com/s/uzMxfAMS1I6WfP_CMjLM2A" rel="external nofollow noopener noreferrer" target="_blank">又被钓鱼网站盯上了？</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d37cf70e51d4510664d17d3" rel="external nofollow noopener noreferrer" target="_blank">工程师最容易搞错的域名知识</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d25ce36f265da1ba84ab97a" rel="external nofollow noopener noreferrer" target="_blank">想学Node.js，stream先有必要搞清楚</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d387f696fb9a07eeb13ea60" rel="external nofollow noopener noreferrer" target="_blank">一个合格的前端都应该阅读这些文章</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d37d982e51d45108c59a635" rel="external nofollow noopener noreferrer" target="_blank">【中高级前端必备】手摸手教你撸一个脚手架</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5b7a50c0e51d4538af60d995" rel="external nofollow noopener noreferrer" target="_blank">5 分钟撸一个前端性能监控工具</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5a28aead6fb9a0450c494bc6" rel="external nofollow noopener noreferrer" target="_blank">打造属于自己的cnpm/npm安装，生成自定义项目架构</a></p>
+</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://calamus.wiki/daily-FE/daily-FE/articles/20190724/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Calamus">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://cdn.calamus.xyz/leimu.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="每日前端">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/daily-FE/articles/20190724/" class="post-title-link" itemprop="url">2019-07-24</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2019-07-24 09:22:39 / Modified: 01:55:46" itemprop="dateCreated datePublished" datetime="2019-07-24T09:22:39Z">2019-07-24</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <a href="/daily-FE/articles/20190724/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count valine-comment-count" data-xid="/daily-FE/articles/20190724/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+            <span id="/daily-FE/articles/20190724/" class="leancloud_visitors" data-flag-title="2019-07-24">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Views: </span>
+              
+                <span class="leancloud-visitors-count"></span>
+            </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ol>
+<li><p><a href="https://juejin.im/post/5d3563e8f265da1b6150365a" rel="external nofollow noopener noreferrer" target="_blank">啥是Deno？跟Node有啥区别？</a></p>
+</li>
+<li><p><a href="https://www.uisdc.com/google-design-aeux" rel="external nofollow noopener noreferrer" target="_blank">Google发布动效神奇，与UI 无缝打通</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d3516a36fb9a07ed36ee787" rel="external nofollow noopener noreferrer" target="_blank">如何制作一款在线编译器</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5a002b536fb9a045132a1727" rel="external nofollow noopener noreferrer" target="_blank">前端需要了解的 SSO 与 CAS 知识</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d370ec26fb9a07ef44447c7" rel="external nofollow noopener noreferrer" target="_blank">【前端词典】有趣的大厂算法面试题</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d37abf7e51d45108223fd49" rel="external nofollow noopener noreferrer" target="_blank">如何优雅地处理Async/Await的异常？</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d37a791f265da1b7153369a" rel="external nofollow noopener noreferrer" target="_blank">轻松掌握vuex，让你对状态管理有一个更深的理解!</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d3727b26fb9a07ed137158d" rel="external nofollow noopener noreferrer" target="_blank">优雅的解决Vuex状态丢失的问题</a></p>
+</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://calamus.wiki/daily-FE/daily-FE/articles/20190723/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Calamus">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://cdn.calamus.xyz/leimu.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="每日前端">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/daily-FE/articles/20190723/" class="post-title-link" itemprop="url">2019-07-23</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2019-07-23 09:20:56 / Modified: 01:27:28" itemprop="dateCreated datePublished" datetime="2019-07-23T09:20:56Z">2019-07-23</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <a href="/daily-FE/articles/20190723/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count valine-comment-count" data-xid="/daily-FE/articles/20190723/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+            <span id="/daily-FE/articles/20190723/" class="leancloud_visitors" data-flag-title="2019-07-23">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Views: </span>
+              
+                <span class="leancloud-visitors-count"></span>
+            </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ol>
+<li><p><a href="https://juejin.im/post/5d2d64f36fb9a07eba2c6f65" rel="external nofollow noopener noreferrer" target="_blank">Vue单页项目SEO完全指南</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5ce607a7e51d454f6f16eb3d" rel="external nofollow noopener noreferrer" target="_blank">前端基础篇之CSS世界</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d31c96be51d4555fc1acd56" rel="external nofollow noopener noreferrer" target="_blank">重构支付宝小程序构建流程有感</a></p>
+</li>
+<li><p><a href="http://svgtrick.com/tricks/0e6a3b75457d67299e797c0e0d4c7fb2" rel="external nofollow noopener noreferrer" target="_blank">使用 anime.js 轻松实现 SVG 路径 (path) 曲线动画</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d34fdfff265da1b897b0c8d" rel="external nofollow noopener noreferrer" target="_blank">21 个VSCode 快捷键，让代码更快，更有趣</a></p>
+</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://calamus.wiki/daily-FE/daily-FE/articles/20190722/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Calamus">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://cdn.calamus.xyz/leimu.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="每日前端">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/daily-FE/articles/20190722/" class="post-title-link" itemprop="url">2019-07-22</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2019-07-22 11:29:53 / Modified: 03:33:19" itemprop="dateCreated datePublished" datetime="2019-07-22T11:29:53Z">2019-07-22</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <a href="/daily-FE/articles/20190722/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count valine-comment-count" data-xid="/daily-FE/articles/20190722/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+            <span id="/daily-FE/articles/20190722/" class="leancloud_visitors" data-flag-title="2019-07-22">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Views: </span>
+              
+                <span class="leancloud-visitors-count"></span>
+            </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ol>
+<li><p><a href="https://juejin.im/post/5ce75d205188252dc544e7fd" rel="external nofollow noopener noreferrer" target="_blank">长列表优化之虚拟列表</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d31700bf265da1ba56b5801" rel="external nofollow noopener noreferrer" target="_blank">闲鱼Flutter＆FaaS云端一体化架构</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d31326ee51d455d6d5358dd" rel="external nofollow noopener noreferrer" target="_blank">HTTP的TCP连接管理</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d33fd0f5188256e820c80d4" rel="external nofollow noopener noreferrer" target="_blank">实战篇 - 如何实现和淘宝移动端一样的模块化加载 （task-silce）</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d31c6c35188252d1d5f9c98" rel="external nofollow noopener noreferrer" target="_blank">揭秘Vue从Virtual DOM生成真实DOM的过程</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d342227e51d457778117459" rel="external nofollow noopener noreferrer" target="_blank">前端发动机」从 bind 聊到 curry （柯里化）</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d341a89f265da1bac405369" rel="external nofollow noopener noreferrer" target="_blank">JavaScript 数据结构与算法之美 - 冒泡排序、插入排序、选择排序</a></p>
+</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://calamus.wiki/daily-FE/daily-FE/articles/20190719/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Calamus">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://cdn.calamus.xyz/leimu.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="每日前端">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/daily-FE/articles/20190719/" class="post-title-link" itemprop="url">2019-07-19</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2019-07-19 10:10:25 / Modified: 02:12:29" itemprop="dateCreated datePublished" datetime="2019-07-19T10:10:25Z">2019-07-19</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <a href="/daily-FE/articles/20190719/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count valine-comment-count" data-xid="/daily-FE/articles/20190719/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+            <span id="/daily-FE/articles/20190719/" class="leancloud_visitors" data-flag-title="2019-07-19">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Views: </span>
+              
+                <span class="leancloud-visitors-count"></span>
+            </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ol>
+<li><p><a href="https://mp.weixin.qq.com/s/kxYQvAOKCjPMmxpyQg5s_Q" rel="external nofollow noopener noreferrer" target="_blank">百人研发团队管理的难题：研发管理、绩效考核、组织文化、OKR</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d2c25c9e51d457778117433" rel="external nofollow noopener noreferrer" target="_blank">移动端浏览器前端优化策略</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d30c0cd6fb9a07efd474427" rel="external nofollow noopener noreferrer" target="_blank">「技术面试」问答中有什么十分实用的面试技巧?</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d1385b25188253dc975b577" rel="external nofollow noopener noreferrer" target="_blank">【前端词典】CDN 带来这些性能优化</a></p>
+</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://calamus.wiki/daily-FE/daily-FE/articles/20190718/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Calamus">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://cdn.calamus.xyz/leimu.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="每日前端">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/daily-FE/articles/20190718/" class="post-title-link" itemprop="url">2019-07-18</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2019-07-18 11:05:38 / Modified: 03:10:36" itemprop="dateCreated datePublished" datetime="2019-07-18T11:05:38Z">2019-07-18</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <a href="/daily-FE/articles/20190718/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count valine-comment-count" data-xid="/daily-FE/articles/20190718/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+            <span id="/daily-FE/articles/20190718/" class="leancloud_visitors" data-flag-title="2019-07-18">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Views: </span>
+              
+                <span class="leancloud-visitors-count"></span>
+            </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ol>
+<li><p><a href="https://mp.weixin.qq.com/s/lmw_QV2oE8rjye6RYK8DXw" rel="external nofollow noopener noreferrer" target="_blank">2019年前端技术趋势</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d27dd2de51d454f6f16ec89" rel="external nofollow noopener noreferrer" target="_blank">你知道前端性能优化gzip的工作原理吗？</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d25c4cbe51d454f71439d6f" rel="external nofollow noopener noreferrer" target="_blank">一篇文章能否解决你事件监听的许多疑问</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d2dd6dc6fb9a07eb67dc34b" rel="external nofollow noopener noreferrer" target="_blank">JavaScript 数据结构与算法之美 - 非线性表中的树、堆是干嘛用的 ？其数据结构是怎样的 ？</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d2d8928f265da1b95708b97" rel="external nofollow noopener noreferrer" target="_blank">程序员要搞明白CDN，这篇应该够了</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d2ee123e51d4577614761f8" rel="external nofollow noopener noreferrer" target="_blank">20道JS原理题助你面试一臂之力！</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5d2fc94c6fb9a07efb69bb4a" rel="external nofollow noopener noreferrer" target="_blank">ElementUI 源码简析——源码结构篇</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5c0a2407f265da611f0780c7" rel="external nofollow noopener noreferrer" target="_blank">base16，base32，base64 编码方式的通俗讲解</a></p>
+</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/daily-FE/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/daily-FE/page/12/">12</a><a class="extend next" rel="next" href="/daily-FE/page/2/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="https://cdn.calamus.xyz/leimu.jpeg" alt="Calamus">
+            
+              <p class="site-author-name" itemprop="name">Calamus</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/daily-FE/archives">
+                
+                    <span class="site-state-item-count">114</span>
+                    <span class="site-state-item-name">posts</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/daily-FE/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">7</span>
+                    <span class="site-state-item-name">categories</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/daily-FE/tags/index.html">
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">tags</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/daily-FE/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/calamus0427" title="GitHub &rarr; https://github.com/calamus0427" rel="external nofollow noopener noreferrer" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="mailto:kiz.calamus@gmail.com" title="E-Mail &rarr; mailto:kiz.calamus@gmail.com" rel="external nofollow noopener noreferrer" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+            </div>
+          
+
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                友情链接
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.calamus.xyz" title="https://www.calamus.xyz" rel="external nofollow noopener noreferrer" target="_blank">Calamus</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://github.com/calamus0427/daily-FE" title="https://github.com/calamus0427/daily-FE" rel="external nofollow noopener noreferrer" target="_blank">fork this on github</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Calamus</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="external nofollow noopener noreferrer" target="_blank">Hexo</a> v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="external nofollow noopener noreferrer" target="_blank">NexT.Muse</a> v7.0.0</div>
+
+
+
+<!-- 页面点击小红心 -->
+<!-- <script type="text/javascript" src="https://cdn.calamus.xyz/blog_ali/clickCn.js"></script> -->
+<script>
+(function () {
+  // var coreSocialistValues = ["富强", "民主", "文明", "和谐", "自由", "平等", "公正", "法治", "爱国", "敬业", "诚信", "友善"],
+  var coreSocialistValues = ["爱我"],
+    index = Math.floor(Math.random() * coreSocialistValues.length);
+  document.body.addEventListener('click', function (e) {
+    if (e.target.tagName == 'A') {
+      return;
+    }
+    var x = e.pageX,
+      y = e.pageY,
+      span = document.createElement('span');
+    span.textContent = coreSocialistValues[index];
+    index = (index + 1) % coreSocialistValues.length;
+    span.style.cssText = ['z-index: 9999999; position: absolute; font-weight: bold; color: #E1244E; top: ', y - 20, 'px; left: ', x, 'px;'].join('');
+    document.body.appendChild(span);
+    animate(span);
+  });
+
+  function animate(el) {
+    var i = 0,
+      top = parseInt(el.style.top),
+      id = setInterval(frame, 16.7);
+
+    function frame() {
+      if (i > 180) {
+        clearInterval(id);
+        el.parentNode.removeChild(el);
+      } else {
+        i += 2;
+        el.style.top = top - i + 'px';
+        el.style.opacity = (180 - i) / 180;
+      }
+    }
+  }
+}());
+</script>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>访问人数
+    </span>
+    <span class="site-uv" title="Total Visitors">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+  
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>总阅读量
+    </span>
+    <span class="site-pv" title="Total Views">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/daily-FE/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/daily-FE/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/daily-FE/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/daily-FE/js/src/utils.js?v=7.0.0"></script>
+
+  <script src="/daily-FE/js/src/motion.js?v=7.0.0"></script>
+
+
+
+  
+  
+
+
+  <script src="/daily-FE/js/src/schemes/muse.js?v=7.0.0"></script>
+
+
+
+  
+
+  
+
+
+  <script src="/daily-FE/js/src/bootstrap.js?v=7.0.0"></script>
+
+
+
+  
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: true,
+    notify: true,
+    appId: 'XCEWpngeYNFT8arvigx7GESJ-gzGzoHsz',
+    appKey: 'vpDdAh3yhVfFdBgOOcOB26D1',
+    placeholder: '留下你的爪印吧～支持markdown语法哦～',
+    avatar: 'wavatar',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: true
+  });
+</script>
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+    
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.4.1/dist/instantsearch.min.css">
+
+  
+  
+    
+  
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.4.1/dist/instantsearch.js"></script>
+  
+
+  <script src="/daily-FE/js/src/algolia-search.js?v=7.0.0"></script>
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
