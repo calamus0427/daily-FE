@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-09-03T01:47:09.627Z</updated>
+  <updated>2019-09-04T05:56:55.835Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20190904</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190904/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190904/</id>
+    <published>2019-09-04T13:48:29.000Z</published>
+    <updated>2019-09-04T05:56:55.835Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://github.com/weilanwl/ColorUI" rel="external nofollow noopener noreferrer" target="_blank">ColorUI鲜亮的高饱和色彩，专注视觉的小程序组件库</a></p></li><li><p><a href="https://juejin.im/post/5d6f1e68f265da03d871dc08" rel="external nofollow noopener noreferrer" target="_blank">微信公众号爆出前端安全漏洞</a></p></li><li><p><a href="https://juejin.im/post/5d6e74c35188254628237d5d" rel="external nofollow noopener noreferrer" target="_blank">你真的知道0.1+0.2为何不等于0.3吗？</a></p></li><li><p><a href="https://juejin.im/post/5d6d4e196fb9a06aed713cef" rel="external nofollow noopener noreferrer" target="_blank">我的<input>不可能这么可爱（APP打开有惊喜）</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/weilanwl/ColorUI&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;ColorUI鲜亮的高饱和色彩，专注视觉的小
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>20190903</title>
@@ -427,28 +449,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/BRrR19acqqcuDDC6nNVwmA&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;【推荐】浏览器冲
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-07-08</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190708/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190708/</id>
-    <published>2019-07-08T11:16:35.000Z</published>
-    <updated>2019-07-08T03:19:07.044Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://mp.weixin.qq.com/s/LNJIMLXgXIM5kFGFGGBxxw" rel="external nofollow noopener noreferrer" target="_blank">最近前端又火了哪些技术</a></p></li><li><p><a href="https://juejin.im/post/5d14653de51d4550a629b2b6" rel="external nofollow noopener noreferrer" target="_blank">搭建一个 nodejs 脚手架</a></p></li><li><p><a href="https://www.yuque.com/zenany/up/the_future_frontend" rel="external nofollow noopener noreferrer" target="_blank">前端之未来</a></p></li><li><p><a href="https://juejin.im/post/5d1ea7a8e51d454fd8057bea" rel="external nofollow noopener noreferrer" target="_blank">为什么视频网站的视频链接地址是blob？</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/LNJIMLXgXIM5kFGFGGBxxw&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;最近前端又火了哪
       
     
     </summary>
