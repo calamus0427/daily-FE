@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-09-04T05:56:55.835Z</updated>
+  <updated>2019-09-05T08:41:39.326Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-09-05</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190905/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190905/</id>
+    <published>2019-09-05T16:39:26.000Z</published>
+    <updated>2019-09-05T08:41:39.326Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d68f21ef265da03c721b7a0" rel="external nofollow noopener noreferrer" target="_blank">【性能指标】FMP 是怎么算出来的</a></p></li><li><p><a href="https://juejin.im/post/5d6f1c3ce51d456206115a68" rel="external nofollow noopener noreferrer" target="_blank">【辟邪剑法】探秘javascript 中的 void</a></p></li><li><p><a href="https://juejin.im/post/5d6f1347f265da03d7283909" rel="external nofollow noopener noreferrer" target="_blank">函数柯里化&amp;偏函数</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d68f21ef265da03c721b7a0&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;【性能指标】FMP 
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>20190904</title>
@@ -427,28 +449,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/xNZ_zw3iZEXBAjXVbEpeRw&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;React 优化
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-07-09</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190709/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190709/</id>
-    <published>2019-07-09T09:38:05.000Z</published>
-    <updated>2019-07-09T01:52:03.948Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://mp.weixin.qq.com/s/BRrR19acqqcuDDC6nNVwmA" rel="external nofollow noopener noreferrer" target="_blank">【推荐】浏览器冲浪，哪个浏览器信息无障碍特性支持更好？</a></p></li><li><p><a href="https://juejin.im/post/5d1d795b6fb9a07ec9562b36" rel="external nofollow noopener noreferrer" target="_blank">一个会做饭的程序员如何每天给女朋友带不同的便当？</a></p></li><li><p><a href="https://mp.weixin.qq.com/s/A3_G4enoRi282E-Xh1ypLQ" rel="external nofollow noopener noreferrer" target="_blank">中文设计比英文Low？</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/BRrR19acqqcuDDC6nNVwmA&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;【推荐】浏览器冲
       
     
     </summary>
