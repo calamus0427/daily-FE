@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-09-05T08:41:39.326Z</updated>
+  <updated>2019-09-06T02:20:50.777Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20190906</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190906/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190906/</id>
+    <published>2019-09-06T10:14:10.000Z</published>
+    <updated>2019-09-06T02:20:50.777Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://mp.weixin.qq.com/s/mHvZtQlZBiey8n-i-bZSAQ" rel="external nofollow noopener noreferrer" target="_blank">程序员遇到难以解决的bug毫无头绪时</a></p></li><li><p><a href="https://mp.weixin.qq.com/s/8qHVSox1eeqL-rzBFLcTEA" rel="external nofollow noopener noreferrer" target="_blank">前端国际化利器</a></p></li><li><p><a href="https://mp.weixin.qq.com/s/6Is-2aqDuCXLE1XUNpXDvQ" rel="external nofollow noopener noreferrer" target="_blank">如何设计简洁直观的前端架构</a></p></li><li><p><a href="https://juejin.im/post/5d70ff205188253e4b2f07bd" rel="external nofollow noopener noreferrer" target="_blank">如何拿到9家大厂的前端校招offer</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/mHvZtQlZBiey8n-i-bZSAQ&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;程序员遇到难以解
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-09-05</title>
@@ -427,28 +449,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzI1NzMwNDA0Mg==&amp;amp;mid=2247484778&amp;amp;idx=1&amp;amp;sn=5f78be2540ceb4dd06644892899dc67c&amp;
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-07-10</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190710/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190710/</id>
-    <published>2019-07-10T09:04:52.000Z</published>
-    <updated>2019-07-10T01:24:47.916Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://mp.weixin.qq.com/s/xNZ_zw3iZEXBAjXVbEpeRw" rel="external nofollow noopener noreferrer" target="_blank">React 优化技巧在 Web 版光线追踪里的应用(中)</a></p></li><li><p><a href="https://juejin.im/post/5d2405dff265da1bb97002f3" rel="external nofollow noopener noreferrer" target="_blank">Webpack 4 动态切割JS注入文件名</a></p></li><li><p><a href="https://www.freecodecamp.org/news/typescript-javascript-getters-and-setters-are-they-useless/" rel="external nofollow noopener noreferrer" target="_blank">TS与JS中的Getters和Setter究竟有什么用</a></p></li><li><p><a href="https://juejin.im/post/5d23e750f265da1b855c7bbe" rel="external nofollow noopener noreferrer" target="_blank">前端 100 问：能搞懂 80% 的请把简历给我</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/xNZ_zw3iZEXBAjXVbEpeRw&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;React 优化
       
     
     </summary>
