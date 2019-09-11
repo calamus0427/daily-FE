@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-09-10T01:23:25.032Z</updated>
+  <updated>2019-09-11T08:49:41.291Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-09-11</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190911/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190911/</id>
+    <published>2019-09-11T16:41:57.000Z</published>
+    <updated>2019-09-11T08:49:41.291Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d5b4525e51d4561bb33fb4d" rel="external nofollow noopener noreferrer" target="_blank">逐步优雅的表单验证</a></p></li><li><p><a href="https://juejin.im/post/5d6e5f77f265da03e05b2fd9" rel="external nofollow noopener noreferrer" target="_blank">重学 this 关键字(进阶必备知识）</a></p></li><li><p><a href="https://juejin.im/post/5d785a0be51d453bc52316a8" rel="external nofollow noopener noreferrer" target="_blank">前端中的接口聚合</a></p></li><li><p><a href="https://juejin.im/post/5d78aae6e51d453b7625851c" rel="external nofollow noopener noreferrer" target="_blank">要搭建自己的实时音视频服务？你需要留意这些坑</a></p></li><li><p><a href="https://juejin.im/post/5d7849a65188250d9432c13a" rel="external nofollow noopener noreferrer" target="_blank">全栈开发博客系统（nodejs+vuejs+mongodb）</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d5b4525e51d4561bb33fb4d&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;逐步优雅的表单验证&lt;
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-09-10</title>
@@ -427,28 +449,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d25ff4ff265da1bcb4f5502&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;分享狼叔关于《大前端
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-07-15</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190715/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190715/</id>
-    <published>2019-07-15T09:10:47.000Z</published>
-    <updated>2019-07-15T01:51:40.311Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d285648f265da1b942176d8" rel="external nofollow noopener noreferrer" target="_blank">随机不只是 Math.random —— 前端噪声应用</a></p></li><li><p><a href="https://mp.weixin.qq.com/s/-jAD9Rqd2Hh6J2I4_r0NZw" rel="external nofollow noopener noreferrer" target="_blank">个人职业成长之路</a></p></li><li><p><a href="https://juejin.im/post/5d254c9ef265da1b8a4f453c" rel="external nofollow noopener noreferrer" target="_blank">IPv6 优于 IPv4 的十大功能</a></p></li><li><p><a href="https://juejin.im/post/5d2a95836fb9a07ece67fddd" rel="external nofollow noopener noreferrer" target="_blank">使用 ADB 和 Node.js 训练抖音模型——寻找好看的小姐姐</a></p></li><li><p><a href="https://juejin.im/post/5d2716ab5188257b775d35ba" rel="external nofollow noopener noreferrer" target="_blank">单标签！纯CSS实现动态晴阴雨雪</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d285648f265da1b942176d8&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;随机不只是 Math
       
     
     </summary>
