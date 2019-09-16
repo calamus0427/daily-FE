@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-09-12T01:29:13.338Z</updated>
+  <updated>2019-09-16T01:22:58.037Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-09-16</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190916/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190916/</id>
+    <published>2019-09-16T09:12:53.000Z</published>
+    <updated>2019-09-16T01:22:58.037Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://github.com/lfyfly/vue-waterfall-easy/blob/master/README-CN.md" rel="external nofollow noopener noreferrer" target="_blank">vue-waterfall-easy 2.x</a></p></li><li><p><a href="https://github.com/AwesomeDevin/vue-waterfall2" rel="external nofollow noopener noreferrer" target="_blank">vue-waterfall2</a></p></li><li><p><a href="https://github.com/starkwang/vue-virtual-collection" rel="external nofollow noopener noreferrer" target="_blank">vue-virtual-collection</a></p></li><li><p><a href="https://juejin.im/post/5d7ecf2cf265da03a53a67e4" rel="external nofollow noopener noreferrer" target="_blank">JS 中几种轻松处理’this’指向方式</a></p></li><li><p><a href="https://juejin.im/post/5d7df6bff265da03b638dc97" rel="external nofollow noopener noreferrer" target="_blank">聊一聊前端算法面试——递归</a></p></li><li><p><a href="https://juejin.im/post/5d7468db5188253264365017" rel="external nofollow noopener noreferrer" target="_blank">首页白屏优化实践</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/lfyfly/vue-waterfall-easy/blob/master/README-CN.md&quot; rel=&quot;external nofollow noopener noreferrer&quot; targ
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-09-12</title>
@@ -427,28 +449,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/lmw_QV2oE8rjye6RYK8DXw&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;2019年前端技
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-07-17</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190717/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190717/</id>
-    <published>2019-07-17T09:09:51.000Z</published>
-    <updated>2019-07-17T02:26:51.365Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d25cdefe51d4510835e0329" rel="external nofollow noopener noreferrer" target="_blank">GMTC全球大前端技术大会感想</a></p></li><li><p><a href="https://mp.weixin.qq.com/s/93lpjREw_-pDtcUGXLSL0A" rel="external nofollow noopener noreferrer" target="_blank">一个前端工程师需要掌握哪些技能？</a></p></li><li><p><a href="https://juejin.im/post/5d2d7a67f265da1bb5652b91" rel="external nofollow noopener noreferrer" target="_blank">CSS Grid网格布局全攻略</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d25cdefe51d4510835e0329&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;GMTC全球大前端技
       
     
     </summary>
