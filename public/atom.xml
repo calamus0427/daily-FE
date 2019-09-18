@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-09-17T01:32:23.877Z</updated>
+  <updated>2019-09-18T01:30:18.481Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-09-18</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190918/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190918/</id>
+    <published>2019-09-18T09:27:29.000Z</published>
+    <updated>2019-09-18T01:30:18.481Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d817a15f265da039929a761" rel="external nofollow noopener noreferrer" target="_blank">技术胖的2019新版React全家桶免费视频（84集）</a></p></li><li><p><a href="https://juejin.im/post/5d7d0211e51d4561ce5a1cf1" rel="external nofollow noopener noreferrer" target="_blank">如何架构一个中后台项目的前端部分（webpack + 接口配置篇）</a></p></li><li><p><a href="https://juejin.im/post/5d7f702ce51d4561f777e258" rel="external nofollow noopener noreferrer" target="_blank">每日优鲜供应链前端团队微前端改造</a></p></li><li><p><a href="https://juejin.im/post/5d7fb1e16fb9a06ac76de435" rel="external nofollow noopener noreferrer" target="_blank">5分钟带你领略:某跳动公司面试出镜率最高的算法之一——虚拟十叉树建模问题</a></p></li><li><p><a href="https://juejin.im/post/5d808601f265da03ef7a469b" rel="external nofollow noopener noreferrer" target="_blank">vue / react的UI库都在用的几个DOM API🚀</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d817a15f265da039929a761&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;技术胖的2019新版
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-09-17</title>
@@ -427,28 +449,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5ce75d205188252dc544e7fd&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;长列表优化之虚拟列表
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-07-19</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190719/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190719/</id>
-    <published>2019-07-19T10:10:25.000Z</published>
-    <updated>2019-07-19T02:12:29.800Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://mp.weixin.qq.com/s/kxYQvAOKCjPMmxpyQg5s_Q" rel="external nofollow noopener noreferrer" target="_blank">百人研发团队管理的难题：研发管理、绩效考核、组织文化、OKR</a></p></li><li><p><a href="https://juejin.im/post/5d2c25c9e51d457778117433" rel="external nofollow noopener noreferrer" target="_blank">移动端浏览器前端优化策略</a></p></li><li><p><a href="https://juejin.im/post/5d30c0cd6fb9a07efd474427" rel="external nofollow noopener noreferrer" target="_blank">「技术面试」问答中有什么十分实用的面试技巧?</a></p></li><li><p><a href="https://juejin.im/post/5d1385b25188253dc975b577" rel="external nofollow noopener noreferrer" target="_blank">【前端词典】CDN 带来这些性能优化</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/kxYQvAOKCjPMmxpyQg5s_Q&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;百人研发团队管理
       
     
     </summary>
