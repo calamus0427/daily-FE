@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-09-25T02:30:30.205Z</updated>
+  <updated>2019-09-26T01:51:43.051Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-09-26</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20190926/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20190926/</id>
+    <published>2019-09-26T09:42:04.000Z</published>
+    <updated>2019-09-26T01:51:43.051Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d89b2a7f265da03dd3db2ca" rel="external nofollow noopener noreferrer" target="_blank">怎样让后台小哥哥快速对接你的前端页面</a></p></li><li><p><a href="https://juejin.im/post/5d8a3d62e51d45780f060490" rel="external nofollow noopener noreferrer" target="_blank">一张刮刮卡竟包含这么多前端知识点</a></p></li><li><p><a href="https://juejin.im/post/5d8af4cd6fb9a04e0925f3d8" rel="external nofollow noopener noreferrer" target="_blank">基于nodeJS从0到1实现一个CMS全栈项目（上）</a></p></li><li><p><a href="https://juejin.im/post/5d89edb1518825097619ecfe" rel="external nofollow noopener noreferrer" target="_blank">练完这篇就会写正则</a></p></li><li><p><a href="https://juejin.im/post/5d8b0b6951882502c5533e9b" rel="external nofollow noopener noreferrer" target="_blank">Xcode 11 初体验</a></p></li><li><p><a href="https://juejin.im/post/5d8c122be51d4578176b4b2b" rel="external nofollow noopener noreferrer" target="_blank">Web Audio在音频可视化中的应用</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d89b2a7f265da03dd3db2ca&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;怎样让后台小哥哥快速
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-09-25</title>
@@ -427,28 +449,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d4f8d96f265da03a715c469&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;浏览器显示及交互背后
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-07-29</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190729/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190729/</id>
-    <published>2019-07-29T09:17:59.000Z</published>
-    <updated>2019-07-29T01:20:05.020Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d3a58df5188251ce02ff228" rel="external nofollow noopener noreferrer" target="_blank">多网站项目的 CSS 架构</a></p></li><li><p><a href="https://dev.to/shafikshaon/interesting-facts-in-javascript-22nk" rel="external nofollow noopener noreferrer" target="_blank">JS 中有趣的事实</a></p></li><li><p><a href="https://juejin.im/post/5d3968845188254bc1109db0" rel="external nofollow noopener noreferrer" target="_blank">理解动态规划</a></p></li><li><p><a href="https://juejin.im/post/5d3d72ea5188254a9b3726e3" rel="external nofollow noopener noreferrer" target="_blank">Vue必知必会（8）数组有哪些方法支持响应式更新，如不支持如何处理，底层原理如何实现的？</a></p></li><li><p><a href="https://juejin.im/post/5d3d122e51882520911db850" rel="external nofollow noopener noreferrer" target="_blank">Chrome 77 开发者工具新特性</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d3a58df5188251ce02ff228&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;多网站项目的 CSS
       
     
     </summary>
