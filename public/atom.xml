@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-10-08T01:40:30.699Z</updated>
+  <updated>2019-10-09T01:13:31.319Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-10-09</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20191009/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20191009/</id>
+    <published>2019-10-09T09:11:03.000Z</published>
+    <updated>2019-10-09T01:13:31.319Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d8494f951882539aa5ae25f" rel="external nofollow noopener noreferrer" target="_blank">uni-app小程序消息推送</a></p></li><li><p><a href="https://juejin.im/post/5ce7aeb1f265da1bb80c08e8" rel="external nofollow noopener noreferrer" target="_blank">借助云开发实现小程序模版消息推送（不用搭建服务器就可以实现微信消息推送）</a></p></li><li><p><a href="https://juejin.im/post/5d3a7134f265da1b5d57f1ed" rel="external nofollow noopener noreferrer" target="_blank">if 我是前端团队 Leader，怎么制定前端协作规范?</a></p></li><li><p><a href="https://juejin.im/post/5d8efeace51d45782b0c1bd6" rel="external nofollow noopener noreferrer" target="_blank">TypeScript安利指南</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d8494f951882539aa5ae25f&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;uni-app小程序
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-10-08</title>
@@ -427,28 +449,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d68f21ef265da03c721b7a0&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;【性能指标】FMP 
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-09-04</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190904/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190904/</id>
-    <published>2019-09-04T13:48:29.000Z</published>
-    <updated>2019-09-10T01:24:01.775Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://github.com/weilanwl/ColorUI" rel="external nofollow noopener noreferrer" target="_blank">ColorUI鲜亮的高饱和色彩，专注视觉的小程序组件库</a></p></li><li><p><a href="https://juejin.im/post/5d6f1e68f265da03d871dc08" rel="external nofollow noopener noreferrer" target="_blank">微信公众号爆出前端安全漏洞</a></p></li><li><p><a href="https://juejin.im/post/5d6e74c35188254628237d5d" rel="external nofollow noopener noreferrer" target="_blank">你真的知道0.1+0.2为何不等于0.3吗？</a></p></li><li><p><a href="https://juejin.im/post/5d6d4e196fb9a06aed713cef" rel="external nofollow noopener noreferrer" target="_blank">我的<input>不可能这么可爱（APP打开有惊喜）</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/weilanwl/ColorUI&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;ColorUI鲜亮的高饱和色彩，专注视觉的小
       
     
     </summary>
