@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-10-10T07:02:40.471Z</updated>
+  <updated>2019-10-14T01:23:06.844Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-10-13</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20191013/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20191013/</id>
+    <published>2019-10-14T09:18:20.000Z</published>
+    <updated>2019-10-14T01:23:06.844Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5da34216e51d4578502c24c5" rel="external nofollow noopener noreferrer" target="_blank">前端代码质量-圈复杂度原理和实践</a></p></li><li><p><a href="https://juejin.im/post/5da3ba47f265da5b926bd061" rel="external nofollow noopener noreferrer" target="_blank">【JS 口袋书】第 5 章：JS 对象生命周期的秘密</a></p></li></ol><ol start="3"><li><a href="https://juejin.im/post/5da3c37f6fb9a04e1135f49d" rel="external nofollow noopener noreferrer" target="_blank">关于统计诗词字云中的解决方案</a></li></ol><ol start="4"><li><a href="https://juejin.im/post/5da282015188257d2a1c9e1d" rel="external nofollow noopener noreferrer" target="_blank">剖析一些经典的CSS布局问题，为前端开发+面试保驾护航</a></li></ol><ol start="5"><li><a href="https://juejin.im/post/5da16e9ef265da5b76373d0e" rel="external nofollow noopener noreferrer" target="_blank">干货HTTP/2.0，骗你是小狗</a></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5da34216e51d4578502c24c5&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;前端代码质量-圈复杂
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2019-10-11</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20191011/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20191011/</id>
+    <published>2019-10-12T10:44:02.000Z</published>
+    <updated>2019-10-12T02:49:06.471Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d9fe1cb518825358b2214d0" rel="external nofollow noopener noreferrer" target="_blank">基于 WebGL 3D 可视化档案馆管理系统</a></p></li><li><p><a href="https://juejin.im/post/5d9fee456fb9a04e3348c5ad" rel="external nofollow noopener noreferrer" target="_blank">9102年了 还没学会前端自动化部署？</a></p></li><li><p><a href="https://juejin.im/post/5da017f8f265da5ba12ce849" rel="external nofollow noopener noreferrer" target="_blank">图解直到今天也没什么人知道的原生dialog标签（非常详细）😂</a></p></li><li><p><a href="https://juejin.im/post/5d80c27cf265da03e61b45c7" rel="external nofollow noopener noreferrer" target="_blank">【译】Google 官方文章——如何去做code review</a></p></li><li><p><a href="https://juejin.im/post/5d9f2f436fb9a04e187c9c24" rel="external nofollow noopener noreferrer" target="_blank">DIY VSCode 插件，让你的开发效率突飞猛进</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d9fe1cb518825358b2214d0&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;基于 WebGL 3
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-10-10</title>
@@ -405,50 +449,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d3a7134f265da1b5d57f1ed&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;if 我是前端团队 
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-09-09</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190909/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190909/</id>
-    <published>2019-09-09T09:17:58.000Z</published>
-    <updated>2019-09-10T01:23:34.358Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d75a5266fb9a06b1a56b137" rel="external nofollow noopener noreferrer" target="_blank">面试官: 100万个成员的数组取第一个和最后一个有性能差距吗?</a></p></li><li><p><a href="https://juejin.im/post/5d736747e51d4561ff66688c" rel="external nofollow noopener noreferrer" target="_blank">拿到一份设计稿，我该如何进行移动端开发？</a></p></li><li><p><a href="https://juejin.im/post/5d71c98a6fb9a06ae8362f52" rel="external nofollow noopener noreferrer" target="_blank">京东 PC 首页 2019 改版前端总结</a></p></li><li><p><a href="https://juejin.im/post/5b867f196fb9a019d74766ec" rel="external nofollow noopener noreferrer" target="_blank">vue-cli 自动化测试 Nightwatch 详解</a></p></li><li><p><a href="https://github.com/BetterJS/doc" rel="external nofollow noopener noreferrer" target="_blank">BadJS </a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d75a5266fb9a06b1a56b137&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;面试官: 100万个
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-09-06</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190906/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190906/</id>
-    <published>2019-09-06T10:14:10.000Z</published>
-    <updated>2019-09-10T01:23:41.557Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://mp.weixin.qq.com/s/mHvZtQlZBiey8n-i-bZSAQ" rel="external nofollow noopener noreferrer" target="_blank">程序员遇到难以解决的bug毫无头绪时</a></p></li><li><p><a href="https://mp.weixin.qq.com/s/8qHVSox1eeqL-rzBFLcTEA" rel="external nofollow noopener noreferrer" target="_blank">前端国际化利器</a></p></li><li><p><a href="https://mp.weixin.qq.com/s/6Is-2aqDuCXLE1XUNpXDvQ" rel="external nofollow noopener noreferrer" target="_blank">如何设计简洁直观的前端架构</a></p></li><li><p><a href="https://juejin.im/post/5d70ff205188253e4b2f07bd" rel="external nofollow noopener noreferrer" target="_blank">如何拿到9家大厂的前端校招offer</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/mHvZtQlZBiey8n-i-bZSAQ&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;程序员遇到难以解
       
     
     </summary>
