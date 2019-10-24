@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-10-23T06:34:51.197Z</updated>
+  <updated>2019-10-24T02:35:08.481Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-10-24</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20191024/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20191024/</id>
+    <published>2019-10-24T10:26:25.000Z</published>
+    <updated>2019-10-24T02:35:08.481Z</updated>
+    
+    <content type="html"><![CDATA[<p>程序员节日快乐呀～</p><ol><li><p><a href="https://juejin.im/post/5db10695e51d452a091fde90" rel="external nofollow noopener noreferrer" target="_blank">浏览器观察者Observer API 指南（新）</a></p></li><li><p><a href="https://juejin.im/post/5db0ea3ef265da4d4f65aaf6" rel="external nofollow noopener noreferrer" target="_blank">React 初学者需要知道的一些知识</a></p></li><li><p><a href="https://juejin.im/post/5dadc6045188255a270a0f85" rel="external nofollow noopener noreferrer" target="_blank">这可能是最通俗的 React Fiber(时间分片) 打开方式</a></p></li><li><p><a href="https://juejin.im/post/5dac3b4351882576534d33d7#heading-15" rel="external nofollow noopener noreferrer" target="_blank">7天撸完KTV点歌系统,含后台管理系统(完整版)</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;程序员节日快乐呀～&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5db10695e51d452a091fde90&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-10-23</title>
@@ -427,28 +450,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/lfyfly/vue-waterfall-easy/blob/master/README-CN.md&quot; rel=&quot;external nofollow noopener noreferrer&quot; targ
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-09-12</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190912/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190912/</id>
-    <published>2019-09-12T09:20:10.000Z</published>
-    <updated>2019-09-12T01:29:13.338Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d77a620518825636c0d1763" rel="external nofollow noopener noreferrer" target="_blank">2019 Electron+Vue+Ant Design Vue仿网易云音乐windows客户端实战分享</a>👍👍👍👍👍👍</p></li><li><p><a href="https://juejin.im/post/5d7864e46fb9a06b051818e8" rel="external nofollow noopener noreferrer" target="_blank">9分钟，搞明白闭包</a></p></li><li><p><a href="https://juejin.im/post/5d7659c76fb9a06b307068ed" rel="external nofollow noopener noreferrer" target="_blank">收下这波 JS 技巧，从此少加班</a></p></li><li><p><a href="https://juejin.im/post/5d75b4d45188250c992d5919" rel="external nofollow noopener noreferrer" target="_blank">手写算法并记住它：快速排序（5行代码简单版）</a></p></li><li><p><a href="https://juejin.im/post/5d767bc5f265da03b76b48a6" rel="external nofollow noopener noreferrer" target="_blank">Vue3.0之前你必须知道的TypeScript实战技巧</a></p></li><li><p><a href="https://juejin.im/post/5d7838cbe51d4561e53539d2" rel="external nofollow noopener noreferrer" target="_blank">关于 CSS margin，一些让你模糊的点</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d77a620518825636c0d1763&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;2019 Elect
       
     
     </summary>
