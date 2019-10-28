@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-10-24T02:35:08.481Z</updated>
+  <updated>2019-10-28T01:33:17.829Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-10-28</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20191028/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20191028/</id>
+    <published>2019-10-28T09:23:31.000Z</published>
+    <updated>2019-10-28T01:33:17.829Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5db62f1bf265da4d560906ab" rel="external nofollow noopener noreferrer" target="_blank">13 个 JS 数组精简技巧，一起来看看</a></p></li><li><p><a href="https://juejin.im/post/5db63ca1f265da4d226e2476" rel="external nofollow noopener noreferrer" target="_blank">精读《Nuxtjs》</a></p></li><li><p><a href="https://juejin.im/post/5db52dedf265da4d495c3fb8" rel="external nofollow noopener noreferrer" target="_blank">基于vue+vant搭建H5通用架子</a></p></li><li><p><a href="https://juejin.im/post/5da9c6b0e51d4524d67486e2" rel="external nofollow noopener noreferrer" target="_blank">前端工程师应该知道的yarn知识</a></p></li><li><p><a href="https://juejin.im/post/5dafb263f265da5b9b80244d" rel="external nofollow noopener noreferrer" target="_blank">web前端面试总结(自认为还算全面哈哈哈哈哈！！！）</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5db62f1bf265da4d560906ab&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;13 个 JS 数组
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-10-24</title>
@@ -428,28 +450,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d802025e51d4561f17a518e&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;息息相关的 JS 同
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-09-16</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190916/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190916/</id>
-    <published>2019-09-16T09:12:53.000Z</published>
-    <updated>2019-09-16T01:22:58.037Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://github.com/lfyfly/vue-waterfall-easy/blob/master/README-CN.md" rel="external nofollow noopener noreferrer" target="_blank">vue-waterfall-easy 2.x</a></p></li><li><p><a href="https://github.com/AwesomeDevin/vue-waterfall2" rel="external nofollow noopener noreferrer" target="_blank">vue-waterfall2</a></p></li><li><p><a href="https://github.com/starkwang/vue-virtual-collection" rel="external nofollow noopener noreferrer" target="_blank">vue-virtual-collection</a></p></li><li><p><a href="https://juejin.im/post/5d7ecf2cf265da03a53a67e4" rel="external nofollow noopener noreferrer" target="_blank">JS 中几种轻松处理’this’指向方式</a></p></li><li><p><a href="https://juejin.im/post/5d7df6bff265da03b638dc97" rel="external nofollow noopener noreferrer" target="_blank">聊一聊前端算法面试——递归</a></p></li><li><p><a href="https://juejin.im/post/5d7468db5188253264365017" rel="external nofollow noopener noreferrer" target="_blank">首页白屏优化实践</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/lfyfly/vue-waterfall-easy/blob/master/README-CN.md&quot; rel=&quot;external nofollow noopener noreferrer&quot; targ
       
     
     </summary>
