@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-10-30T06:14:07.929Z</updated>
+  <updated>2019-10-31T01:38:39.529Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-10-31</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20191031/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20191031/</id>
+    <published>2019-10-31T09:27:24.000Z</published>
+    <updated>2019-10-31T01:38:39.529Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5dba2249f265da4cef190484" rel="external nofollow noopener noreferrer" target="_blank">通过 41 个 问答方式快速了解学习 Git</a></p></li><li><p><a href="https://juejin.im/post/5db919816fb9a020333c362f" rel="external nofollow noopener noreferrer" target="_blank">大前端团队代码规范</a></p></li><li><p><a href="http://alloyteam.github.io/CodeGuide/" rel="external nofollow noopener noreferrer" target="_blank">腾讯web前端团队的开发规范</a></p></li><li><p><a href="https://juejin.im/post/5db95e3a6fb9a020704bcd8d" rel="external nofollow noopener noreferrer" target="_blank">再次梳理AMD、CMD、CommonJS、ES6 Module的区别</a></p></li><li><p><a href="https://juejin.im/post/5db66672f265da4d0e009aad" rel="external nofollow noopener noreferrer" target="_blank">VSCode前端必备插件，有可能你装了却不知道如何使用？</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5dba2249f265da4cef190484&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;通过 41 个 问答
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-10-30</title>
@@ -428,28 +450,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d82c12ff265da03a31d6f92&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;通过实现25个数组方
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-09-18</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190918/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190918/</id>
-    <published>2019-09-18T09:27:29.000Z</published>
-    <updated>2019-09-18T01:30:18.481Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d817a15f265da039929a761" rel="external nofollow noopener noreferrer" target="_blank">技术胖的2019新版React全家桶免费视频（84集）</a></p></li><li><p><a href="https://juejin.im/post/5d7d0211e51d4561ce5a1cf1" rel="external nofollow noopener noreferrer" target="_blank">如何架构一个中后台项目的前端部分（webpack + 接口配置篇）</a></p></li><li><p><a href="https://juejin.im/post/5d7f702ce51d4561f777e258" rel="external nofollow noopener noreferrer" target="_blank">每日优鲜供应链前端团队微前端改造</a></p></li><li><p><a href="https://juejin.im/post/5d7fb1e16fb9a06ac76de435" rel="external nofollow noopener noreferrer" target="_blank">5分钟带你领略:某跳动公司面试出镜率最高的算法之一——虚拟十叉树建模问题</a></p></li><li><p><a href="https://juejin.im/post/5d808601f265da03ef7a469b" rel="external nofollow noopener noreferrer" target="_blank">vue / react的UI库都在用的几个DOM API🚀</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d817a15f265da039929a761&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;技术胖的2019新版
       
     
     </summary>
