@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-11-05T03:51:39.106Z</updated>
+  <updated>2019-11-06T03:16:27.540Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-11-06</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20191106/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20191106/</id>
+    <published>2019-11-06T09:26:41.000Z</published>
+    <updated>2019-11-06T03:16:27.540Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5dc15b35f265da4d432a3d10" rel="external nofollow noopener noreferrer" target="_blank">可能是最全的 “文本溢出截断省略” 方案合集</a></p></li><li><p><a href="https://juejin.im/post/5dc0d651e51d45124a53a6da" rel="external nofollow noopener noreferrer" target="_blank">前端常用功能小计(持续更新)</a></p></li><li><p><a href="https://juejin.im/post/5dbe818a6fb9a0203c34e4bb" rel="external nofollow noopener noreferrer" target="_blank">7道简单的 JavaScript 面试题，三个月没招到一个人</a></p></li><li><p><a href="https://0.30000000000000004.com/" rel="external nofollow noopener noreferrer" target="_blank">https://0.30000000000000004.com/</a></p></li><li><p><a href="https://juejin.im/post/5dc0c744e51d456e7e41f5ac" rel="external nofollow noopener noreferrer" target="_blank">9个项目助你在2020年成为前端大神！</a></p></li><li><p><a href="https://www.tailwindcss.cn/" rel="external nofollow noopener noreferrer" target="_blank">Tailwind</a></p></li><li><p><a href="https://github.com/ymm-tech/gods-pen" rel="external nofollow noopener noreferrer" target="_blank">码良</a><br> 基于vue的高扩展在线网页制作平台，可自定义组件，可添加脚本，可数据统计。</p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5dc15b35f265da4d432a3d10&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;可能是最全的 “文本
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-11-05</title>
@@ -428,28 +450,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d87985d6fb9a06add4e6ac3&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;初级前端面试题&lt;/a
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-09-23</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190923/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190923/</id>
-    <published>2019-09-23T09:23:33.000Z</published>
-    <updated>2019-09-23T01:30:42.201Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d860b5cf265da03db07b435" rel="external nofollow noopener noreferrer" target="_blank">JS基础-完美掌握继承知识点</a></p></li><li><p><a href="https://juejin.im/post/5d69eef7f265da03f12e70a5" rel="external nofollow noopener noreferrer" target="_blank">[源码解读]一文彻底搞懂Events模块</a></p></li><li><p><a href="https://juejin.im/post/5d8807eaf265da03e4679d40" rel="external nofollow noopener noreferrer" target="_blank">掌握JS函数中的几种参数形式（函数基础）</a></p></li><li><p><a href="https://juejin.im/post/5d86fc096fb9a06ae94d6d7a" rel="external nofollow noopener noreferrer" target="_blank">用css3实现惊艳面试官的背景即背景动画（高级附源码）</a></p></li><li><p><a href="https://juejin.im/post/5d8753d9e51d4561c83e7d1d" rel="external nofollow noopener noreferrer" target="_blank">【译】Javascript中你需要知道的最出色的新特性：Optional Chaining</a></p></li><li><p><a href="https://juejin.im/post/5d847cc6e51d4561ba48feb8" rel="external nofollow noopener noreferrer" target="_blank">Element-UI 技术揭秘（4）— Container 布局容器组件的设计与实现。</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d860b5cf265da03db07b435&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;JS基础-完美掌握继
       
     
     </summary>
