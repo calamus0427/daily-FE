@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-11-08T01:32:34.096Z</updated>
+  <updated>2019-11-11T01:51:56.421Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-11-11</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20191111/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20191111/</id>
+    <published>2019-11-11T09:32:40.000Z</published>
+    <updated>2019-11-11T01:51:56.421Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5dc7fb87e51d454b4213c934" rel="external nofollow noopener noreferrer" target="_blank">为你重新系统梳理下， Web 体验优化中和图有关的那些事（万字长文）</a></p></li><li><p><a href="https://juejin.im/post/5dc8a231f265da4d40712f8a" rel="external nofollow noopener noreferrer" target="_blank">通过 20 个棘手的ES6面试问题来提高咱们的 JS 技能</a></p></li><li><p><a href="https://juejin.im/post/5dc820a3e51d4509320d084d" rel="external nofollow noopener noreferrer" target="_blank">[实战] 为了学好 React Hooks, 我抄了 Vue Composition API, 真香</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5dc7fb87e51d454b4213c934&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;为你重新系统梳理下，
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-11-08</title>
@@ -428,28 +450,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d8d679ef265da5b6a1688c2&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;npm进阶——如何拥
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-09-26</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190926/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190926/</id>
-    <published>2019-09-26T09:42:04.000Z</published>
-    <updated>2019-09-26T01:51:43.051Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d89b2a7f265da03dd3db2ca" rel="external nofollow noopener noreferrer" target="_blank">怎样让后台小哥哥快速对接你的前端页面</a></p></li><li><p><a href="https://juejin.im/post/5d8a3d62e51d45780f060490" rel="external nofollow noopener noreferrer" target="_blank">一张刮刮卡竟包含这么多前端知识点</a></p></li><li><p><a href="https://juejin.im/post/5d8af4cd6fb9a04e0925f3d8" rel="external nofollow noopener noreferrer" target="_blank">基于nodeJS从0到1实现一个CMS全栈项目（上）</a></p></li><li><p><a href="https://juejin.im/post/5d89edb1518825097619ecfe" rel="external nofollow noopener noreferrer" target="_blank">练完这篇就会写正则</a></p></li><li><p><a href="https://juejin.im/post/5d8b0b6951882502c5533e9b" rel="external nofollow noopener noreferrer" target="_blank">Xcode 11 初体验</a></p></li><li><p><a href="https://juejin.im/post/5d8c122be51d4578176b4b2b" rel="external nofollow noopener noreferrer" target="_blank">Web Audio在音频可视化中的应用</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d89b2a7f265da03dd3db2ca&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;怎样让后台小哥哥快速
       
     
     </summary>
