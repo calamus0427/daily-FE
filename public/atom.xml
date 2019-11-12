@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-11-11T01:51:56.421Z</updated>
+  <updated>2019-11-12T01:34:25.716Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-11-12</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20191112/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20191112/</id>
+    <published>2019-11-12T09:22:42.000Z</published>
+    <updated>2019-11-12T01:34:25.716Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5b51f39b5188251a9f24a264" rel="external nofollow noopener noreferrer" target="_blank">不务正业的前端之SSO（单点登录）实践</a></p></li><li><p><a href="https://juejin.im/post/5dc9f3f5e51d455fc74a28fa" rel="external nofollow noopener noreferrer" target="_blank">【TypeScript 演化史 – 1】non-nullable 的类型</a></p></li><li><p><a href="https://juejin.im/post/5dc81ea36fb9a04a6f0fec28" rel="external nofollow noopener noreferrer" target="_blank">前端SKU算法的实现</a></p></li><li><p><a href="https://github.com/kingshuaishuai/blog/blob/master/%E8%AE%A4%E8%AF%86SKU%E4%B8%8ESPU.md" rel="external nofollow noopener noreferrer" target="_blank">认识SKU与SPU</a></p></li><li><p><a href="https://juejin.im/post/5dc8b3f95188255945522b8d" rel="external nofollow noopener noreferrer" target="_blank">建议速读 | ES6 特性快速扫盲</a></p></li><li><p><a href="https://juejin.im/post/5dc8e4efe51d45502e03f2f6" rel="external nofollow noopener noreferrer" target="_blank">一文搞懂Web中暗藏的密码学</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5b51f39b5188251a9f24a264&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;不务正业的前端之SS
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-11-11</title>
@@ -428,28 +450,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d8ff489f265da5ba46f3f9e&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;20多个小事例带你重
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>20190927</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20190927/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20190927/</id>
-    <published>2019-09-27T09:45:27.000Z</published>
-    <updated>2019-09-27T02:11:55.018Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d8d679ef265da5b6a1688c2" rel="external nofollow noopener noreferrer" target="_blank">npm进阶——如何拥有自己的包和流程自动化</a></p></li><li><p><a href="https://juejin.im/post/5d8b755fe51d45781332e919" rel="external nofollow noopener noreferrer" target="_blank">看完这篇，面试再也不怕被问 Webpack 热更新</a></p></li><li><p><a href="https://juejin.im/post/5d8adb8ff265da5ba12cd173" rel="external nofollow noopener noreferrer" target="_blank">微前端入门</a></p></li><li><p><a href="https://juejin.im/post/5d8bfef051882511f444f565" rel="external nofollow noopener noreferrer" target="_blank">常见的三个 JS 面试题</a></p></li><li><p><a href="https://juejin.im/post/5d8aac8fe51d4578477a6699" rel="external nofollow noopener noreferrer" target="_blank">辛辛苦苦学会的 webpack dll 配置，可能已经过时了</a></p></li><li><p><a href="https://juejin.im/post/5d8c7235e51d457824771d17" rel="external nofollow noopener noreferrer" target="_blank">给自己搭个脚手架</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d8d679ef265da5b6a1688c2&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;npm进阶——如何拥
       
     
     </summary>
