@@ -1,0 +1,18 @@
+
+root: /
+
+Home: /
+Archives: /archives
+About: /about
+
+language: en
+
+author: fuzhouxx Dong
+description: good good study day day up
+
+disqus:
+  enable: false
+  shortname:
+
+google_site_verification:
+google_analytics:

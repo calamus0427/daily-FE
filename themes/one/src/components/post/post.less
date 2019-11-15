@@ -1,0 +1,50 @@
+@import "../../variable.less";
+.post {
+    width: e("calc(75% - 16px)");
+}
+
+@media (max-width: (@screen-sm-min - 1)) {
+    .post {
+        width: 100%;
+    }
+    .commentCard {
+        composes: card from '../card/card.less';
+        width: 100%;
+        margin-top: 20px;
+    }
+    .PostCard {
+        width: 100%;
+        border-radius: 0px !important;
+    }
+}
+
+
+.commentCard {
+    composes: card from '../card/card.less';
+    width: e("calc(100% - 16px)");
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.toc {
+    width: e("calc(25% - 16px)");
+    margin-top: 80px;
+}
+
+.TocList {
+    margin-top: 170px - 80px;
+}
+
+.tocFixed {
+    width: 190px;
+}
+
+:global(.Post) {
+    width: 100%;
+}
+
+.Comment {
+    padding: 20px 20px;
+    overflow: hidden
+}
