@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-11-15T02:15:10.193Z</updated>
+  <updated>2019-11-19T01:49:01.865Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-11-19</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20191119/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20191119/</id>
+    <published>2019-11-19T09:31:48.000Z</published>
+    <updated>2019-11-19T01:49:01.865Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5dd33173e51d453fbc0bd565" rel="external nofollow noopener noreferrer" target="_blank">【TypeScript 演化史 – 3】标记联合类型 与 never 类型</a></p></li><li><p><a href="https://juejin.im/post/5dd337985188252a1873730f" rel="external nofollow noopener noreferrer" target="_blank">如何对 React 函数式组件进行优化</a></p></li><li><p><a href="https://juejin.im/post/5dd13460e51d45401f07805e" rel="external nofollow noopener noreferrer" target="_blank">基于 Vue 的两层吸顶踩坑总结</a></p></li><li><p><a href="https://juejin.im/post/5dd1edf3e51d4561ea3fb3cd" rel="external nofollow noopener noreferrer" target="_blank">双线程前端框架：Voe.js</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5dd33173e51d453fbc0bd565&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;【TypeScrip
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-11-15</title>
@@ -428,28 +450,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d9ebaddf265da5b591b64b3&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Element-UI
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-10-09</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20191009/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20191009/</id>
-    <published>2019-10-09T09:11:03.000Z</published>
-    <updated>2019-10-09T01:13:31.319Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d8494f951882539aa5ae25f" rel="external nofollow noopener noreferrer" target="_blank">uni-app小程序消息推送</a></p></li><li><p><a href="https://juejin.im/post/5ce7aeb1f265da1bb80c08e8" rel="external nofollow noopener noreferrer" target="_blank">借助云开发实现小程序模版消息推送（不用搭建服务器就可以实现微信消息推送）</a></p></li><li><p><a href="https://juejin.im/post/5d3a7134f265da1b5d57f1ed" rel="external nofollow noopener noreferrer" target="_blank">if 我是前端团队 Leader，怎么制定前端协作规范?</a></p></li><li><p><a href="https://juejin.im/post/5d8efeace51d45782b0c1bd6" rel="external nofollow noopener noreferrer" target="_blank">TypeScript安利指南</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d8494f951882539aa5ae25f&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;uni-app小程序
       
     
     </summary>
