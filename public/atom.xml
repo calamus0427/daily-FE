@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2019-11-19T01:49:01.865Z</updated>
+  <updated>2019-11-21T01:27:53.917Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-11-21</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20191121/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20191121/</id>
+    <published>2019-11-21T09:21:15.000Z</published>
+    <updated>2019-11-21T01:27:53.917Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5dd5d1f8f265da4796659baf" rel="external nofollow noopener noreferrer" target="_blank">搞懂并学会运用 Vue 中的无状态组件</a></p></li><li><p><a href="https://juejin.im/post/5dd4b991e51d450818244c30" rel="external nofollow noopener noreferrer" target="_blank">WebSocket 原理浅析与实现简单聊天</a></p></li><li><p><a href="https://juejin.im/post/5dd5c9fce51d4577ec1dcd45" rel="external nofollow noopener noreferrer" target="_blank">jwt 实践应用以及特殊案例思考</a></p></li><li><p><a href="https://juejin.im/post/5dd4a4015188252a18737535" rel="external nofollow noopener noreferrer" target="_blank">JS操作小技巧，工作简单了</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5dd5d1f8f265da4796659baf&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;搞懂并学会运用 Vu
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2019-11-20</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20191120/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20191120/</id>
+    <published>2019-11-20T10:58:32.000Z</published>
+    <updated>2019-11-20T03:10:12.710Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5dc233dcf265da4d1a4c9b17" rel="external nofollow noopener noreferrer" target="_blank">[译] 深入 OAuth2.0 和 JWT</a></p></li><li><p><a href="https://juejin.im/post/5dd42a7651882549b16519fa" rel="external nofollow noopener noreferrer" target="_blank">Node.js异步编程进化论</a></p></li><li><p><a href="https://juejin.im/post/5dd39427e51d4508462c0f2a" rel="external nofollow noopener noreferrer" target="_blank">Vue2.X和Vue3.0数据响应原理实例（下）</a></p></li><li><p><a href="https://juejin.im/post/5dd3540df265da0c0a143f5d" rel="external nofollow noopener noreferrer" target="_blank">【扒一扒】这一次，彻底理解 ES6 Iterator</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5dc233dcf265da4d1a4c9b17&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;[译] 深入 OAu
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2019-11-19</title>
@@ -406,50 +450,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5da34216e51d4578502c24c5&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;前端代码质量-圈复杂
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-10-11</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20191011/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20191011/</id>
-    <published>2019-10-12T10:44:02.000Z</published>
-    <updated>2019-10-12T02:49:06.471Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d9fe1cb518825358b2214d0" rel="external nofollow noopener noreferrer" target="_blank">基于 WebGL 3D 可视化档案馆管理系统</a></p></li><li><p><a href="https://juejin.im/post/5d9fee456fb9a04e3348c5ad" rel="external nofollow noopener noreferrer" target="_blank">9102年了 还没学会前端自动化部署？</a></p></li><li><p><a href="https://juejin.im/post/5da017f8f265da5ba12ce849" rel="external nofollow noopener noreferrer" target="_blank">图解直到今天也没什么人知道的原生dialog标签（非常详细）😂</a></p></li><li><p><a href="https://juejin.im/post/5d80c27cf265da03e61b45c7" rel="external nofollow noopener noreferrer" target="_blank">【译】Google 官方文章——如何去做code review</a></p></li><li><p><a href="https://juejin.im/post/5d9f2f436fb9a04e187c9c24" rel="external nofollow noopener noreferrer" target="_blank">DIY VSCode 插件，让你的开发效率突飞猛进</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d9fe1cb518825358b2214d0&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;基于 WebGL 3
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-10-10</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20191010/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20191010/</id>
-    <published>2019-10-10T14:40:49.000Z</published>
-    <updated>2019-10-10T07:02:40.471Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5d9ebaddf265da5b591b64b3" rel="external nofollow noopener noreferrer" target="_blank">Element-UI 技术揭秘（5）- 色彩、字体、边框与图标</a></p></li><li><p><a href="https://juejin.im/post/5d9bf530518825427b27639d" rel="external nofollow noopener noreferrer" target="_blank">1.5万字概括ES6全部特性(看图就能记下，值得收藏)</a></p></li><li><p><a href="https://juejin.im/post/5d85cda3f265da03b638e918" rel="external nofollow noopener noreferrer" target="_blank">聊聊面试必考-递归思想与实战</a></p></li><li><p><a href="https://juejin.im/post/5d9d386fe51d45784d3f8637" rel="external nofollow noopener noreferrer" target="_blank">Vue 开发必须知道的 36 个技巧【近1W字】</a></p></li><li><p><a href="https://juejin.im/post/5d9e932ff265da5bb065db1f" rel="external nofollow noopener noreferrer" target="_blank">动画：面试官问我 0.1 + 0.2 __ 0.3 ? 为什么？该如何正确回答？</a></p></li><li><p><a href="https://juejin.im/post/5d9d5af0e51d45782e6039cf" rel="external nofollow noopener noreferrer" target="_blank">视图更新科技发布 View UI 组件库（即 iView 4.0），超过50项更新</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5d9ebaddf265da5b591b64b3&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Element-UI
       
     
     </summary>
