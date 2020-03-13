@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2020-03-11T02:44:29.671Z</updated>
+  <updated>2020-03-13T02:45:40.678Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>20200313</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20200313/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20200313/</id>
+    <published>2020-03-13T10:09:32.000Z</published>
+    <updated>2020-03-13T02:45:40.678Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5e69b843e51d4526d87c85ef" rel="external nofollow noopener noreferrer" target="_blank">使用vue实现HTML页面生成图片</a></p></li><li><p><a href="https://juejin.im/post/5e5ef2f9f265da57685dc9c1" rel="external nofollow noopener noreferrer" target="_blank">记好这 24 个 ES6 方法，用来解决实际开发的 JS 问题</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5e69b843e51d4526d87c85ef&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;使用vue实现HTM
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>20200311</title>
@@ -427,28 +449,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5db808e2e51d452a05505af3&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;茶余饭后聊聊 Vue
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-10-28</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20191028/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20191028/</id>
-    <published>2019-10-28T09:23:31.000Z</published>
-    <updated>2019-10-28T01:33:17.829Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5db62f1bf265da4d560906ab" rel="external nofollow noopener noreferrer" target="_blank">13 个 JS 数组精简技巧，一起来看看</a></p></li><li><p><a href="https://juejin.im/post/5db63ca1f265da4d226e2476" rel="external nofollow noopener noreferrer" target="_blank">精读《Nuxtjs》</a></p></li><li><p><a href="https://juejin.im/post/5db52dedf265da4d495c3fb8" rel="external nofollow noopener noreferrer" target="_blank">基于vue+vant搭建H5通用架子</a></p></li><li><p><a href="https://juejin.im/post/5da9c6b0e51d4524d67486e2" rel="external nofollow noopener noreferrer" target="_blank">前端工程师应该知道的yarn知识</a></p></li><li><p><a href="https://juejin.im/post/5dafb263f265da5b9b80244d" rel="external nofollow noopener noreferrer" target="_blank">web前端面试总结(自认为还算全面哈哈哈哈哈！！！）</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5db62f1bf265da4d560906ab&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;13 个 JS 数组
       
     
     </summary>
