@@ -96,17 +96,17 @@
 
 
 
-  <meta name="description" content="可能是最全的 “文本溢出截断省略” 方案合集  前端常用功能小计(持续更新)  7道简单的 JavaScript 面试题，三个月没招到一个人  https://0.30000000000000004.com/  9个项目助你在2020年成为前端大神！  Tailwind  码良 基于vue的高扩展在线网页制作平台，可自定义组件，可添加脚本，可数据统计。">
+  <meta name="description" content="面试官：为什么 Vue 中不要用 index 作为 key？（diff 算法详解）  《大前端 基础组件》系列 网页水印生成方案  一年半，三本，收到30K+的offer，你也可以  你将会用到的ES2020新特性">
 <meta property="og:type" content="article">
-<meta property="og:title" content="2019-11-06">
-<meta property="og:url" content="https://calamus.wiki/daily-FE/articles/20191106/index.html">
+<meta property="og:title" content="20200403">
+<meta property="og:url" content="https://calamus.wiki/daily-FE/articles/20200403/index.html">
 <meta property="og:site_name" content="每日前端">
-<meta property="og:description" content="可能是最全的 “文本溢出截断省略” 方案合集  前端常用功能小计(持续更新)  7道简单的 JavaScript 面试题，三个月没招到一个人  https://0.30000000000000004.com/  9个项目助你在2020年成为前端大神！  Tailwind  码良 基于vue的高扩展在线网页制作平台，可自定义组件，可添加脚本，可数据统计。">
+<meta property="og:description" content="面试官：为什么 Vue 中不要用 index 作为 key？（diff 算法详解）  《大前端 基础组件》系列 网页水印生成方案  一年半，三本，收到30K+的offer，你也可以  你将会用到的ES2020新特性">
 <meta property="og:locale" content="zh">
-<meta property="og:updated_time" content="2019-11-06T03:16:27.540Z">
+<meta property="og:updated_time" content="2020-04-03T05:05:23.584Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="2019-11-06">
-<meta name="twitter:description" content="可能是最全的 “文本溢出截断省略” 方案合集  前端常用功能小计(持续更新)  7道简单的 JavaScript 面试题，三个月没招到一个人  https://0.30000000000000004.com/  9个项目助你在2020年成为前端大神！  Tailwind  码良 基于vue的高扩展在线网页制作平台，可自定义组件，可添加脚本，可数据统计。">
+<meta name="twitter:title" content="20200403">
+<meta name="twitter:description" content="面试官：为什么 Vue 中不要用 index 作为 key？（diff 算法详解）  《大前端 基础组件》系列 网页水印生成方案  一年半，三本，收到30K+的offer，你也可以  你将会用到的ES2020新特性">
 
 
 
@@ -115,7 +115,7 @@
 
 
 
-  <link rel="canonical" href="https://calamus.wiki/daily-FE/articles/20191106/">
+  <link rel="canonical" href="https://calamus.wiki/daily-FE/articles/20200403/">
 
 
 
@@ -125,7 +125,7 @@
   };
 </script>
 
-  <title>2019-11-06 | 每日前端</title>
+  <title>20200403 | 每日前端</title>
   
 
 
@@ -369,7 +369,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://calamus.wiki/daily-FE/daily-FE/articles/20191106/">
+    <link itemprop="mainEntityOfPage" href="https://calamus.wiki/daily-FE/daily-FE/articles/20200403/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Calamus">
@@ -386,7 +386,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">2019-11-06
+          <h1 class="post-title" itemprop="name headline">20200403
 
               
             
@@ -412,7 +412,7 @@
                 
               
 
-              <time title="Created: 2019-11-06 09:26:41 / Modified: 03:16:27" itemprop="dateCreated datePublished" datetime="2019-11-06T09:26:41Z">2019-11-06</time>
+              <time title="Created: 2020-04-03 12:27:57 / Modified: 05:05:23" itemprop="dateCreated datePublished" datetime="2020-04-03T12:27:57Z">2020-04-03</time>
             
 
             
@@ -434,8 +434,8 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
             
-                <a href="/daily-FE/articles/20191106/#comments" itemprop="discussionUrl">
-                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count valine-comment-count" data-xid="/daily-FE/articles/20191106/" itemprop="commentCount"></span>
+                <a href="/daily-FE/articles/20200403/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count valine-comment-count" data-xid="/daily-FE/articles/20200403/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -443,7 +443,7 @@
 
           
           
-            <span id="/daily-FE/articles/20191106/" class="leancloud_visitors" data-flag-title="2019-11-06">
+            <span id="/daily-FE/articles/20200403/" class="leancloud_visitors" data-flag-title="20200403">
               <span class="post-meta-divider">|</span>
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
@@ -482,19 +482,13 @@
 
       
         <ol>
-<li><p><a href="https://juejin.im/post/5dc15b35f265da4d432a3d10" rel="external nofollow noopener noreferrer" target="_blank">可能是最全的 “文本溢出截断省略” 方案合集</a></p>
+<li><p><a href="https://juejin.im/post/5e8694b75188257372503722" rel="external nofollow noopener noreferrer" target="_blank">面试官：为什么 Vue 中不要用 index 作为 key？（diff 算法详解）</a></p>
 </li>
-<li><p><a href="https://juejin.im/post/5dc0d651e51d45124a53a6da" rel="external nofollow noopener noreferrer" target="_blank">前端常用功能小计(持续更新)</a></p>
+<li><p><a href="https://juejin.im/post/5e85dc9d6fb9a03c5b2fb8c5" rel="external nofollow noopener noreferrer" target="_blank">《大前端 基础组件》系列 网页水印生成方案</a></p>
 </li>
-<li><p><a href="https://juejin.im/post/5dbe818a6fb9a0203c34e4bb" rel="external nofollow noopener noreferrer" target="_blank">7道简单的 JavaScript 面试题，三个月没招到一个人</a></p>
+<li><p><a href="https://juejin.im/post/5e848dc25188257375467488" rel="external nofollow noopener noreferrer" target="_blank">一年半，三本，收到30K+的offer，你也可以</a></p>
 </li>
-<li><p><a href="https://0.30000000000000004.com/" rel="external nofollow noopener noreferrer" target="_blank">https://0.30000000000000004.com/</a></p>
-</li>
-<li><p><a href="https://juejin.im/post/5dc0c744e51d456e7e41f5ac" rel="external nofollow noopener noreferrer" target="_blank">9个项目助你在2020年成为前端大神！</a></p>
-</li>
-<li><p><a href="https://www.tailwindcss.cn/" rel="external nofollow noopener noreferrer" target="_blank">Tailwind</a></p>
-</li>
-<li><p><a href="https://github.com/ymm-tech/gods-pen" rel="external nofollow noopener noreferrer" target="_blank">码良</a><br> 基于vue的高扩展在线网页制作平台，可自定义组件，可添加脚本，可数据统计。</p>
+<li><p><a href="https://juejin.im/post/5e86af916fb9a03c6c18fb13" rel="external nofollow noopener noreferrer" target="_blank">你将会用到的ES2020新特性</a></p>
 </li>
 </ol>
 
@@ -630,8 +624,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/daily-FE/articles/20191105/" rel="next" title="2019-11-05">
-                <i class="fa fa-chevron-left"></i> 2019-11-05
+              <a href="/daily-FE/articles/20200402/" rel="next" title="20200402">
+                <i class="fa fa-chevron-left"></i> 20200402
               </a>
             
           </div>
@@ -639,10 +633,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/daily-FE/articles/20191107/" rel="prev" title="2019-11-07">
-                2019-11-07 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
