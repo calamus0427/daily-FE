@@ -6,7 +6,7 @@
   <link href="/daily-FE/atom.xml" rel="self"/>
   
   <link href="https://calamus.wiki/daily-FE/"/>
-  <updated>2020-04-05T08:50:55.196Z</updated>
+  <updated>2020-04-09T03:53:43.804Z</updated>
   <id>https://calamus.wiki/daily-FE/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2020-04-09</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20200409/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20200409/</id>
+    <published>2020-04-09T11:43:22.000Z</published>
+    <updated>2020-04-09T03:53:43.804Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5e8dd45cf265da47e34bf94d" rel="external nofollow noopener noreferrer" target="_blank">Vue实现的聊天系统可线上访问了</a></p></li><li><p><a href="https://juejin.im/post/5e8dd5266fb9a03c703fb168" rel="external nofollow noopener noreferrer" target="_blank">驳《前端常见的Vue面试题目汇总》，抵制不良作者 @小明同学哟！</a></p></li><li><p><a href="https://juejin.im/post/5e86e9da5188257391463c1d" rel="external nofollow noopener noreferrer" target="_blank">【新鲜面经】 四月面试不用慌，掘友攻略来帮忙| 掘金技术征文展（第一弹）</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5e8dd45cf265da47e34bf94d&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Vue实现的聊天系统
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2020-04-08</title>
+    <link href="https://calamus.wiki/daily-FE/articles/20200408/"/>
+    <id>https://calamus.wiki/daily-FE/articles/20200408/</id>
+    <published>2020-04-08T12:40:10.000Z</published>
+    <updated>2020-04-08T04:46:09.728Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5e8b261ae51d4546c0382ab4" rel="external nofollow noopener noreferrer" target="_blank">2万字 | 前端基础拾遗90问</a></p></li><li><p><a href="https://juejin.im/post/5e8c42676fb9a03c7b3046c4" rel="external nofollow noopener noreferrer" target="_blank">请你完成一个 async await 的在较低版本里的实现</a></p></li><li><p><a href="https://juejin.im/post/5e8d1ed451882573c85ad5d5" rel="external nofollow noopener noreferrer" target="_blank">前端经典面试题解密：JS的new关键字都干了什么？</a></p></li><li><p><a href="https://juejin.im/post/5e8bec156fb9a03c4d40f4bc" rel="external nofollow noopener noreferrer" target="_blank">手写一个Promise/A+,完美通过官方872个测试用例</a></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5e8b261ae51d4546c0382ab4&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;2万字 | 前端基础
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2020-04-05</title>
@@ -405,50 +449,6 @@
       
         &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5dc81428e51d4523632ee793&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Vue + Koa从
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-11-12</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20191112/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20191112/</id>
-    <published>2019-11-12T09:22:42.000Z</published>
-    <updated>2019-11-12T01:34:25.716Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5b51f39b5188251a9f24a264" rel="external nofollow noopener noreferrer" target="_blank">不务正业的前端之SSO（单点登录）实践</a></p></li><li><p><a href="https://juejin.im/post/5dc9f3f5e51d455fc74a28fa" rel="external nofollow noopener noreferrer" target="_blank">【TypeScript 演化史 – 1】non-nullable 的类型</a></p></li><li><p><a href="https://juejin.im/post/5dc81ea36fb9a04a6f0fec28" rel="external nofollow noopener noreferrer" target="_blank">前端SKU算法的实现</a></p></li><li><p><a href="https://github.com/kingshuaishuai/blog/blob/master/%E8%AE%A4%E8%AF%86SKU%E4%B8%8ESPU.md" rel="external nofollow noopener noreferrer" target="_blank">认识SKU与SPU</a></p></li><li><p><a href="https://juejin.im/post/5dc8b3f95188255945522b8d" rel="external nofollow noopener noreferrer" target="_blank">建议速读 | ES6 特性快速扫盲</a></p></li><li><p><a href="https://juejin.im/post/5dc8e4efe51d45502e03f2f6" rel="external nofollow noopener noreferrer" target="_blank">一文搞懂Web中暗藏的密码学</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5b51f39b5188251a9f24a264&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;不务正业的前端之SS
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>2019-11-11</title>
-    <link href="https://calamus.wiki/daily-FE/articles/20191111/"/>
-    <id>https://calamus.wiki/daily-FE/articles/20191111/</id>
-    <published>2019-11-11T09:32:40.000Z</published>
-    <updated>2019-11-11T01:51:56.421Z</updated>
-    
-    <content type="html"><![CDATA[<ol><li><p><a href="https://juejin.im/post/5dc7fb87e51d454b4213c934" rel="external nofollow noopener noreferrer" target="_blank">为你重新系统梳理下， Web 体验优化中和图有关的那些事（万字长文）</a></p></li><li><p><a href="https://juejin.im/post/5dc8a231f265da4d40712f8a" rel="external nofollow noopener noreferrer" target="_blank">通过 20 个棘手的ES6面试问题来提高咱们的 JS 技能</a></p></li><li><p><a href="https://juejin.im/post/5dc820a3e51d4509320d084d" rel="external nofollow noopener noreferrer" target="_blank">[实战] 为了学好 React Hooks, 我抄了 Vue Composition API, 真香</a></p></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5dc7fb87e51d454b4213c934&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;为你重新系统梳理下，
       
     
     </summary>
