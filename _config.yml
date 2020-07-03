@@ -89,7 +89,8 @@ archive_generator:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/calamus0427/daily-FE.git
+  # repo: https://github.com/calamus0427/daily-FE.git
+  repository: git@github.com:calamus0427/daily-FE.git
   branch: gh-pages
 
 server:
