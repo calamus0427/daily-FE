@@ -1,0 +1,10 @@
+- var title = config.title
+- var bio = config.bio
+div.profile
+    section#wrapper
+        header#header
+            a(href=url_for('/about'))
+                img(id='avatar', class='2x', src=url_for('/images/avatar.png'))
+
+            h1!=title
+            h2!=bio
