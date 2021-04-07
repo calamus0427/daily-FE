@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+  <meta name="description" content="2019-04-29">
+
+
+
+
+
+
+
+
+  <link rel="alternate" href="/daily-FE/atom.xml" title="每日前端">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://cdn.calamus.xyz/favicon.ico?v=1.1">
+
+
+
+<link rel="canonical" href="https://calamus0427.github.io/daily-FE/articles/20190429/">
+
+
+<meta name="description" content="从0到1完成一个Babel插件  3D应用开发中的欧拉角和旋转矩阵  5G到来，App的未来，是JavaScript，Flutter还是Native ？  JS无形装逼，最为致命  实现页面截图    canvas创建一个包含XML的SVG图像涉及到的元素为，将DOM改写为canvas，然后利用canvas的toDataURL方法实现将DOM输出为包含图片展示的data url。 使用HtmlC">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2019-04-29">
+<meta property="og:url" content="https://calamus0427.github.io/daily-FE/articles/20190429/index.html">
+<meta property="og:site_name" content="每日前端">
+<meta property="og:description" content="从0到1完成一个Babel插件  3D应用开发中的欧拉角和旋转矩阵  5G到来，App的未来，是JavaScript，Flutter还是Native ？  JS无形装逼，最为致命  实现页面截图    canvas创建一个包含XML的SVG图像涉及到的元素为，将DOM改写为canvas，然后利用canvas的toDataURL方法实现将DOM输出为包含图片展示的data url。 使用HtmlC">
+<meta property="og:locale" content="zh">
+<meta property="article:published_time" content="2019-04-29T09:14:48.000Z">
+<meta property="article:modified_time" content="2021-04-07T09:25:37.896Z">
+<meta property="article:author" content="Calamus">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="stylesheet" type="text/css" href="/daily-FE/css/style.css?v=1.1">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+
+
+
+<script type="text/javascript">
+  var themeConfig = {
+    fancybox: {
+      enable: false
+    },
+  };
+</script>
+
+
+
+
+  
+
+
+
+    <title> 2019-04-29 - 每日前端 </title>
+  <meta name="generator" content="Hexo 4.2.1"></head>
+
+  <body>
+    <div id="page">
+      <header id="masthead"><div class="site-header-inner">
+    <h1 class="site-title">
+        <a href="/daily-FE/." class="logo">每日前端</a>
+    </h1>
+
+    <nav id="nav-top">
+        
+            <ul id="menu-top" class="nav-top-items">
+                
+                    <li class="menu-item">
+                        <a href="/daily-FE/archives">
+                            
+                            
+                                归档
+                            
+                        </a>
+                    </li>
+                
+                    <li class="menu-item">
+                        <a href="/daily-FE/about">
+                            
+                            
+                                关于我
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        
+  </nav>
+</div>
+
+      </header>
+      <div id="content">
+        
+    <div id="primary">
+        
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          2019-04-29
+        
+      </h1>
+
+      <time class="post-time">
+          Apr 29 2019
+      </time>
+    </header>
+
+
+
+    
+            <div class="post-content">
+            <ol>
+<li><p><a href="https://juejin.im/post/5cbe76d8f265da036d79bbe5" target="_blank" rel="external nofollow noopener noreferrer">从0到1完成一个Babel插件</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5cc2c24ae51d456e6d1334ef" target="_blank" rel="external nofollow noopener noreferrer">3D应用开发中的欧拉角和旋转矩阵</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5cc52fdff265da038c021d08" target="_blank" rel="external nofollow noopener noreferrer">5G到来，App的未来，是JavaScript，Flutter还是Native ？</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5cc55eb5e51d456e577f93f0" target="_blank" rel="external nofollow noopener noreferrer">JS无形装逼，最为致命</a></p>
+</li>
+<li><p>实现页面截图</p>
+</li>
+</ol>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Tutorial" target="_blank" rel="external nofollow noopener noreferrer">canvas</a><br>创建一个包含XML的SVG图像涉及到的元素为<foreignobject>，将DOM改写为canvas，然后利用canvas的toDataURL方法实现将DOM输出为包含图片展示的data url。</foreignobject></li>
+<li>使用<a href="https://github.com/niklasvh/html2canvas" target="_blank" rel="external nofollow noopener noreferrer">HtmlCanvas2</a>实现。</li>
+<li>使用<a href="https://github.com/cburgmer/rasterizeHTML.js" target="_blank" rel="external nofollow noopener noreferrer">rasterizeHTML.js</a>实现。</li>
+</ul>
+
+            </div>
+          
+
+    
+      <footer class="post-footer">
+		
+
+        
+        
+  <nav class="post-nav">
+    
+      <a class="prev" href="/daily-FE/articles/vue%E7%BB%84%E4%BB%B6%E5%BA%93%E5%BC%80%E5%8F%91/">
+        <i class="iconfont icon-left"></i>
+        <span class="prev-text nav-default">vue组件库开发</span>
+        <span class="prev-text nav-mobile">Prev</span>
+      </a>
+    
+    
+      <a class="next" href="/daily-FE/articles/20190428/">
+        <span class="next-text nav-default">2019-04-28</span>
+        <span class="prev-text nav-mobile">Next</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    
+  </nav>
+
+        
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+      </footer>
+    
+  </article>
+
+    </div>
+
+      </div>
+
+      <footer id="colophon"><span class="copyright-year">
+    
+        &copy;
+    
+        2015 -
+    
+    2021
+    <span class="footer-author"><a href="//www.calamus.xyz" target="_blank">Calamus.</a></span>
+    <span class="power-by">
+        Powered by <a class="hexo-link" href="https://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a> and <a class="theme-link" href="https://github.com/frostfan/hexo-theme-polarbear" target="_blank" rel="external nofollow noopener noreferrer">Polar Bear</a>
+    </span>
+</span>
+
+      </footer>
+
+      <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+      </div>
+    </div>
+    
+
+
+    
+
+
+
+
+  
+    <script type="text/javascript" src="/daily-FE/lib/jquery/jquery-3.1.1.min.js"></script>
+  
+
+  
+
+    <script type="text/javascript" src="/daily-FE/js/src/theme.js?v=1.1"></script>
+<script type="text/javascript" src="/daily-FE/js/src/bootstrap.js?v=1.1"></script>
+
+  </body>
+</html>

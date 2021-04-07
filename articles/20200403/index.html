@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+  <meta name="description" content="2020-04-03">
+
+
+
+
+
+
+
+
+  <link rel="alternate" href="/daily-FE/atom.xml" title="每日前端">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://cdn.calamus.xyz/favicon.ico?v=1.1">
+
+
+
+<link rel="canonical" href="https://calamus0427.github.io/daily-FE/articles/20200403/">
+
+
+<meta name="description" content="面试官：为什么 Vue 中不要用 index 作为 key？（diff 算法详解）  《大前端 基础组件》系列 网页水印生成方案  一年半，三本，收到30K+的offer，你也可以  你将会用到的ES2020新特性">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2020-04-03">
+<meta property="og:url" content="https://calamus0427.github.io/daily-FE/articles/20200403/index.html">
+<meta property="og:site_name" content="每日前端">
+<meta property="og:description" content="面试官：为什么 Vue 中不要用 index 作为 key？（diff 算法详解）  《大前端 基础组件》系列 网页水印生成方案  一年半，三本，收到30K+的offer，你也可以  你将会用到的ES2020新特性">
+<meta property="og:locale" content="zh">
+<meta property="article:published_time" content="2020-04-03T12:27:57.000Z">
+<meta property="article:modified_time" content="2021-04-07T09:25:37.911Z">
+<meta property="article:author" content="Calamus">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="stylesheet" type="text/css" href="/daily-FE/css/style.css?v=1.1">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+
+
+
+<script type="text/javascript">
+  var themeConfig = {
+    fancybox: {
+      enable: false
+    },
+  };
+</script>
+
+
+
+
+  
+
+
+
+    <title> 2020-04-03 - 每日前端 </title>
+  <meta name="generator" content="Hexo 4.2.1"></head>
+
+  <body>
+    <div id="page">
+      <header id="masthead"><div class="site-header-inner">
+    <h1 class="site-title">
+        <a href="/daily-FE/." class="logo">每日前端</a>
+    </h1>
+
+    <nav id="nav-top">
+        
+            <ul id="menu-top" class="nav-top-items">
+                
+                    <li class="menu-item">
+                        <a href="/daily-FE/archives">
+                            
+                            
+                                归档
+                            
+                        </a>
+                    </li>
+                
+                    <li class="menu-item">
+                        <a href="/daily-FE/about">
+                            
+                            
+                                关于我
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        
+  </nav>
+</div>
+
+      </header>
+      <div id="content">
+        
+    <div id="primary">
+        
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          2020-04-03
+        
+      </h1>
+
+      <time class="post-time">
+          Apr 03 2020
+      </time>
+    </header>
+
+
+
+    
+            <div class="post-content">
+            <ol>
+<li><p><a href="https://juejin.im/post/5e8694b75188257372503722" target="_blank" rel="external nofollow noopener noreferrer">面试官：为什么 Vue 中不要用 index 作为 key？（diff 算法详解）</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5e85dc9d6fb9a03c5b2fb8c5" target="_blank" rel="external nofollow noopener noreferrer">《大前端 基础组件》系列 网页水印生成方案</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5e848dc25188257375467488" target="_blank" rel="external nofollow noopener noreferrer">一年半，三本，收到30K+的offer，你也可以</a></p>
+</li>
+<li><p><a href="https://juejin.im/post/5e86af916fb9a03c6c18fb13" target="_blank" rel="external nofollow noopener noreferrer">你将会用到的ES2020新特性</a></p>
+</li>
+</ol>
+
+            </div>
+          
+
+    
+      <footer class="post-footer">
+		
+
+        
+        
+  <nav class="post-nav">
+    
+      <a class="prev" href="/daily-FE/articles/20200405/">
+        <i class="iconfont icon-left"></i>
+        <span class="prev-text nav-default">2020-04-05</span>
+        <span class="prev-text nav-mobile">Prev</span>
+      </a>
+    
+    
+      <a class="next" href="/daily-FE/articles/20200402/">
+        <span class="next-text nav-default">20200402</span>
+        <span class="prev-text nav-mobile">Next</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    
+  </nav>
+
+        
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+      </footer>
+    
+  </article>
+
+    </div>
+
+      </div>
+
+      <footer id="colophon"><span class="copyright-year">
+    
+        &copy;
+    
+        2015 -
+    
+    2021
+    <span class="footer-author"><a href="//www.calamus.xyz" target="_blank">Calamus.</a></span>
+    <span class="power-by">
+        Powered by <a class="hexo-link" href="https://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a> and <a class="theme-link" href="https://github.com/frostfan/hexo-theme-polarbear" target="_blank" rel="external nofollow noopener noreferrer">Polar Bear</a>
+    </span>
+</span>
+
+      </footer>
+
+      <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+      </div>
+    </div>
+    
+
+
+    
+
+
+
+
+  
+    <script type="text/javascript" src="/daily-FE/lib/jquery/jquery-3.1.1.min.js"></script>
+  
+
+  
+
+    <script type="text/javascript" src="/daily-FE/js/src/theme.js?v=1.1"></script>
+<script type="text/javascript" src="/daily-FE/js/src/bootstrap.js?v=1.1"></script>
+
+  </body>
+</html>
