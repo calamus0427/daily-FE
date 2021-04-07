@@ -1,14 +1,12 @@
-const { flattenDeep } = require('lodash');
 const { pick } = require('../../utils');
 const { categoryPosts: categoryPostsProps } = require('./properties');
 
-module.exports = function ({ theme, locals, helpers }) {
-  const categories = locals.categories.sort('name');
+module.exports = function ({ theme, locals: { categories }, helpers }) {
   const config = theme.category;
 
   if (!categories.length) return [];
 
-  return flattenDeep([
+  return [
     helpers.generateJson({
       path: 'categories',
       data: categories.map(i => ({ name: i.name, count: i.posts.length }))
@@ -19,7 +17,7 @@ module.exports = function ({ theme, locals, helpers }) {
     }),
     categories.map(category =>
       helpers.pagination.apply(
-        category.posts.sort('-date').map(pick(categoryPostsProps)),
+        category.posts.map(pick(categoryPostsProps)),
         { perPage: config.per_page, id: `categories/${category.name}`, extend: { name: category.name } },
         [
           { type: 'json' },
@@ -27,5 +25,5 @@ module.exports = function ({ theme, locals, helpers }) {
         ]
       )
     )
-  ]);
+  ].flat(Infinity);
 };

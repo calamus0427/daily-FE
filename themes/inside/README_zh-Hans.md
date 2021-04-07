@@ -1,6 +1,9 @@
 # Inside
 
-[![build-img]]() [![release-img]][releases] [![license-img]](LICENSE)
+[![build-img]][travis]
+[![release-img]][releases]
+[![license-img]](LICENSE)
+[![hexo-image]][hexo]
 
 ❤️ SPA, flat and clean theme for [Hexo].
 
@@ -11,6 +14,7 @@
 - [开始使用](#开始使用)
 - [浏览器支持](#浏览器支持)
 - [更新日志](#更新日志)
+- [常见问题](#faq)
 - [License](#license)
 
 ## 预览
@@ -21,17 +25,13 @@
 ## 特色
 
 - SPA built with [angular]
-- 自定义色调、背景
-- 可嵌套的 page 路由
-- 多语言 (i18n)
-  - :cn: Simplified Chinese & Traditional Chinese
-  - :us: English
-  - :jp: Japanese
+- 自定义色调、背景、字体、暗色主题
+- 自定义代码语法高亮
 - 评论
   - [Disqus]
   - [LiveRe]
   - 以插件的形式支持大多数评论系统
-- 文章图片 CDN 设置
+- 搜索
 - 增强的文章展示
   - 缩略图
   - 首字下沉
@@ -41,46 +41,48 @@
   - 版权声明
   - 打赏
 - [PWA]
-  - 动态更新的 `theme-color` meta 标签（通过提取缩略图像素值）
+  - 沉浸式设计
   - [manifest.json]
   - 离线支持 ([workbox])
 - SEO
-  - canonical link
+  - SSR (服务端渲染)
   - 内置 `sitemap.xml`
   - [Structured Data]
-  - Open Graph Meta Tags
+- 打印友好
 
 ## 开始使用
 
-1\. 自行下载（[releases]）或通过 npm：
-
-```bash
-npm install hexo-theme-inside
-```
+1\. 自行下载（[releases]），解压并重命名为 `inside`，然后将其放在 themes 目录。
 
 2\. 配置 `HEXO/_config.yml` 如下：
 
 ```yml
-permalink: post/:title/
+theme: inside
 ```
 
-3\. 主题配置见 [inside/_config.yml](_config.yml)，详细说明见[这里](https://blog.oniuo.com/post/inside-theme-configuration)。
+3\. 主题配置请参阅 [documentation]。
 
 ## 浏览器支持
 
-- Modern browser
+- Evergreen
 
 ## 更新日志
 
 [releases]
 
+## 常见问题
+
+- source 目录的源码在哪?
+
+  因历史原因托管在 https://bitbucket.org/ikeq/hexo-theme-inside-ng 。
+
 ## License
 
 Licensed under [MIT](LICENSE).
 
-[build-img]: https://img.shields.io/travis/elmorec/hexo-theme-inside.svg?longCache=true&style=flat-square
-[release-img]: https://img.shields.io/github/release/elmorec/hexo-theme-inside.svg?longCache=true&style=flat-square
-[license-img]: https://img.shields.io/github/license/elmorec/hexo-theme-inside.svg?longCache=true&style=flat-square
+[build-img]: https://img.shields.io/travis/ikeq/hexo-theme-inside.svg?longCache=true&style=flat-square
+[release-img]: https://img.shields.io/github/release/ikeq/hexo-theme-inside.svg?longCache=true&style=flat-square
+[license-img]: https://img.shields.io/github/license/ikeq/hexo-theme-inside.svg?longCache=true&style=flat-square
 
 [angular]: https://angular.io
 [hexo]: https://hexo.io/
@@ -90,4 +92,7 @@ Licensed under [MIT](LICENSE).
 [Structured Data]: https://developers.google.com/search/docs/guides/intro-structured-data
 [disqus]: https://disqus.com
 [livere]: https://livere.com
-[releases]: https://github.com/elmorec/hexo-theme-inside/releases
+[releases]: https://github.com/ikeq/hexo-theme-inside/releases
+[travis]: https://travis-ci.com/ikeq/hexo-theme-inside
+[documentation]: https://blog.oniuo.com/theme-inside
+[hexo-image]: https://img.shields.io/badge/hexo-%3E%3D%204.2-blue.svg?longCache=true&style=flat-square

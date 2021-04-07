@@ -1,5 +1,4 @@
 const { base64, Pagination } = require('../../utils');
-const urlFor = require('hexo/lib/plugins/helper/url_for');
 
 module.exports = function (locals) {
   const theme = this.theme.config;
@@ -8,15 +7,19 @@ module.exports = function (locals) {
     json: { generateFn: ({ path, data }) => ({ path: theme.data_dir + '/' + base64(path) + '.json', data: JSON.stringify(data) }) },
   };
   const pagination = new Pagination(generationMeta);
-
-  return [].concat.apply([], ['pages', 'posts', 'tags', 'categories', 'archives']
+  const ret = [].concat.apply([], ['pages', 'posts', 'tags', 'categories', 'archives', 'search']
     .map(item => require('./' + item)({
       site: this.config, theme, locals,
       helpers: {
-        urlFor: urlFor.bind(this),
         generateJson: (...args) => args.map(generationMeta.json.generateFn),
         generateHtml: (...args) => args.map(generationMeta.html.generateFn),
         pagination
       },
     })));
+
+  // Cache page routes for ssr
+  if (theme.seo.ssr)
+    theme.runtime.generatedRoutes = ret.filter(i => i.layout === 'index').map(i => i.path);
+
+  return ret;
 };

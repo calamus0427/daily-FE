@@ -1,5 +1,5 @@
 const url = require('url');
-const supportedSocials = ['Facebook', 'Twitter', 'Google+', 'Instagram', 'YouTube', 'LinkedIn', 'Myspace', 'Pinterest', 'SoundCloud', 'Tumblr'];
+const supportedSocials = ['Facebook', 'Twitter', 'Instagram', 'YouTube', 'LinkedIn', 'Myspace', 'Pinterest', 'SoundCloud', 'Tumblr'];
 let avatar = '';
 let website = null;
 let person = null;
@@ -8,8 +8,8 @@ let org = null;
 module.exports = function (page) {
   const config = this.config;
   const theme = this.theme;
-  const lang = config.language || 'en';
-  const datium = [];
+  const lang = config.language;
+  const datum = [];
 
   if (!avatar) avatar = url.resolve(config.url, this.url_for(theme.profile.avatar));
 
@@ -52,7 +52,7 @@ module.exports = function (page) {
       }
     };
   }
-  datium.push(website);
+  datum.push(website);
 
   // https://developers.google.com/search/docs/data-types/article
   if (page.type === 'post') {
@@ -80,8 +80,8 @@ module.exports = function (page) {
       }
     };
     if (page.thumbnail) article.thumbnailUrl = page.thumbnail;
-    datium.push(article);
+    datum.push(article);
   };
 
-  return '<script type="application/ld+json">' + JSON.stringify(datium) + '</script>';
+  return '<script type="application/ld+json">' + JSON.stringify(datum) + '</script>';
 }

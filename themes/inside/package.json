@@ -1,33 +1,38 @@
 {
   "name": "hexo-theme-inside",
-  "version": "2.0.1",
+  "version": "2.7.0-beta.5",
   "description": "❤️ SPA, flat and clean theme for Hexo.",
   "scripts": {
     "test": "jasmine --config=test/jasmine.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elmorec/hexo-theme-inside.git"
+    "url": "git+https://github.com/ikeq/hexo-theme-inside.git"
   },
   "keywords": [
     "hexo",
     "hexo theme",
     "angular"
   ],
-  "author": "elmorec <elmore.c@outlook.com>",
+  "author": "ikeq <ikeq@foxmail.com>",
   "maintainers": [
-    "elmorec <elmore.c@outlook.com>"
+    "ikeq <ikeq@foxmail.com>"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/elmorec/hexo-theme-inside/issues"
+    "url": "https://github.com/ikeq/hexo-theme-inside/issues"
   },
-  "homepage": "https://github.com/elmorec/hexo-theme-inside#readme",
+  "homepage": "https://github.com/ikeq/hexo-theme-inside#readme",
+  "dependencies": {
+    "markdown-it": "11.0.0",
+    "markdown-it-container": "3.0.0"
+  },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "hexo": "^3.8.0",
-    "jasmine": "^3.3.1",
-    "uglify-js": "^3.4.9"
+    "babel-core": "6.26.3",
+    "babel-preset-env": "1.7.0",
+    "cheerio": "1.0.0-rc.3",
+    "hexo": "5.1.1",
+    "jasmine": "3.6.1",
+    "terser": "4.8.0"
   }
 }

@@ -1,18 +1,21 @@
 'use strict';
 
-describe('template', () => {
+describe('template', function () {
   const Hexo = require('hexo');
   const hexo = new Hexo();
   const templates = require('../../../lib/filter/templates').bind(hexo);
 
-  hexo.config.title = 'Blog';
-  hexo.theme.i18n.set('default', {
+  Object.assign(hexo.config, {
+    title: 'Blog',
+    language: 'en'
+  })
+  hexo.theme.i18n.set('en', {
     'title.archives': 'Archives',
     'title.categories': 'Categories',
     'title.tags': 'Tags',
   });
 
-  it('change title', () => {
+  it('change title', function () {
     const config = hexo.config
     const data = {
       post: { page: { type: 'post', title: 'Hello word' }, config },

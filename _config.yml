@@ -12,7 +12,7 @@ timezone: UTc
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://calamus.wiki/daily-FE/
+url: https://calamus0427.github.io/daily-FE/
 root: /daily-FE
 # permalink: :year/:month/:day/:title/
 permalink: articles/:title/
@@ -99,7 +99,7 @@ server:
 nofollow:
     enable: true
     exclude:
-        - https://calamus.wiki
+        - https://calamus0427.github.io
 
 algolia:
   applicationID: 'Y775ZKH4PH'

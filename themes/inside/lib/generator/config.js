@@ -1,4 +1,4 @@
-const { pick, md5, getPagePath } = require('../utils');
+const { pick, md5, parseBackground } = require('../utils');
 
 module.exports = function (locals) {
   const site = this.config,
@@ -8,21 +8,65 @@ module.exports = function (locals) {
       pick(theme, ['profile', 'menu', 'sns', 'footer', 'toc', 'comments', 'reward', 'plugins', 'data_prefix']),
       {
         count: {
-          posts: countOverflow(locals.posts.filter(post => post.published).length),
+          posts: countOverflow(locals.posts.length),
           categories: countOverflow(locals.categories.length),
-          tags: countOverflow(locals.tags.filter(tag => tag.posts.filter(post => post.published).length).length)
+          tags: countOverflow(locals.tags.length)
         },
-        color: theme.appearance.accent_color,
         hash: theme.runtime.hash,
-        locale: this.theme.i18n.get()
-      }
+        locale: this.theme.i18n.get(site.language),
+        theme: theme.appearance
+      },
     );
 
+  // extra color from background setting
+  // [sidebar bg, body bg] | [sidebar bg] | body bg
+  const { accent_color, sidebar_background, background } = theme.appearance
+  // [color with sidebar open, color with sidebar close]
+  config.color = [
+    parseBackground(sidebar_background).color || accent_color]
+    .concat(parseBackground(background).color || (theme.pwa && theme.pwa.theme_color) || [])
+
+  // post routes
+  config.routes = {}
+  config.routes.posts = [...locals.posts
+    .reduce((set, post) => {
+      // convert `/path/to/path/` to `:a/:b/:c`
+      const link = post.link.split('/').filter(i => i)
+        .map((_, i) => ':' + String.fromCharCode(97 + i))
+        .join('/')
+      set.add(link)
+      return set
+    }, new Set)].sort()
   // page routes
   if (locals.pages.length)
-    config.routes = locals.pages.map(page => getPagePath(page.source)).sort();
+    config.routes.pages = [...locals.pages
+      .reduce((set, post) => {
+        // convert `/path/to/path/` to `path/:a/:b`
+        const link = post.link.split('/').filter(i => i)
+          .map((partial, i) => i === 0 ? partial : ':' + String.fromCharCode(97 + i))
+          .join('/')
+        set.add(link)
+        return set
+      }, new Set)].sort()
 
-  if (config.count.categories) config.firstCategory = locals.categories.sort('name').data[0].name;
+  if (config.count.categories) config.firstCategory = locals.categories[0].name;
+
+  // search
+  if (theme.search) {
+    const adapter = theme.search.adapter;
+    if (adapter.range) {
+      config.search = { local: true }
+      if (adapter.per_page) config.search.per_page = adapter.per_page
+    } else {
+      config.search = adapter
+    }
+    // Merge search.fab, search.page into adapter
+    if (theme.search.fab) config.search.fab = true;
+    if (theme.search.page) config.search.page = true;
+  }
+
+  // Cache config for ssr
+  if (theme.seo.ssr) theme.runtime.generatedConfig = config;
 
   let data = 'window.__inside__=' + JSON.stringify(config);
 

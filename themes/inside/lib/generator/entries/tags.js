@@ -1,14 +1,12 @@
-const { flattenDeep } = require('lodash');
 const { pick } = require('../../utils');
 const { tagPosts: tagPostsProps } = require('./properties');
 
-module.exports = function ({ theme, locals, helpers }) {
-  const tags = locals.tags.filter(tag => tag.posts.filter(post => post.published).length).sort('name');
+module.exports = function ({ theme, locals: { tags }, helpers }) {
   const config = theme.tag;
 
   if (!tags.length) return [];
 
-  return flattenDeep([
+  return [
     helpers.generateJson({
       path: 'tags',
       data: tags.map(tag => ({ name: tag.name, count: tag.posts.length }))
@@ -20,7 +18,7 @@ module.exports = function ({ theme, locals, helpers }) {
 
     tags.map(tag => [
       helpers.pagination.apply(
-        tag.posts.sort('-date').map(pick(tagPostsProps)),
+        tag.posts.map(pick(tagPostsProps)),
         { perPage: config.per_page, id: `tags/${tag.name}`, extend: { name: tag.name } },
         [
           { type: 'json' },
@@ -28,5 +26,5 @@ module.exports = function ({ theme, locals, helpers }) {
         ]
       )
     ])
-  ]);
+  ].flat(Infinity);
 };
