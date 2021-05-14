@@ -6,9 +6,11 @@
     "version": "4.2.1"
   },
   "scripts": {
+    "article": "hexo new post",
     "dev": "hexo clean && hexo s -p 2333 -o",
     "build": "hexo clean && hexo generate",
-    "deploy": "hexo clean && hexo generate && hexo d"
+    "deploy": "hexo clean && hexo generate && hexo d && npm run after-deploy",
+    "after-deploy" : "git add . && git commit -m 'feat: add new post' && git push"
   },
   "dependencies": {
     "hexo": "^4.2.1",
